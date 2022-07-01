@@ -1,0 +1,1173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Hello World</title>
+    <url>/2022/05/10/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<div class="story post-story"><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre><code class="bash">$ hexo new &quot;My New Post&quot;
+</code></pre>
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="bash">$ hexo server
+</code></pre>
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="bash">$ hexo generate
+</code></pre>
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="bash">$ hexo deploy
+</code></pre>
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+
+</div>]]></content>
+  </entry>
+  <entry>
+    <title>Matplotlib及Seaborn快速入门学习笔记</title>
+    <url>/2022/05/12/Matplotlib%E5%AD%A6%E4%B9%A0/</url>
+    <content><![CDATA[<p>从0开始学习Matplotlib与Seaborn</p>
+<span id="more"></span>
+
+<h1 id="Matplotlib学习笔记"><a href="#Matplotlib学习笔记" class="headerlink" title="Matplotlib学习笔记"></a>Matplotlib学习笔记</h1><p>由基础绘图开始学起</p>
+<blockquote>
+<p>涉及中文标签时需设定中文字体以正常显示中文标签,如下</p>
+</blockquote>
+<pre><code class="py">#配置中文字体,一般为SimHei或微软雅黑Microsoft YaHei即可正常显示中文
+plt.rcParams[&#39;font.sans-serif&#39;] = [&#39;SimHei&#39;]
+</code></pre>
+<div class="story post-story"><h2 id="图表参数"><a href="#图表参数" class="headerlink" title="图表参数"></a>图表参数</h2><h3 id="图表绘制"><a href="#图表绘制" class="headerlink" title="图表绘制"></a>图表绘制</h3><p>1.IPython魔法命令</p>
+<ul>
+<li><code>%matplotlib inline</code>,可以在notebook中显示绘制的图表</li>
+</ul>
+<p>2.plt.subplots()命令创建一个Figure和Axes,<strong>figure是绘制窗口</strong>,<strong>axes是绘图坐标系</strong></p>
+<ul>
+<li><code>Figure:顶层级,所有图表的容器,可容纳多个Axes</code></li>
+</ul>
+<ul>
+<li><code>Axes:坐标系,对应我们画的每一个图表,在Axes中可以对图表的Axis和Tick做操作</code></li>
+</ul>
+<p>3.条形图bar翻转轴后,参数width自动变成height</p>
+<ol start="4">
+<li>plt.plot()折线图参数</li>
+</ol>
+<ul>
+<li>linewidth:配置线宽</li>
+<li>linestyle:配置线型<ul>
+<li>linestyle线型参数详情:</li>
+<li><img src="/data/user-data/516797/images/2be45b4955c89628f87cb559c407f528.png" class="lazyload" data-srcset="/data/user-data/516797/images/2be45b4955c89628f87cb559c407f528.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></li>
+<li><table>
+<thead>
+<tr>
+<th align="center">linestyle</th>
+<th align="center">简写</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">‘solid’(default)</td>
+<td align="center">‘-‘</td>
+</tr>
+<tr>
+<td align="center">‘dotted’</td>
+<td align="center">‘:’</td>
+</tr>
+<tr>
+<td align="center">‘dashed’</td>
+<td align="center">‘–’</td>
+</tr>
+<tr>
+<td align="center">‘dashdot’</td>
+<td align="center">‘-.’</td>
+</tr>
+<tr>
+<td align="center">‘None’</td>
+<td align="center">‘’或’ ‘</td>
+</tr>
+</tbody></table>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>marker:折线图折点配置</li>
+<li>markersize:折点大小配置</li>
+</ul>
+<ol start="5">
+<li>面积图:stackplot()</li>
+</ol>
+<ul>
+<li>面积图实际为折线图的另类显示,相当于对折线图进行区域颜色填充</li>
+</ul>
+<ol start="6">
+<li>pie()饼图参数</li>
+</ol>
+<ul>
+<li><code>autopct</code>:设置数值格式</li>
+<li><code>explode</code>:将某部分分离强调,int</li>
+<li><code>labeldistance</code>:配置轴标签显示位置,int</li>
+<li><code>pctdistance</code>:配置数值标签显示位置,int</li>
+<li><code>wedgeprops</code>:配置环形图,包含’width’,’linewidth’,’edgecolor’三个参数,width为配置环形图宽度,linewidth为配置边缘线宽度,edgecolor为配置边缘线颜色为str格式</li>
+</ul>
+<ol start="7">
+<li>scatter()散点图&#x2F;气泡图参数</li>
+</ol>
+<ul>
+<li><code>x,y</code>:x&#x2F;y 轴对应的数据</li>
+<li><code>s</code>:散点面积,为标量或者等长的数组,</li>
+<li><code>c</code>:散点颜色,为指定的色彩、数值序列或者颜色序列</li>
+<li><code>marker</code>:配置标记点形状,默认为圆圈</li>
+<li><code>cmap</code>:仅当c参数为颜色序列的时候使用</li>
+<li><code>aplha</code>:透明图设置,在显示多个变量的场景下为了能够显示堆叠的散点,可以设置该参数。取值范围[0,1]</li>
+<li><code>norm</code>:仅当c为数值序列的时候,通过colors.Normalize将值进行正则化</li>
+<li><code>linewidths</code>:散点标记的边界的宽度。</li>
+<li><code>edgecolors</code>:散点标记的边界的颜色。</li>
+</ul>
+<ol start="8">
+<li>plt.figure(figsize&#x3D;(x,y))意为创建长x英寸,宽y英寸的画布</li>
+</ol>
+<h3 id="图内配置"><a href="#图内配置" class="headerlink" title="图内配置"></a>图内配置</h3><ol>
+<li>双轴</li>
+</ol>
+<ul>
+<li>plt.twinx()添加次坐标轴</li>
+<li>twinx()或twiny()生成共享x轴或y轴的新的axes,若通过plt.subplots()生成ax后,再绘制折线图时,需在这个新生成的ax上绘制</li>
+</ul>
+<ol start="2">
+<li>添加阴影</li>
+</ol>
+<ul>
+<li>先import matplotlib.patheffects as path_effects</li>
+<li>在绘图代码中添加参数:path_effects&#x3D;[]</li>
+</ul>
+<ol start="3">
+<li>plt.annotate()添加标记</li>
+</ol>
+<ul>
+<li><code>xy</code>,需要传入的数组,如xy&#x3D;(1,2),用于定位标记位置</li>
+<li><code>xycoords</code>,设置xy是通过何种方式去定位,如xycoords&#x3D;’data’表示使用坐标轴刻度去进行定位</li>
+<li><code>xytext</code>,提示文本需要展示的位置</li>
+<li><code>textcoords</code>,<code>同xycoords</code>,设置xytext通过何种方式定位<ul>
+<li>xycoords,textcoords参数:</li>
+<li><table>
+<thead>
+<tr>
+<th align="center">参数值</th>
+<th align="left">含义</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">figure points</td>
+<td align="left">以画布左下为参考,单位为点数</td>
+</tr>
+<tr>
+<td align="center">figure pixels</td>
+<td align="left">同上,单位为像素数</td>
+</tr>
+<tr>
+<td align="center">figure fraction</td>
+<td align="left">同上,单位为百分比</td>
+</tr>
+<tr>
+<td align="center">axes points</td>
+<td align="left">以子图为参考,单位为点数,默认为1个</td>
+</tr>
+<tr>
+<td align="center">axes pixels</td>
+<td align="left">同上,单位为像素</td>
+</tr>
+<tr>
+<td align="center">axes fraction</td>
+<td align="left">同上,单位为百分比</td>
+</tr>
+<tr>
+<td align="center">data</td>
+<td align="left">默认值,以坐标点为参考</td>
+</tr>
+<tr>
+<td align="center">polar</td>
+<td align="left">使用极坐标系</td>
+</tr>
+</tbody></table>
+</li>
+</ul>
+</li>
+<li><code>arrowprops</code>,箭头的样式配置<ul>
+<li>arrowprops参数:<table>
+<thead>
+<tr>
+<th align="center">参数值</th>
+<th align="left">含义</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">width</td>
+<td align="left">宽度</td>
+</tr>
+<tr>
+<td align="center">frac</td>
+<td align="left">箭头占整个长度的百分比</td>
+</tr>
+<tr>
+<td align="center">headwidth</td>
+<td align="left">箭头头部宽度</td>
+</tr>
+<tr>
+<td align="center">shrink</td>
+<td align="left">箭头两端收缩百分比</td>
+</tr>
+<tr>
+<td align="center">**kwargs</td>
+<td align="left">任何matplotlib.patches.FancyArrowPatch的关键字</td>
+</tr>
+</tbody></table>
+</li>
+</ul>
+</li>
+</ul>
+<ol start="4">
+<li>Matplotlib中的很多内置配色方法,可以通过matplotlib.cm.get_camp使用</li>
+</ol>
+<h3 id="全局配置"><a href="#全局配置" class="headerlink" title="全局配置"></a>全局配置</h3><ol>
+<li><p>中文字体中可配置Simsun(宋体),SimHei(黑体),Kaiti(楷体)及Microsoft YaHei(微软雅黑)</p>
+</li>
+<li><p>plt.title()设置标题参数</p>
+</li>
+</ol>
+<ul>
+<li>fontdict &#x3D; {},可配置<code>family,size,color</code>等</li>
+<li>loc,设置标题位置,如<code>center,left,right</code></li>
+</ul>
+<ol start="3">
+<li>plt.xlabel(),x.ylabel()设置x轴y轴标题参数</li>
+</ol>
+<ul>
+<li>fontdict &#x3D; {}</li>
+<li>labelpad,轴与轴标题间距</li>
+</ul>
+<ol start="4">
+<li>plt.legend()添加图例参数</li>
+</ol>
+<ul>
+<li>loc,可选参数’best’,表示自动选择最优位置</li>
+<li>fontsize,字体大小</li>
+</ul>
+<ol start="5">
+<li>plt.text()显示数据标签</li>
+</ol>
+<ul>
+<li>三个重要参数:<ul>
+<li>x,确定x轴位置</li>
+<li>y,确定y轴位置</li>
+<li>s,需显示的文本</li>
+<li>即通过xy确定位置显示s</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>va与ha,设置文本显示位置</li>
+<li>fontdict &#x3D; {}</li>
+</ul>
+<ol start="6">
+<li>plt.grid()添加网格线</li>
+</ol>
+<ul>
+<li>b,b &#x3D; True时显示网格线</li>
+<li>axis,’y’,’x’,’both’,分别为展示横网格线,纵网格线以及都显示</li>
+<li>linestyle</li>
+<li>linewidth</li>
+<li>color</li>
+</ul>
+<ol start="7">
+<li><p>plt.xlim(),plt.ylim()坐标轴范围:</p>
+<blockquote>
+<p>参数即为范围,如:</p>
+</blockquote>
+<pre><code class="py">plt.ylim(50,300) #意为y轴坐标轴范围为50-300
+</code></pre>
+</li>
+<li><p>图表主题</p>
+</li>
+</ol>
+<ul>
+<li>plt.style.use()设置风格</li>
+<li>可以通过print(plt.style.available)显示所有风格</li>
+</ul>
+</div><div class="story post-story"><h2 id="多图组合图"><a href="#多图组合图" class="headerlink" title="多图组合图"></a>多图组合图</h2><ol>
+<li>plt.subplot(2,2,1)指将整块画布划分为2*2块区域,并置顶第一块作图</li>
+</ol>
+<ul>
+<li>另一种组合作图方式:<pre><code class="py">fig,axs = plt.subplot(2,2)
+axs[0][0].bar(...)
+axs[1][0].plot(...)
+</code></pre>
+</li>
+<li>不等大小多图组合<ul>
+<li>add_subplot():添加至subplot区域</li>
+<li>add_gridspec():将整个画布划分为不均匀区域,如<pre><code class="py">spec = fig.add_gridspec(nrows=2,ncols=2,width_ratios=[1,3],height_ratio=[1,2])
+#表示将整个画布划分为2*2,width_ratios=[1,3]意为将两列宽度按1:3裁剪,同理可得height_ratios
+</code></pre>
+<ul>
+<li>spec支持切片,如,将第二行展示为整个图<pre><code class="py">ax = fig.add_subplot(spec[1,:])
+</code></pre>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>子图同样可以通过set_title,set_xlabel等设置子图标题轴标题等<ul>
+<li>添加大标题需通过fig.suptitle()实现</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h1 id="Seaborn学习笔记"><a href="#Seaborn学习笔记" class="headerlink" title="Seaborn学习笔记"></a>Seaborn学习笔记</h1></div><div class="story post-story"><h2 id="Seaborn基础"><a href="#Seaborn基础" class="headerlink" title="Seaborn基础"></a>Seaborn基础</h2><ol>
+<li><p>由于Seaborn是基于matplotlib的可视化图形库,因此在notebook中使用Seaborn前也需运行魔法命令</p>
+<blockquote>
+<p>%matplotlib inline</p>
+</blockquote>
+</li>
+<li><p>sns.load_dataset()其实就是一个Pandas.DataFrame</p>
+</li>
+<li><p>Seaborn中提供的图表包含两个层级–figure-level和axes-level,axes-level的图表只会在一个单独的matplotlib.pyplot.Axes进行图表的绘制,而figure-level是基于Seaborn的对象,也就是axes-level的Seaborn图表再结合matplotlib的接口开发实现的</p>
+</li>
+</ol>
+<ul>
+<li>Seaborn图表层级如下:<ul>
+<li><img src="http://seaborn.pydata.org/_images/function_overview_8_0.png" class="lazyload" data-srcset="http://seaborn.pydata.org/_images/function_overview_8_0.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></li>
+</ul>
+</li>
+</ul>
+</div><div class="story post-story"><h2 id="开始绘图"><a href="#开始绘图" class="headerlink" title="开始绘图"></a>开始绘图</h2><ol>
+<li>依据个人理解进行Seaborn可视化的系统性整理<ul>
+<li>Seaborn几乎所有的绘制函数都有以下的几个参数<ul>
+<li><table>
+<thead>
+<tr>
+<th align="center">参数</th>
+<th align="left">含义</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">kind</td>
+<td align="left">配置绘制图形的种类,str,如line&#x2F;scatter&#x2F;boxen等</td>
+</tr>
+<tr>
+<td align="center">hue</td>
+<td align="left">根据字段配置以区分颜色,str,选取data中的某一字段</td>
+</tr>
+<tr>
+<td align="center">size</td>
+<td align="left">根据字段配置以区分数值大小,str,选取data中的某一字段</td>
+</tr>
+<tr>
+<td align="center">style</td>
+<td align="left">根据字段配置以区分点样式,str,选取data中的某一字段</td>
+</tr>
+</tbody></table>
+</li>
+</ul>
+</li>
+<li>在开始绘图前,将Seaborn图表类型分为四部分<ul>
+<li>数值相关型<blockquote>
+<p>相关性分析的图表通常会使用figure-level层级的relplot(),也可以使用axes-level的scatterplot(),lineplot()进行绘制</p>
+</blockquote>
+<ul>
+<li>在折线图中,对于复杂的数据(往往会出现一个x对应多个y),seaborn会自动绘制置信区间(默认为95%),计算置信区间可能非常耗时，可以通过ci&#x3D;None来去掉</li>
+</ul>
+</li>
+<li>数据分布型<blockquote>
+<p>分布型图表通常使用figure-level层级的displot(),在不设定kind参数时默认显示histplot()直方图,axes-level层级包含有:histplot()直方图,kedplot()核密度分布图,ecdfplot()累积概率密度图,除此之外还有rugplot(),与前三者不同的是rugplot()可以添加至以上任意图表</p>
+</blockquote>
+<ul>
+<li>displot(kind&#x3D;’hist’),histplot()直方图<ul>
+<li>displot(kind&#x3D;’hist’),histplot()的条件数据区间划分:<ul>
+<li>binwidth,通过此参数设置bin的宽度</li>
+<li>bins,通过此参数设置包含bin的个数</li>
+</ul>
+</li>
+<li>seaborn中默认不同的直方图是重叠显示的,如需数据堆叠可以设置nultiple参数<ul>
+<li>nultiple &#x3D; ‘stack’,意为堆叠显示直方图</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>displot(kind&#x3D;’kde’),kdeplot()<ul>
+<li>核密度图设置平滑程度(在y参数未赋值前是折线图):<ul>
+<li>bw_adjust,调节图表平滑程度</li>
+</ul>
+</li>
+<li>热力核密度图:<ul>
+<li>fill &#x3D; True,bool</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>在displot()中赋值x,y后,默认显示热力图(?)<ul>
+<li>热力图添加色块:<ul>
+<li>cbar &#x3D; True,bool</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>分类数据对比<blockquote>
+<p>通常使用catplot()进行绘制</p>
+</blockquote>
+<ul>
+<li>在分类型数据中,按官方文档分为三个类型:<ul>
+<li>点类型<blockquote>
+<p>点类型的图可以通过jitter参数(bool)调整避免重叠,jitter &#x3D; False时,点重叠<br>点类型的图表可以通过order&#x3D;[]修改x轴顺序,seaborn默认x轴顺序即dataframe中的出现顺序</p>
+</blockquote>
+<ol>
+<li>stripplot()</li>
+<li>swarmplot()<ul>
+<li>swarmplot()自动将点分开,但当数据量足够大时计算开销会非常大</li>
+</ul>
+</li>
+</ol>
+</li>
+<li>分布类型<blockquote>
+<p>其中,violinplot()与boxenplot()可以视为箱型图的加强版,小提琴图与箱型图的区别可以理解为直方分布图与核密度图的区别</p>
+</blockquote>
+<ol>
+<li>boxplot()</li>
+<li>violinplot()</li>
+<li>boxenplot()</li>
+</ol>
+</li>
+<li>预估类型<blockquote>
+<p>预估类型的图会在展示数据分布外,对各个类别的数据进行一个预估</p>
+</blockquote>
+<ol>
+<li>pointplot()</li>
+<li>barplot()</li>
+<li>countplot()</li>
+</ol>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>回归模型<blockquote>
+<p>seaborn主要由regplot()和lmplot()进行回归分析,其中lmplot会依赖数据x和y自动绘制出散点,线性回归模型以及95%的置信区间</p>
+</blockquote>
+<ul>
+<li>存在高阶关系的情况下，我们可以通过参数order来进行多项式的最高次幂</li>
+<li>如果数据集中存在离群点，可以通过参数robust&#x3D;True来选用稳健回归模型进行绘制，默认是使用的最小二乘回归会对异常值比较敏感</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+
+</div>]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>Python</tag>
+        <tag>Matplotlib</tag>
+        <tag>Seaborn</tag>
+        <tag>可视化</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关于我</title>
+    <url>/2022/05/11/%E5%85%B3%E4%BA%8E%E6%88%91/</url>
+    <content><![CDATA[<div class='checkbox check'><input type="radio" />
+            <p>Hello!这是我</p>
+            </div>
+
+<span id="more"></span>
+
+<h1 id="AboutMe"><a href="#AboutMe" class="headerlink" title="AboutMe"></a>AboutMe</h1><blockquote>
+<p>Hello大家好,我是小尼,很高兴大家来到我的空间踩一踩,目前我的博客还未正式搭建完全(评论区,暗黑模式),以及内容还未从我的笔记中搬运完全<br>我的博客挂载于GitHub,图片挂载于SMMS,因此每次打开恐怕会加载一段时间,还请谅解!</p>
+</blockquote>
+<div class="story post-story"><h2 id="关于我"><a href="#关于我" class="headerlink" title="关于我:"></a>关于我:</h2><h3 id="自我介绍"><a href="#自我介绍" class="headerlink" title="自我介绍:"></a>自我介绍:</h3><table>
+<thead>
+<tr>
+<th align="center"></th>
+<th align="center"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">姓名</td>
+<td align="center">傅锦涛(可以叫我小尼)</td>
+</tr>
+<tr>
+<td align="center">出生年月</td>
+<td align="center">2000-08</td>
+</tr>
+<tr>
+<td align="center">年龄</td>
+<td align="center">21</td>
+</tr>
+<tr>
+<td align="center">现居</td>
+<td align="center">成都</td>
+</tr>
+<tr>
+<td align="center">家乡</td>
+<td align="center">杭州</td>
+</tr>
+<tr>
+<td align="center">GitHub</td>
+<td align="center"><a href="https://github.com/GinterFu">GinterFu</a></td>
+</tr>
+<tr>
+<td align="center">Kaggle</td>
+<td align="center"><a href="https://www.kaggle.com/ginterfu">GinterFu</a></td>
+</tr>
+</tbody></table>
+<blockquote>
+<p>我是一名梦想成为互联网数据分析师的菜鸟,现在还在自学提升中…开启这个博客的原因是因为我想沉下心来沉淀一段时间,将我这段时间所学所思所想汇聚成属于我自己的一套体系</p>
+</blockquote>
+<hr>
+<h3 id="技术清单"><a href="#技术清单" class="headerlink" title="技术清单:"></a>技术清单:</h3><ol>
+<li>SQL<ul>
+<li>以MySQL为主<ul>
+<li>未来会继续学会SQLsever,hiveSQL (^o^)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Python<ul>
+<li>暂时还是只菜狗(^o^),暂时以Pyecharts,matplotlib以及Seaborn可视化为主<ul>
+<li>大概在一年后计划开始学习机器学习以及数据挖掘,当然,得等我花一年时间填补好我的数学与统计学空白(^o^)</li>
+<li>希望一年或者两年后不会再菜了(ㄒoㄒ)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>BI<ul>
+<li>以PowerBI及其衍生组件和Tableau为主</li>
+</ul>
+</li>
+<li>Excel</li>
+<li>ETL<ul>
+<li>计划学习中…目标2年内…</li>
+</ul>
+</li>
+</ol>
+<hr>
+</div><div class="story post-story"><h2 id="关于我的博客"><a href="#关于我的博客" class="headerlink" title="关于我的博客:"></a>关于我的博客:</h2><h3 id="我的博客将会以以下部分组成"><a href="#我的博客将会以以下部分组成" class="headerlink" title="我的博客将会以以下部分组成:"></a>我的博客将会以以下部分组成:</h3><ol>
+<li>生活<ul>
+<li>我的快乐生活</li>
+</ul>
+</li>
+<li>学习<ul>
+<li>学习笔记</li>
+<li>来自工作,生活,学习过程以及LeetCode,牛客中的难题</li>
+</ul>
+</li>
+<li>总结<ul>
+<li>自我学习的知识总结</li>
+<li>摘录来自知乎,简书,36kr,人人都是产品经理等的文章或是流媒体视频的内容</li>
+</ul>
+</li>
+<li>日记<ul>
+<li>记录自己的成长wakuwaku(◇o◇)</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h3 id="我的博客基于volantis搭建"><a href="#我的博客基于volantis搭建" class="headerlink" title="我的博客基于volantis搭建"></a>我的博客基于volantis搭建</h3><ul>
+<li>官方文档是这个<a href="https://volantis.js.org/">https://volantis.js.org/</a></li>
+</ul>
+<hr>
+
+</div>]]></content>
+      <categories>
+        <category>AboutMe</category>
+      </categories>
+      <tags>
+        <tag>其他</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关键迭代-沉淀总结</title>
+    <url>/2022/06/24/%E5%85%B3%E9%94%AE%E8%BF%AD%E4%BB%A3-%E6%B2%89%E6%B7%80%E6%80%BB%E7%BB%93/</url>
+    <content><![CDATA[<div class='checkbox checked'><input type="checkbox" checked="checked"/>
+            <p>摘自A&#x2F;B测试中的圣经–《关键迭代:可信赖的线上对照实验》</p>
+            </div>
+<div class='checkbox checked'><input type="checkbox" checked="checked"/>
+            <p>特威曼定律的怀疑论:任何看起来有趣或与众不同的数字通常是错误的</p>
+            </div>
+
+<span id="more"></span>
+
+<h1 id="《关键迭代：可信赖的线上对照实验》摘要总结"><a href="#《关键迭代：可信赖的线上对照实验》摘要总结" class="headerlink" title="《关键迭代：可信赖的线上对照实验》摘要总结"></a>《关键迭代：可信赖的线上对照实验》摘要总结</h1><div class="story post-story"><h2 id="第一部分-线上对照实验概览-即AB测试方法论"><a href="#第一部分-线上对照实验概览-即AB测试方法论" class="headerlink" title="第一部分:线上对照实验概览,即AB测试方法论"></a>第一部分:线上对照实验概览,即AB测试方法论</h2><h3 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h3><h4 id="线上实验的关键术语"><a href="#线上实验的关键术语" class="headerlink" title="线上实验的关键术语"></a>线上实验的关键术语</h4><table>
+<thead>
+<tr>
+<th align="center">术语</th>
+<th align="center">含义</th>
+<th align="center">解读</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">综合评估标准</td>
+<td align="center">Overall Evaluation Criterion,即OEC,实验目标的定量测量</td>
+<td align="center">人均活跃天数(即可测量可观察的指标)</td>
+</tr>
+<tr>
+<td align="center">参数</td>
+<td align="center">对照实验中被认为会影响OEC或其他指标的变量,亦称为变量或因素,参数的赋值也称为因子水平</td>
+<td align="center">比如字体颜色和字体大小(即AB测试中影响实验组的功能)</td>
+</tr>
+<tr>
+<td align="center">变体</td>
+<td align="center">被测试的用户体验,一般通过给参数赋值实现</td>
+<td align="center">在最简单的AB测试中,A与B就是两个变体,通常被称为实验组和对照组,有时变体仅指代实验组</td>
+</tr>
+<tr>
+<td align="center">随机化单元</td>
+<td align="center">以伪随机化(如哈希)过程将单元(如用户或页面)至不同变体</td>
+<td align="center">即随机分配用户进入实验</td>
+</tr>
+</tbody></table>
+<h4 id="线上对照实验的特性"><a href="#线上对照实验的特性" class="headerlink" title="线上对照实验的特性"></a>线上对照实验的特性</h4><details open><summary> 线上对照实验有以下特性 </summary>
+              <div class='content'>
+              <p>    <div class='checkbox checked'><input type="checkbox" checked="checked"/></p><p>它是以高概率确立因果关系的最佳科学方法</p></div>    <div class='checkbox checked'><input type="checkbox" checked="checked"/><p>能够检测其他技术难以检测到的微小变动,比如随着时间变化(灵敏度)</p></div>    <div class='checkbox checked'><input type="checkbox" checked="checked"/><p>能够检测意想不到的变动,虽然常被低估,但很多实验发觉了一些对其他指标出乎意料的影响,比如性能的降低,系统崩溃和出错的增加或是对其他模块的点击的吞噬</p></div>
+              </div>
+            </details>
+<h4 id="战略、战术及他们和实验的关系"><a href="#战略、战术及他们和实验的关系" class="headerlink" title="战略、战术及他们和实验的关系"></a>战略、战术及他们和实验的关系</h4><h5 id="情景1-你已有业务战略并且产品有足够的用户用于实验"><a href="#情景1-你已有业务战略并且产品有足够的用户用于实验" class="headerlink" title="情景1.你已有业务战略并且产品有足够的用户用于实验"></a>情景1.你已有业务战略并且产品有足够的用户用于实验</h5><details open><summary> 对于这种情景,AB测试可以帮助你重现用的战略和产品触发,爬升至局部最优点 </summary>
+              <div class='content'>
+              <p>实验能找到高ROI区域:</p><ul><li>那些相对于成本提升OEC最多的领域,在投入大量资源之前,在不同的领域测试MVP(Mininum Viable Product,最小可行产品)  <details ><summary> MVP(最小可行产品)的概念 </summary>        <div class='content'>        <div class='checkbox checked'><input type="checkbox" checked="checked"/><p>MVP的概念是Eric Ries 《精益创业》里提出的概念。简单地说，就是指开发团队通过提供最小化可行产品获取用户反馈，并在这个最小化可行产品上持续快速迭代，直到产品到达一个相对稳定的阶段。MVP对于创业团队来说是很重要的，可以快速验证团队的目标，快速试错。</p></div>        </div>      </details></li></ul>
+              </div>
+            </details>
+<h5 id="情境2-你有产品和战略-但你需要调整"><a href="#情境2-你有产品和战略-但你需要调整" class="headerlink" title="情境2.你有产品和战略,但你需要调整"></a>情境2.你有产品和战略,但你需要调整</h5><details open><summary> 测试大胆的想法时,运行和评估实验的方式也有变化,具体来说,我们需要考虑以下几点: </summary>
+              <div class='content'>
+              <p>实验的运行时长:<br>    - 例如,在测试重大UI设计时,短期内测量到的实验数据变化可能被初始效应或改版厌恶所影响,实验组和对照组直接比较可能无法测量真实的实验时长,更长时间或更大规模的实验,或者别样的实验设计(比如谷歌广告质量的案例是以国家为单位设计的),在这样的情境中是必需的<br>被测试的创意的数量:<br>    - 你也许需要很多不同的实验,因为每个实验只测试一个具体的战术,该战术是总体战略的一个组成部分,个别实验没能成功改进OEC可能是因为这个特定战术的失败,不代表总体战略有问题<br>        - 说人话就是:仅单一实验可能面临实验维度颗粒度不够细,无法下钻维度确定问题所在点,因此需要多个颗粒更细的实验组合成一个总体的实验</p>
+              </div>
+            </details>
+<h4 id="补充阅读"><a href="#补充阅读" class="headerlink" title="补充阅读"></a>补充阅读</h4><h5 id="多臂老虎机实验"><a href="#多臂老虎机实验" class="headerlink" title="多臂老虎机实验"></a>多臂老虎机实验</h5><p>多臂老虎机是一种随实验进程动态分配流量的实验,比如我们可以每小时查看一次实验进程,观察每个变体的表现,并调整各变体的流量比例,增加表现好的变体的流量,减少表现差的变体的流量</p>
+<details open><summary> 基于多臂老虎机的实验往往比经典的AB测试更有效率,因为它们将流量逐步分配至表现更好的变体,而不用等到实验结束 </summary>
+              <div class='content'>
+              <div class="note warning"><p>但同样也有重要限制条件:评估目标需要是单一的OEC,并且这个OEC在流量重新分配时能够很好的被测量,比如点击率之于会话</p></div><div class="note bug red"><p>此外,原本处于’差’变体中的用户按比例不同分配至其他表现较好的多个变体可能会造成潜在的偏差</p></div>
+              </div>
+            </details>
+<h6 id="好文欣赏"><a href="#好文欣赏" class="headerlink" title="好文欣赏"></a>好文欣赏</h6><p><a href="https://blog.csdn.net/u011984148/article/details/106678502/">多臂老虎机python工程化</a><br><a href="https://zhuanlan.zhihu.com/p/464108814">多臂老虎机</a></p>
+<hr>
+<h3 id="第二章"><a href="#第二章" class="headerlink" title="第二章"></a>第二章</h3><hr>
+
+</div>]]></content>
+      <categories>
+        <category>读书总结</category>
+      </categories>
+      <tags>
+        <tag>学习</tag>
+        <tag>总结</tag>
+        <tag>A/B测试</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数据分析思维总结(摘选)</title>
+    <url>/2021/09/12/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E6%80%9D%E7%BB%B4/</url>
+    <content><![CDATA[<p>内容选自<a href="https://_www.jianshu.com/p/5a8f01fe7f2a">简书</a>、<a href="https://_zhuanlan.zhihu.com/p/26426645?from=singlemessage">知乎</a></p>
+<span id="more"></span>
+
+<div class="story post-story"><h2 id="数据分析思维"><a href="#数据分析思维" class="headerlink" title="数据分析思维"></a>数据分析思维</h2><p>内容选自<a href="https://_www.jianshu.com/p/5a8f01fe7f2a">简书</a>、<a href="https://_zhuanlan.zhihu.com/p/26426645?from=singlemessage">知乎</a></p>
+<ul>
+<li><strong>合理运用各种思维，加以熟悉与运用，获得[[数据敏感性]]</strong></li>
+</ul>
+<ul>
+<li>第一种思维：信度与效度思维<ul>
+<li>总结：<ul>
+<li><strong>信度</strong><ul>
+<li><strong>所谓信度是指一个数据或者一个指标自身的可靠程度，包括准确性和稳定性</strong><ul>
+<li>取数逻辑是否正确？有没有计算错误？这属于准确性；每次计算的算法是否稳定？口径是否一致？以相同的方法计算不同的对象时，准确性是否有波动？这是稳定性。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>效度</strong><ul>
+<li><strong>所谓效度是指一个数据或指标的生成，需要贴合它所衡量的事物，即指标的变化能代表该事物的变化</strong><ul>
+<li>只有在信度和效度上都达标才是一个有价值的数据指标</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>例子：</strong><ul>
+<li>要衡量我身体的肥胖情况，我选择了穿衣的号码作为指标，一方面，相同的衣服尺码对应的实际衣服大小是不同的，会有美版韩版等因素，使得准确性很差；同时，一会儿穿这个牌子的衣服，一会儿穿那个牌子的衣服，使得该衡量方式形成的结果很不稳定；所以，衣服尺码这个指标的信度不够。另一方面，衡量身体肥胖情况用衣服的尺码大小？你一定觉得荒唐，尺码大小并不能反映肥胖情况，是吧？因此效度也不足。体脂率，才是信度和效度都比较达标的肥胖衡量指标。</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>信度和效度本身实际就是数据质量的问题，<strong>是一切分析的基石</strong></li>
+</ul>
+</li>
+<li>感想：<ul>
+<li>在面对一个需要衡量的事物时，应找到信度高、可靠性高的数据，且此数据贴合需衡量的事物，与此事物有关联性，在找到信度与效度并存的数据时，方可以此为指标进行分析</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>遭遇与实践</li>
+</ul>
+</li>
+<li>第二种思维：平衡思维<ul>
+<li>总结：<ul>
+<li>在数据分析的过程中，我们需要去找到事情间的平衡关系，且平衡关系往往影响企业运转的大问题，如市场供需关系，薪资与效益关系，工作时长与错误率关系等。<strong>平衡思维的关键点在于能展示出平衡状态的指标</strong>。<ul>
+<li>我们需要去寻找这个准确的量化指标，来观察平衡天平的倾斜程度。</li>
+</ul>
+<ul>
+<li>如何找这个量化指标呢？<ul>
+<li>一般先找到双向型的问题，也就是高也不是低也不是的问题，然后量化成指标，最后计算成某个比率，长期追踪后观察其信度和效度。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>感想：</li>
+</ul>
+<ul>
+<li>遭遇与实践</li>
+</ul>
+</li>
+<li>第三种思维：分类思维<ul>
+<li>总结：<ul>
+<li>分类思维的应用关键在于能在分类后的事物（结果）的<strong>关键指标上能拉开距离</strong><ul>
+<li>也就是分类后的结果必须是显著的<ul>
+<li>如散点图（自行想象），横轴和纵轴就是运营、分析当中需关注的核心关键指标（不限于二维），而分类后的对象，能看到他们的分布不是随机的，而是有显著的集群倾向</li>
+<li>若该图横轴代表购买频率，纵轴代表客单价，那么右上角的那群人就是‘剁手金牌客户’和‘人傻钱多’的典范</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>感想：</li>
+<li>遭遇与实践：</li>
+</ul>
+</li>
+<li>第四种思维：矩阵思维<ul>
+<li>总结：矩阵思维是分类思维的发展，它<strong>不再局限于用量化指标来进行分类</strong>。许多时候，我们没有数据作为支持，只能通过经验做主观的推断时，是可以将某些重要因素组成矩阵，大致定义出好坏的方向，然后进行分析。即经典的波士顿矩阵。</li>
+<li>感想：</li>
+<li>遭遇与实践</li>
+</ul>
+</li>
+<li>第五种思维：管道&#x2F;漏斗思维：<ul>
+<li>总结：漏斗思维已经比较普及了，注册转化、购买流程、浏览路径、销售管道等，许多分析场景都能找到这种思维的影子。但越普世越容易理解的模型，就应该应用的越谨慎越小心。<strong>在漏斗思维中，我们尤其要注意漏斗的长度</strong><ul>
+<li>漏斗的环节不应该超过五个，且漏斗中各环节的百分比数值，量级不要超过 100 倍（漏斗第一环节 100%开始，到最后一个环节数值不要低于 1%）<ul>
+<li>若超过这两个标准，则应分多个漏斗进行观察分析。</li>
+<li>超过五个环节时，往往会出现多个重点环节，在一个漏斗中分析多个重要问题容易产生混乱。数值量级差距过大，数值间波动相互关系很难被察觉，容易遗漏信息。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>感想：</li>
+<li>遭遇与实践：</li>
+</ul>
+</li>
+<li>第六种思维：相关思维<ul>
+<li>总结：相关思维能够帮助我们找到最关键最重要的数据，<strong>排除掉过多杂乱数据的干扰</strong><ul>
+<li>我们观察指标，不仅要看单个指标的变化，还需要观察指标间的相互关系，有正相关关系和负相关关系</li>
+</ul>
+<ul>
+<li>如何执行相关思维呢？<ul>
+<li>可以计算能收集到的多个指标间的相互关系，挑出与其他指标相关系数都较高的数据指标，分析它的逻辑，对应的问题，并评估信度和效度，若能满足标准，则这个指标就能定位为核心指标</li>
+<li><strong>养成一个习惯：经常计算指标间的相关系数，仔细思考相关系数背后的逻辑，有的是显而易见的常识，比如订单数和购买人数，有的能带来惊喜，另外，没有相关关系往往也会成为惊喜的来源</strong></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>感想：相关思维即为找到数据间的相关性，比如在冗杂的数据中找到进店率与转化率的相关性，客单价与销售额的相关性。</li>
+<li>遭遇与实践：</li>
+</ul>
+</li>
+<li>第七种思维：远近度思维<ul>
+<li>总结：在手握众多数据时，往往注意力是非常的跳跃和分散的，无法迅速找到重要数据，此时就需要<strong>远近度思维</strong>了。<ul>
+<li>如何避免？<ul>
+<li>一是通过相关思维找到最核心的问题和指标</li>
+<li>二是建立远近度的思维方式</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>确定好核心问题后，分析其他业务问题与该问题的远近程度，由近及远，把自己的精力有计划的分配。</li>
+</ul>
+<ul>
+<li>例子：<ul>
+<li>比如：<ul>
+<li>近期的核心业务是提高客服人员的服务质量，那么客服人员的话术、客户评价通道、客服系统的响应速度等，就是靠近的子问题，需要重点关注。而客户问询习惯、购买周期就是相对远的问题。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>感想：</li>
+<li>遭遇与实践</li>
+</ul>
+</li>
+<li>第八种思维：逻辑树思维<ul>
+<li>总结：<ul>
+<li>一般说明逻辑树的分叉时，都会提到分解和汇总两个概念。为了更贴近数据分析，将其变为<strong>下钻</strong>和<strong>上卷</strong>。<ul>
+<li>下钻和上卷<ul>
+<li>所谓下钻就是在分析指标的变化时，按一定维度不断的拆解，比如按地区维度，从大区到省份，从省份到城市，从城市到区县。</li>
+<li>上卷则是反过来，随着不断地下钻和上卷，数据会不断细分和汇总，在这个过程中，我们往往能找到问题的根源。</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>下钻和上卷并不是局限于一个维度的，往往是多维组合的节点，进行分叉。逻辑树引申到算法领域就是决策树。有个关键就是何时做出决策（判断）。当进行分叉时，我们往往会<strong>选择差别最大的一个维度进行拆分</strong>，若差别不够大，则这一枝不会再细分；能够产生显著差异的节点会被保留，并继续细分，直到分不出差别为止。经过这个过程，我们就能找出影响指标变化的因素。</li>
+</ul>
+</li>
+<li>例子：<ul>
+<li>我们发现全国客户数量下降了，我们通过客户年龄层级和地区两个维度先进行观察，发现各个年龄段的客户都下降，而地区间有的地区下降有所升高，那我们就按地区来拆分第一个逻辑树节点，拆分到大区后，发现各省的差异是显著的，那就继续拆分到城市，最后发现浙江省杭州市客户流失量巨大且涵盖各个年龄段，被竞争对手的一波推广活动转化走了。于是通过三层逻辑树找到了问题所在。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>感想：<ul>
+<li>逻辑树思维实际上就是找到差异化的数据指标并不断细分，不断将范围缩小，最后找到影响全局的差异指标</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>遭遇与实践：</li>
+</ul>
+</li>
+<li>第九种思维：时间序列思维<ul>
+<li>总结：<ul>
+<li>时间序列思维的三个关键点<ul>
+<li>一是距今越近的时间点越要重视（越近期发生的事越有可能再次发生）</li>
+<li>二是要做<strong>同比</strong>（指标往往存在某些周期性，需要在周期的同一阶段进行对比，才有意义）</li>
+<li>三是<strong>异常值</strong>出现时，需要重视（比如出现了历史最低值或历史最高值，需要在制作时间序列图时添加一条平均线和平均值加减一倍或两倍标准差线，便于观察异常值）</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>时间序列思维能够帮助排除掉一些外在干扰，尤其适合一个创新型的分析对象，比如一个新行业的公司，或者一款全新的产品</li>
+<li>时间序列有个子概念：生命周期，用户、产品无不有生命周期的存在，自觉上生命周期衡量清除，就能很方便的确定一些阀值问题，使产品和运营更加明确。</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>感想：</li>
+<li>遭遇与实践：</li>
+</ul>
+</li>
+<li>第十种思维：队列分析思维（同期群分析）<ul>
+<li>总结：按一定的规则，在时间颗粒度上将观察对象切片，组成一个观察样本，然后观察这个样本的某些指标随着时间的演进而产生的变化。<ul>
+<li>队列分析思维目前使用场景最多的就是<strong>留存分析</strong>。</li>
+</ul>
+<ul>
+<li>例子<ul>
+<li>假设 5.17我们举办了一次促销活动，那么将这一天来的新用户作为一个观察样本，观察他们在 5.18、5.19… 之后每天的活跃情况</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>队列分析中，指标其实就是时间序列，不同的是衡量样本，队列分析的衡量样本是在时间颗粒上变化的，而时间序列的样本相对固定。</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>感想：</li>
+<li>遭遇与实践：</li>
+</ul>
+</li>
+<li>第十一种思维：循环\闭环思维<ul>
+<li>总结：业务流程的闭环是管理者比较容易定义出来的，列出公司所有业务环节，梳理出业务流程，然后定义各个环节之间相互影响的指标，跟踪这些指标的变化，能从全局上把握公司的运行状况。<ul>
+<li>循环&#x2F;闭环的概念可以引申到很多场景当中，比如业务流程的闭环、用户生命周期的闭环、产品使用功能的闭环、市场推广策略的闭环等等。</li>
+</ul>
+<ul>
+<li>例子：<ul>
+<li>一家软件公司的典型业务流：推广行为（市场部）→流量进入主站（市场+产研）→注册流程（产研）→试用体验（产研+销售）→进入采购流程（销售部）→交易并部署（售后+产研）→使用、续约、推荐（售后+市场）→推广行为……..一个闭环下来，各个环节衔接的指标，就值得关注了：广告点击率→注册流程进入率→注册转化率→试用率→销售管道各环节转化率→付款率→推荐率&#x2F;续约率……这里会涉及漏斗思维，但<strong>千万不要用漏斗思维来衡量一个循环</strong></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>感想：</li>
+<li>遭遇与实践：</li>
+</ul>
+</li>
+<li>第十二种思维：测试&#x2F;对比思维<ul>
+<li>即 AB test</li>
+</ul>
+<ul>
+<li>总结：<ul>
+<li>在条件允许的情况下，尽量做对比测试</li>
+<li>在测试时，一定要注意参照物的选择，在任何实验中，都应该留有不进行任何变化的一组样本，作为最基本的参照。</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>感想</li>
+</ul>
+<ul>
+<li>遭遇与实践：<ul>
+<li>遭遇：</li>
+<li>实践：</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>第十三种思维：指数化思维<ul>
+<li>总结：<ul>
+<li>指数化思维，是将衡量一个问题的多个因素分别量化后，组合成一个综合指数（降维），来持续追踪的方式。降维，即把多个指标压缩成一个指标。</li>
+</ul>
+<ul>
+<li>指数化的好处<ul>
+<li>减少了指标，使得管理者精力更为集中</li>
+<li>指数化的指标往往提升了数据的信度和效度</li>
+<li>指数能长期使用且便于理解</li>
+</ul>
+</li>
+<li>指数的设计<ul>
+<li>要遵循独立和穷尽的原则<ul>
+<li>独立穷尽原则，即你所定位的问题，在收集衡量该问题的多个指标时，各个指标尽量相互独立，同时能衡量该问题的指标尽量穷尽（收集全）</li>
+</ul>
+<ul>
+<li>例子：<ul>
+<li>当初设计某公司销售部门的指标体系时，目的是衡量销售部的绩效，确定了核心指标是销售额后，我们将绩效拆分为订单数、客单价、线索转化率、成单周期、续约率5个相互独立的指标，且这5个指标涵盖了销售绩效的各个方面（穷尽）。我们设计的销售绩效综合指数＝0.4＊订单数＋0.2＊客单价＋0.2＊线索转化率＋0.1＊成单周期＋0.1＊续约率，各指标都采用max-min方法进行标准化。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>要注意各指标的单位，尽量做标准化来消除单位的影响</li>
+<li>权重和等于 1</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<hr>
+
+</div>]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>数据分析</tag>
+        <tag>思维模型</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数据敏感性</title>
+    <url>/2022/05/21/%E6%95%B0%E6%8D%AE%E6%95%8F%E6%84%9F%E6%80%A7/</url>
+    <content><![CDATA[<div class='checkbox check'><input type="radio" />
+            <p><a href="https://www.bilibili.com/video/BV1764y1u7e5?from=search&amp;seid=14404083033402825435&amp;spm_id_from=333.337.0.0">本段节选自 b 站 up 主大欧姐姐的视频</a>,所提出的观点对于初入数据行业的我来说非常新颖,故摘记了下来</p>
+            </div>
+
+<span id="more"></span>
+
+<h1 id="数据敏感性"><a href="#数据敏感性" class="headerlink" title="数据敏感性"></a>数据敏感性</h1><hr>
+<p><a href="https://www.bilibili.com/video/BV1764y1u7e5?from=search&amp;seid=14404083033402825435&amp;spm_id_from=333.337.0.0">本段节选自 b 站 up 主大欧姐姐的视频</a></p>
+<ul>
+<li>数据思维不是技能，而是大脑底层的用^^数据事实表达个人观点^^的思维能力<ul>
+<li>事实<ul>
+<li>今天气温 32摄氏度（三月）</li>
+</ul>
+</li>
+<li>观点<ul>
+<li>今天天气很热</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>数据分析能力就是迅速在大脑底层^^建立事实对应观点的映射^^<ul>
+<li><strong>事实</strong>{g}是今天气温** 32 摄氏度**{b}</li>
+<li>导致了我的<strong>观点</strong>{g}是<strong>今天天气很热</strong>{b}</li>
+</ul>
+<ul>
+<li><strong>映射关系</strong>{g}的建立<ul>
+<li>是我所在的城市平均气温 22摄氏度，今天 32 摄氏度比平均气温高出 10 摄氏度</li>
+<li>生理零度是对人而言最舒适的温度，一般人的生理零度是 28-29摄氏度，32摄氏度远远高于这个数值</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>因此我的观点是今天天气很热</li>
+</ul>
+</li>
+</ul>
+<p>数据分析能力就是通过反复训练对事实（^^数据事实^^）和观点（^^业务观点^^）能做出迅速映射的能力</p>
+<ul>
+<li>如何培养数据事实的敏感性<ul>
+<li>为何会感觉今天很热？<ul>
+<li>因为 32摄氏度在三月份显得反常</li>
+<li>我们经历了无数个三月份，大脑早已潜移默化被输入了三月份的气温从月初到月末由十几度增长到二十几度，能看到三月份气温的增长趋势</li>
+<li>于是我们能迅速发现今天的气温绝对是异常值</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>业务指标也是一样，每天去背数据，业务数据、用户数据、转化率、流失率等等等等数据，久而久之，数据被输入到大脑，也就能迅速发现异常值，迅速发现数据之间的关联，提高了自己的数据敏感性</li>
+</ul>
+</li>
+<li>数据分析的第一个要训练的是<ul>
+<li>只说事实不说观点<ul>
+<li>观点<ul>
+<li>好热<ul>
+<li>也许你觉得热而我并不觉得热呢？</li>
+</ul>
+</li>
+<li>今天气温上升了<ul>
+<li>这句话已经看起来非常像事实了，但实际上还是观点</li>
+<li>气温到底相对哪天上升了？</li>
+<li>气温升高了多少？</li>
+<li>上升到异常值还是 3 月 21 号太阳直射回到北半球之后的正常气温回升呢？</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>事实<ul>
+<li>本市近三天气温连续上升，分别升高了 2 摄氏度、3摄氏度和 1摄氏度</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>事实的沟通每个人都能理解，不会出现歧义，观点的沟通会出现误差而事实则不会，如果我们使用观点进行沟通，自然会出现大量的误解<ul>
+<li>设定标准：可以通用的客观标准<ul>
+<li>历史平均值</li>
+<li>行业平均值</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>用事实数据跟客观标准做对比了解当前所在的位置才能得出有说服力的观点</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>数据分析是手段，解决问题才是目的</li>
+</ul>
+<ul>
+<li>有了数据敏感度之后，能在日常工作中一眼看出问题，但是找到问题还不够，需要知道如何找到问题的源头<ul>
+<li>问题的源头<ul>
+<li>可能是全球变暖导致的气温异常？</li>
+<li>可能是受到副热带高压的影响造成的增暖增湿</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>数据分析的最终目的除了找出问题，还要找出解决问题的方案，去尝试这个方案是否有用，或者对比其他人的解决方案来对比分析优缺点，业务方的需求直接影响到解决问题的覆盖范围<br>    + 如果今天气温达到 32摄氏度，这个问题的需求方是联合国<br>        * 那么这个问题的解决方案就是环保议题了<br>    + 如果今天气温达到 32摄氏度，这个问题的需求方是女朋友<br>        * 那么这个问题的解决方案就是打开空调，出门跑腿买吃的</p>
+
+]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>数据分析</tag>
+        <tag>思维模型</tag>
+        <tag>沉淀总结</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>本地生活门店经营分析简报</title>
+    <url>/2022/06/01/%E6%9C%AC%E5%9C%B0%E7%94%9F%E6%B4%BB%E9%97%A8%E5%BA%97%E7%BB%8F%E8%90%A5%E5%88%86%E6%9E%90%E7%AE%80%E6%8A%A5/</url>
+    <content><![CDATA[<div class='checkbox check'><input type="radio" />
+            <p>基于脱敏数据制作的经分简报,首次打开本页面会有加载时间</p>
+            </div>
+
+<span id="more"></span>
+
+<h1 id=""><a href="#" class="headerlink" title=""></a><span class='p yellow'>本地生活门店经营分析简报</span></h1><p>博客挂载于GitHub,图片挂载于SMMS,首次打开时可能会需要加载图片,还请静候1分钟</p>
+<div class="story post-story"><h2 id="营收分析"><a href="#营收分析" class="headerlink" title="营收分析"></a>营收分析</h2><h3 id="-1"><a href="#-1" class="headerlink" title=""></a><span class='p yellow'>1.各门店累计GMV286万，累计实收103万，实收占比仅36%</span></h3><ul>
+<li><em>19 年10月至20年 9月期间，公司旗下共经营过 2 个品牌、10家门店，实际经营天数为345天，累计订单数为 5 万1千笔，单均实收0元，较为正常</em></li>
+<li><em>但是，各门店日均实收仅为299元，基本无法支持门店的正常经营，急需改善！！</em><br><img src="https://s2.loli.net/2022/06/01/lK5m9YgT3cEH6Ds.png" class="lazyload" data-srcset="https://s2.loli.net/2022/06/01/lK5m9YgT3cEH6Ds.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="1.png"></li>
+</ul>
+<hr>
+<h3 id="-2"><a href="#-2" class="headerlink" title=""></a><span class='p yellow'>2.前四名GMV占比86%，后6名占比仅有14%，门店实力分布严重不足</span></h3><ul>
+<li><em>前四名占比分别为蛙小辣-宝山店（26%）、拌客-武宁路店（25%）、蛙小辣-五角场店（22%）、蛙小辣-虹口足球场店（13%）</em></li>
+<li><em>而最后三名分别为蛙小辣-大宁店、蛙小辣-龙阳路店、蛙小辣交大店，它们的累积占比仅2%</em><br><img src="https://s2.loli.net/2022/06/01/9Qe8KnOoiE4CAcR.png" class="lazyload" data-srcset="https://s2.loli.net/2022/06/01/9Qe8KnOoiE4CAcR.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="2.png"></li>
+</ul>
+<hr>
+<h3 id="-3"><a href="#-3" class="headerlink" title=""></a><span class='p yellow'>3.整体营收受 20 年疫情影响较大，疫情结束后也未恢复</span></h3><ul>
+<li><em>公司实收在19年12月走高后，由20年1月开始持续下滑，直到20年5月拌客开业后才重新开始增长</em></li>
+<li><em>同时，蛙小辣旗下9家门店仅有3家在20年后继续营业，其中仅有宝山店坚持到了最后</em></li>
+<li><em>公司在新门店的扩张和维持上存在巨大问题！</em><br><img src="https://s2.loli.net/2022/06/01/Lu54NT3SFhyA9JH.png" class="lazyload" data-srcset="https://s2.loli.net/2022/06/01/Lu54NT3SFhyA9JH.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="3.png"></li>
+</ul>
+<hr>
+<h3 id="-4"><a href="#-4" class="headerlink" title=""></a><span class='p yellow'>4.拌客-武宁路店后来居上，实收占比在后期持续第一</span></h3><ul>
+<li><em>从20年5月拌客门店开业后，营收占比持续4个月第一，并在9月基本与蛙小辣持平，7月营收7万元，为门店历史最高</em><img src="https://s2.loli.net/2022/06/01/kH5TSjgfzC1bwnu.png" class="lazyload" data-srcset="https://s2.loli.net/2022/06/01/kH5TSjgfzC1bwnu.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="4.png"></li>
+</ul>
+<hr>
+<ul>
+<li><em>蛙小辣-宝山店自19年11月起持续营业，一直稳居前三，19年12月营收5万5千员，为门店历史最高</em><img src="https://s2.loli.net/2022/06/01/gvpG5S3ZEO9PknW.png" class="lazyload" data-srcset="https://s2.loli.net/2022/06/01/gvpG5S3ZEO9PknW.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="5.png"></li>
+</ul>
+<hr>
+<ul>
+<li><em>原本占比最高的蛙小辣-五角场店在20年2月歇业，3月重新营业后最终在5月闭店，19年12月营收为8万1千元，为门店历史最高</em><img src="https://s2.loli.net/2022/06/01/tIqUZTE3yPYbvpB.png" class="lazyload" data-srcset="https://s2.loli.net/2022/06/01/tIqUZTE3yPYbvpB.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="6.png"></li>
+</ul>
+<hr>
+<ul>
+<li><em>营收占比总览</em><img src="https://s2.loli.net/2022/06/01/5sXTwroGxC8a9cK.png" class="lazyload" data-srcset="https://s2.loli.net/2022/06/01/5sXTwroGxC8a9cK.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="7.png"></li>
+</ul>
+<hr>
+</div><div class="story post-story"><h2 id="成本分析"><a href="#成本分析" class="headerlink" title="成本分析"></a>成本分析</h2><h3 id="-5"><a href="#-5" class="headerlink" title=""></a><span class='p yellow'>1.商家补贴常年高于实收，补贴占比高达52.4%！cpc投放费用不高，疫情期间以及20年8月后基本没有进行投放</span></h3><h2 id="-6"><a href="#-6" class="headerlink" title=""></a><img src="https://s2.loli.net/2022/06/01/G8RZOPuy9thLdjc.png" class="lazyload" data-srcset="https://s2.loli.net/2022/06/01/G8RZOPuy9thLdjc.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="8.png"></h2><h2 id="流量分析"><a href="#流量分析" class="headerlink" title="流量分析"></a>流量分析</h2><h3 id="-7"><a href="#-7" class="headerlink" title=""></a><span class='p yellow'>1.虽然自然流量占比上升，但整体流量下降，纯自然流量打法的探索仍需谨慎</span></h3><ul>
+<li><em>19年11月至20年1月的业务前期，自然流量占比不高，曝光占比57.3%，进店占比66.3%，但曝光整体呈现上升趋势</em><br><img src="https://s2.loli.net/2022/06/01/rMxqPupAlyFfnRm.png" class="lazyload" data-srcset="https://s2.loli.net/2022/06/01/rMxqPupAlyFfnRm.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="9.png"></li>
+</ul>
+<hr>
+<ul>
+<li><em>20年8月10日后，自然流量占比一直很高，曝光占比为83.8%，进店占比为84.4%，但整体曝光有所上涨后一直呈现下跌趋势</em><br><img src="https://s2.loli.net/2022/06/01/HSEv9kqYX5eKILj.png" class="lazyload" data-srcset="https://s2.loli.net/2022/06/01/HSEv9kqYX5eKILj.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="10.png"></li>
+</ul>
+<hr>
+<ul>
+<li><em>下单&#x2F;进店转化率疫情后持续上升，但近期有所下降，需要注意，进店&#x2F;曝光转化率自开始营业后便呈现缓慢下降趋势，疫情后稳定在7%左右</em><br><img src="https://s2.loli.net/2022/06/01/ec2CfWySkqjZLFx.png" class="lazyload" data-srcset="https://s2.loli.net/2022/06/01/ec2CfWySkqjZLFx.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="11.png"></li>
+</ul>
+<hr>
+</div><div class="story post-story"><h2 id="策略总结"><a href="#策略总结" class="headerlink" title="策略总结"></a>策略总结</h2><blockquote>
+<p> <em>优化补贴策略，降低补贴占比，将更多的补贴预算转化为进账的实收金额</em><br> <em>参考疫情前的业务策略，稳定下单进店转化率，保证流量的正常转化</em><br> <em>重新提高付费流量占比，优化投放策略，带动整体流量增长</em></p>
+</blockquote>
+<hr>
+
+</div>]]></content>
+      <categories>
+        <category>个人项目</category>
+      </categories>
+      <tags>
+        <tag>可视化</tag>
+        <tag>数据分析</tag>
+        <tag>经营分析</tag>
+        <tag>简报</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>测试</title>
+    <url>/2022/05/11/%E6%B5%8B%E8%AF%95/</url>
+    <content><![CDATA[<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><p>代码测试：</p>
+<pre><code class="py">print(&quot;Hello&quot;)
+</code></pre>
+<p>图片测试：</p>
+<p><img src="http://mculover666.cn/blog/20191031/R4mWMXsrRKxu.png?imageslim" class="lazyload" data-srcset="http://mculover666.cn/blog/20191031/R4mWMXsrRKxu.png?imageslim" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></p>
+<p>引用测试：</p>
+<blockquote>
+<p>这是一条引用</p>
+</blockquote>
+<div class="story post-story"><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><p>无序列表测试：</p>
+<ul>
+<li>哈哈</li>
+<li>嘿嘿</li>
+<li>吼吼</li>
+</ul>
+<h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><hr>
+
+</div>]]></content>
+      <categories>
+        <category>测试</category>
+      </categories>
+      <tags>
+        <tag>测试</tag>
+      </tags>
+  </entry>
+</search>
