@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-07-03T11:48:47.874Z</updated>
+  <updated>2022-07-03T19:22:29.049Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,11 +17,38 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>学习路径规划</title>
+    <link href="http://example.com/2022/07/04/%E5%AD%A6%E4%B9%A0%E8%B7%AF%E5%BE%84%E8%A7%84%E5%88%92/"/>
+    <id>http://example.com/2022/07/04/%E5%AD%A6%E4%B9%A0%E8%B7%AF%E5%BE%84%E8%A7%84%E5%88%92/</id>
+    <published>2022-07-03T18:48:01.000Z</published>
+    <updated>2022-07-03T19:22:29.049Z</updated>
+    
+    <content type="html"><![CDATA[<div class='checkbox red'><input type="radio" />            <p>短期内的个人学习计划(多平台、多路径),动态更新</p>            </div><span id="more"></span><hr><div class="timeline"><div class="timenode"><div class="meta"><p><p>2022-07</p></p></div><div class="body"><p>1.读完《关键迭代：可信赖的线上对照实验》第一部分前五章方法论的篇章<br>2.依据此书与戴师兄的课程内容进行内容摘要与吸收<br>3.通过费曼学习法输出AB测试方法论<br>4.刷完Udemy平台- Tableau A-Z和PowerBI A-Z，补充可视化知识<br>5.读一遍《金字塔原理》</p></div></div><div class="timenode"><div class="meta"><p><p>2022-08</p></p></div><div class="body"><p>1.学习补充统计学知识<br>2.跟着《关键迭代：可信赖的线上对照实验》书，一同推导公式，并理解公式<br>3.完成和鲸社区-机器学习训练营闯关</p></div></div><div class="timenode"><div class="meta"><p><p>2022-09</p></p></div><div class="body"><p>1.熟练使用xlwings控制Excel<br>2.持续补充数学、统计学知识，必要时需刷题<br>3.刷完Udemy平台- Data Science A-Z，补充基础数据科学知识<br>4.读完O’Reilly的利用Python进行数据分析的所剩章节</p></div></div><div class="timenode"><div class="meta"><p><p>2022-10</p></p></div><div class="body"><p>1.刷完O’Reilly的Python机器学习手册<br>2.刷完Udemy平台- Machine Learning A-Z<br>3.至少要达到机器学习入门程度</p></div></div></div>]]></content>
+    
+    
+    <summary type="html">&lt;div class=&#39;checkbox red&#39;&gt;&lt;input type=&quot;radio&quot; /&gt;
+            &lt;p&gt;短期内的个人学习计划(多平台、多路径),动态更新&lt;/p&gt;
+            &lt;/div&gt;</summary>
+    
+    
+    
+    <category term="学习" scheme="http://example.com/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="个人" scheme="http://example.com/categories/%E4%B8%AA%E4%BA%BA/"/>
+    
+    
+    <category term="学习路径" scheme="http://example.com/tags/%E5%AD%A6%E4%B9%A0%E8%B7%AF%E5%BE%84/"/>
+    
+    <category term="个人规划" scheme="http://example.com/tags/%E4%B8%AA%E4%BA%BA%E8%A7%84%E5%88%92/"/>
+    
+  </entry>
+  
+  <entry>
     <title>关键迭代-沉淀总结</title>
     <link href="http://example.com/2022/06/24/%E5%85%B3%E9%94%AE%E8%BF%AD%E4%BB%A3-%E6%B2%89%E6%B7%80%E6%80%BB%E7%BB%93/"/>
     <id>http://example.com/2022/06/24/%E5%85%B3%E9%94%AE%E8%BF%AD%E4%BB%A3-%E6%B2%89%E6%B7%80%E6%80%BB%E7%BB%93/</id>
     <published>2022-06-24T13:15:24.000Z</published>
-    <updated>2022-07-03T11:48:47.874Z</updated>
+    <updated>2022-07-03T19:20:01.992Z</updated>
     
     <content type="html"><![CDATA[<div class='checkbox checked'><input type="checkbox" checked="checked"/>            <p>摘自A&#x2F;B测试中的圣经–《关键迭代:可信赖的线上对照实验》</p>            </div><div class='checkbox checked'><input type="checkbox" checked="checked"/>            <p>特威曼定律的怀疑论:任何看起来有趣或与众不同的数字通常是错误的</p>            </div><span id="more"></span><h1 id="《关键迭代：可信赖的线上对照实验》摘要总结"><a href="#《关键迭代：可信赖的线上对照实验》摘要总结" class="headerlink" title="《关键迭代：可信赖的线上对照实验》摘要总结"></a>《关键迭代：可信赖的线上对照实验》摘要总结</h1><div class="story post-story"><h2 id="第一部分-线上对照实验概览-即AB测试方法论"><a href="#第一部分-线上对照实验概览-即AB测试方法论" class="headerlink" title="第一部分:线上对照实验概览,即AB测试方法论"></a>第一部分:线上对照实验概览,即AB测试方法论</h2><h3 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h3><h4 id="线上实验的关键术语"><a href="#线上实验的关键术语" class="headerlink" title="线上实验的关键术语"></a>线上实验的关键术语</h4><table><thead><tr><th align="center">术语</th><th align="center">含义</th><th align="center">解读</th></tr></thead><tbody><tr><td align="center">综合评估标准</td><td align="center">Overall Evaluation Criterion,即OEC,实验目标的定量测量</td><td align="center">人均活跃天数(即可测量可观察的指标)</td></tr><tr><td align="center">参数</td><td align="center">对照实验中被认为会影响OEC或其他指标的变量,亦称为变量或因素,参数的赋值也称为因子水平</td><td align="center">比如字体颜色和字体大小(即AB测试中影响实验组的功能)</td></tr><tr><td align="center">变体</td><td align="center">被测试的用户体验,一般通过给参数赋值实现</td><td align="center">在最简单的AB测试中,A与B就是两个变体,通常被称为实验组和对照组,有时变体仅指代实验组</td></tr><tr><td align="center">随机化单元</td><td align="center">以伪随机化(如哈希)过程将单元(如用户或页面)至不同变体</td><td align="center">即随机分配用户进入实验</td></tr></tbody></table><h4 id="线上对照实验的特性"><a href="#线上对照实验的特性" class="headerlink" title="线上对照实验的特性"></a>线上对照实验的特性</h4><details open><summary> 线上对照实验有以下特性 </summary>              <div class='content'>              <p>    <div class='checkbox checked'><input type="checkbox" checked="checked"/></p><p>它是以高概率确立因果关系的最佳科学方法</p></div>    <div class='checkbox checked'><input type="checkbox" checked="checked"/><p>能够检测其他技术难以检测到的微小变动,比如随着时间变化(灵敏度)</p></div>    <div class='checkbox checked'><input type="checkbox" checked="checked"/><p>能够检测意想不到的变动,虽然常被低估,但很多实验发觉了一些对其他指标出乎意料的影响,比如性能的降低,系统崩溃和出错的增加或是对其他模块的点击的吞噬</p></div>              </div>            </details><h4 id="战略、战术及他们和实验的关系"><a href="#战略、战术及他们和实验的关系" class="headerlink" title="战略、战术及他们和实验的关系"></a>战略、战术及他们和实验的关系</h4><h5 id="情景1-你已有业务战略并且产品有足够的用户用于实验"><a href="#情景1-你已有业务战略并且产品有足够的用户用于实验" class="headerlink" title="情景1.你已有业务战略并且产品有足够的用户用于实验"></a>情景1.你已有业务战略并且产品有足够的用户用于实验</h5><details open><summary> 对于这种情景,AB测试可以帮助你重现用的战略和产品触发,爬升至局部最优点 </summary>              <div class='content'>              <p>实验能找到高ROI区域:</p><ul><li>那些相对于成本提升OEC最多的领域,在投入大量资源之前,在不同的领域测试MVP(Mininum Viable Product,最小可行产品)  <details ><summary> MVP(最小可行产品)的概念 </summary>        <div class='content'>        <div class='checkbox checked'><input type="checkbox" checked="checked"/><p>MVP的概念是Eric Ries 《精益创业》里提出的概念。简单地说，就是指开发团队通过提供最小化可行产品获取用户反馈，并在这个最小化可行产品上持续快速迭代，直到产品到达一个相对稳定的阶段。MVP对于创业团队来说是很重要的，可以快速验证团队的目标，快速试错。</p></div>        </div>      </details></li></ul>              </div>            </details><h5 id="情境2-你有产品和战略-但你需要调整"><a href="#情境2-你有产品和战略-但你需要调整" class="headerlink" title="情境2.你有产品和战略,但你需要调整"></a>情境2.你有产品和战略,但你需要调整</h5><details open><summary> 测试大胆的想法时,运行和评估实验的方式也有变化,具体来说,我们需要考虑以下几点: </summary>              <div class='content'>              <p>实验的运行时长:<br>    - 例如,在测试重大UI设计时,短期内测量到的实验数据变化可能被初始效应或改版厌恶所影响,实验组和对照组直接比较可能无法测量真实的实验时长,更长时间或更大规模的实验,或者别样的实验设计(比如谷歌广告质量的案例是以国家为单位设计的),在这样的情境中是必需的<br>被测试的创意的数量:<br>    - 你也许需要很多不同的实验,因为每个实验只测试一个具体的战术,该战术是总体战略的一个组成部分,个别实验没能成功改进OEC可能是因为这个特定战术的失败,不代表总体战略有问题<br>        - 说人话就是:仅单一实验可能面临实验维度颗粒度不够细,无法下钻维度确定问题所在点,因此需要多个颗粒更细的实验组合成一个总体的实验</p>              </div>            </details><h4 id="补充阅读"><a href="#补充阅读" class="headerlink" title="补充阅读"></a>补充阅读</h4><h5 id="多臂老虎机实验"><a href="#多臂老虎机实验" class="headerlink" title="多臂老虎机实验"></a>多臂老虎机实验</h5><p>多臂老虎机是一种随实验进程动态分配流量的实验,比如我们可以每小时查看一次实验进程,观察每个变体的表现,并调整各变体的流量比例,增加表现好的变体的流量,减少表现差的变体的流量</p><details open><summary> 基于多臂老虎机的实验往往比经典的AB测试更有效率,因为它们将流量逐步分配至表现更好的变体,而不用等到实验结束 </summary>              <div class='content'>              <div class="note warning"><p>但同样也有重要限制条件:评估目标需要是单一的OEC,并且这个OEC在流量重新分配时能够很好的被测量,比如点击率之于会话</p></div><div class="note bug red"><p>此外,原本处于’差’变体中的用户按比例不同分配至其他表现较好的多个变体可能会造成潜在的偏差</p></div>              </div>            </details><h6 id="好文欣赏"><a href="#好文欣赏" class="headerlink" title="好文欣赏"></a>好文欣赏</h6><p><a href="https://blog.csdn.net/u011984148/article/details/106678502/">多臂老虎机python工程化</a><br><a href="https://zhuanlan.zhihu.com/p/464108814">多臂老虎机</a></p><hr><h3 id="第二章"><a href="#第二章" class="headerlink" title="第二章"></a>第二章</h3><hr></div>]]></content>
     
@@ -37,12 +64,10 @@
     
     <category term="学习" scheme="http://example.com/categories/%E5%AD%A6%E4%B9%A0/"/>
     
-    <category term="读书" scheme="http://example.com/categories/%E8%AF%BB%E4%B9%A6/"/>
-    
-    
-    <category term="学习" scheme="http://example.com/tags/%E5%AD%A6%E4%B9%A0/"/>
     
     <category term="总结" scheme="http://example.com/tags/%E6%80%BB%E7%BB%93/"/>
+    
+    <category term="读书" scheme="http://example.com/tags/%E8%AF%BB%E4%B9%A6/"/>
     
     <category term="A/B测试" scheme="http://example.com/tags/A-B%E6%B5%8B%E8%AF%95/"/>
     
@@ -53,7 +78,7 @@
     <link href="http://example.com/2022/06/01/%E6%9C%AC%E5%9C%B0%E7%94%9F%E6%B4%BB%E9%97%A8%E5%BA%97%E7%BB%8F%E8%90%A5%E5%88%86%E6%9E%90%E7%AE%80%E6%8A%A5/"/>
     <id>http://example.com/2022/06/01/%E6%9C%AC%E5%9C%B0%E7%94%9F%E6%B4%BB%E9%97%A8%E5%BA%97%E7%BB%8F%E8%90%A5%E5%88%86%E6%9E%90%E7%AE%80%E6%8A%A5/</id>
     <published>2022-05-31T19:38:22.000Z</published>
-    <updated>2022-06-25T06:07:26.840Z</updated>
+    <updated>2022-07-03T19:21:09.565Z</updated>
     
     <content type="html"><![CDATA[<div class='checkbox check'><input type="radio" />            <p>基于脱敏数据制作的经分简报,首次打开本页面会有加载时间</p>            </div><span id="more"></span><h1 id=""><a href="#" class="headerlink" title=""></a><span class='p yellow'>本地生活门店经营分析简报</span></h1><p>博客挂载于GitHub,图片挂载于SMMS,首次打开时可能会需要加载图片,还请静候1分钟</p><div class="story post-story"><h2 id="营收分析"><a href="#营收分析" class="headerlink" title="营收分析"></a>营收分析</h2><h3 id="-1"><a href="#-1" class="headerlink" title=""></a><span class='p yellow'>1.各门店累计GMV286万，累计实收103万，实收占比仅36%</span></h3><ul><li><em>19 年10月至20年 9月期间，公司旗下共经营过 2 个品牌、10家门店，实际经营天数为345天，累计订单数为 5 万1千笔，单均实收0元，较为正常</em></li><li><em>但是，各门店日均实收仅为299元，基本无法支持门店的正常经营，急需改善！！</em><br><img src="https://s2.loli.net/2022/06/01/lK5m9YgT3cEH6Ds.png" class="lazyload" data-srcset="https://s2.loli.net/2022/06/01/lK5m9YgT3cEH6Ds.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="1.png"></li></ul><hr><h3 id="-2"><a href="#-2" class="headerlink" title=""></a><span class='p yellow'>2.前四名GMV占比86%，后6名占比仅有14%，门店实力分布严重不足</span></h3><ul><li><em>前四名占比分别为蛙小辣-宝山店（26%）、拌客-武宁路店（25%）、蛙小辣-五角场店（22%）、蛙小辣-虹口足球场店（13%）</em></li><li><em>而最后三名分别为蛙小辣-大宁店、蛙小辣-龙阳路店、蛙小辣交大店，它们的累积占比仅2%</em><br><img src="https://s2.loli.net/2022/06/01/9Qe8KnOoiE4CAcR.png" class="lazyload" data-srcset="https://s2.loli.net/2022/06/01/9Qe8KnOoiE4CAcR.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="2.png"></li></ul><hr><h3 id="-3"><a href="#-3" class="headerlink" title=""></a><span class='p yellow'>3.整体营收受 20 年疫情影响较大，疫情结束后也未恢复</span></h3><ul><li><em>公司实收在19年12月走高后，由20年1月开始持续下滑，直到20年5月拌客开业后才重新开始增长</em></li><li><em>同时，蛙小辣旗下9家门店仅有3家在20年后继续营业，其中仅有宝山店坚持到了最后</em></li><li><em>公司在新门店的扩张和维持上存在巨大问题！</em><br><img src="https://s2.loli.net/2022/06/01/Lu54NT3SFhyA9JH.png" class="lazyload" data-srcset="https://s2.loli.net/2022/06/01/Lu54NT3SFhyA9JH.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="3.png"></li></ul><hr><h3 id="-4"><a href="#-4" class="headerlink" title=""></a><span class='p yellow'>4.拌客-武宁路店后来居上，实收占比在后期持续第一</span></h3><ul><li><em>从20年5月拌客门店开业后，营收占比持续4个月第一，并在9月基本与蛙小辣持平，7月营收7万元，为门店历史最高</em><img src="https://s2.loli.net/2022/06/01/kH5TSjgfzC1bwnu.png" class="lazyload" data-srcset="https://s2.loli.net/2022/06/01/kH5TSjgfzC1bwnu.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="4.png"></li></ul><hr><ul><li><em>蛙小辣-宝山店自19年11月起持续营业，一直稳居前三，19年12月营收5万5千员，为门店历史最高</em><img src="https://s2.loli.net/2022/06/01/gvpG5S3ZEO9PknW.png" class="lazyload" data-srcset="https://s2.loli.net/2022/06/01/gvpG5S3ZEO9PknW.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="5.png"></li></ul><hr><ul><li><em>原本占比最高的蛙小辣-五角场店在20年2月歇业，3月重新营业后最终在5月闭店，19年12月营收为8万1千元，为门店历史最高</em><img src="https://s2.loli.net/2022/06/01/tIqUZTE3yPYbvpB.png" class="lazyload" data-srcset="https://s2.loli.net/2022/06/01/tIqUZTE3yPYbvpB.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="6.png"></li></ul><hr><ul><li><em>营收占比总览</em><img src="https://s2.loli.net/2022/06/01/5sXTwroGxC8a9cK.png" class="lazyload" data-srcset="https://s2.loli.net/2022/06/01/5sXTwroGxC8a9cK.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="7.png"></li></ul><hr></div><div class="story post-story"><h2 id="成本分析"><a href="#成本分析" class="headerlink" title="成本分析"></a>成本分析</h2><h3 id="-5"><a href="#-5" class="headerlink" title=""></a><span class='p yellow'>1.商家补贴常年高于实收，补贴占比高达52.4%！cpc投放费用不高，疫情期间以及20年8月后基本没有进行投放</span></h3><h2 id="-6"><a href="#-6" class="headerlink" title=""></a><img src="https://s2.loli.net/2022/06/01/G8RZOPuy9thLdjc.png" class="lazyload" data-srcset="https://s2.loli.net/2022/06/01/G8RZOPuy9thLdjc.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="8.png"></h2><h2 id="流量分析"><a href="#流量分析" class="headerlink" title="流量分析"></a>流量分析</h2><h3 id="-7"><a href="#-7" class="headerlink" title=""></a><span class='p yellow'>1.虽然自然流量占比上升，但整体流量下降，纯自然流量打法的探索仍需谨慎</span></h3><ul><li><em>19年11月至20年1月的业务前期，自然流量占比不高，曝光占比57.3%，进店占比66.3%，但曝光整体呈现上升趋势</em><br><img src="https://s2.loli.net/2022/06/01/rMxqPupAlyFfnRm.png" class="lazyload" data-srcset="https://s2.loli.net/2022/06/01/rMxqPupAlyFfnRm.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="9.png"></li></ul><hr><ul><li><em>20年8月10日后，自然流量占比一直很高，曝光占比为83.8%，进店占比为84.4%，但整体曝光有所上涨后一直呈现下跌趋势</em><br><img src="https://s2.loli.net/2022/06/01/HSEv9kqYX5eKILj.png" class="lazyload" data-srcset="https://s2.loli.net/2022/06/01/HSEv9kqYX5eKILj.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="10.png"></li></ul><hr><ul><li><em>下单&#x2F;进店转化率疫情后持续上升，但近期有所下降，需要注意，进店&#x2F;曝光转化率自开始营业后便呈现缓慢下降趋势，疫情后稳定在7%左右</em><br><img src="https://s2.loli.net/2022/06/01/ec2CfWySkqjZLFx.png" class="lazyload" data-srcset="https://s2.loli.net/2022/06/01/ec2CfWySkqjZLFx.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="11.png"></li></ul><hr></div><div class="story post-story"><h2 id="策略总结"><a href="#策略总结" class="headerlink" title="策略总结"></a>策略总结</h2><blockquote><p> <em>优化补贴策略，降低补贴占比，将更多的补贴预算转化为进账的实收金额</em><br> <em>参考疫情前的业务策略，稳定下单进店转化率，保证流量的正常转化</em><br> <em>重新提高付费流量占比，优化投放策略，带动整体流量增长</em></p></blockquote><hr></div>]]></content>
     
@@ -64,7 +89,9 @@
     
     
     
-    <category term="个人项目" scheme="http://example.com/categories/%E4%B8%AA%E4%BA%BA%E9%A1%B9%E7%9B%AE/"/>
+    <category term="个人" scheme="http://example.com/categories/%E4%B8%AA%E4%BA%BA/"/>
+    
+    <category term="项目" scheme="http://example.com/categories/%E9%A1%B9%E7%9B%AE/"/>
     
     
     <category term="可视化" scheme="http://example.com/tags/%E5%8F%AF%E8%A7%86%E5%8C%96/"/>
@@ -134,7 +161,7 @@
     <link href="http://example.com/2022/05/11/%E5%85%B3%E4%BA%8E%E6%88%91/"/>
     <id>http://example.com/2022/05/11/%E5%85%B3%E4%BA%8E%E6%88%91/</id>
     <published>2022-05-11T13:50:48.000Z</published>
-    <updated>2022-06-25T06:05:43.155Z</updated>
+    <updated>2022-07-03T19:21:30.964Z</updated>
     
     <content type="html"><![CDATA[<div class='checkbox check'><input type="radio" />            <p>Hello!这是我</p>            </div><span id="more"></span><h1 id="AboutMe"><a href="#AboutMe" class="headerlink" title="AboutMe"></a>AboutMe</h1><blockquote><p>Hello大家好,我是小尼,很高兴大家来到我的空间踩一踩,目前我的博客还未正式搭建完全(评论区,暗黑模式),以及内容还未从我的笔记中搬运完全<br>我的博客挂载于GitHub,图片挂载于SMMS,因此每次打开恐怕会加载一段时间,还请谅解!</p></blockquote><div class="story post-story"><h2 id="关于我"><a href="#关于我" class="headerlink" title="关于我:"></a>关于我:</h2><h3 id="自我介绍"><a href="#自我介绍" class="headerlink" title="自我介绍:"></a>自我介绍:</h3><table><thead><tr><th align="center"></th><th align="center"></th></tr></thead><tbody><tr><td align="center">姓名</td><td align="center">傅锦涛(可以叫我小尼)</td></tr><tr><td align="center">出生年月</td><td align="center">2000-08</td></tr><tr><td align="center">年龄</td><td align="center">21</td></tr><tr><td align="center">现居</td><td align="center">成都</td></tr><tr><td align="center">家乡</td><td align="center">杭州</td></tr><tr><td align="center">GitHub</td><td align="center"><a href="https://github.com/GinterFu">GinterFu</a></td></tr><tr><td align="center">Kaggle</td><td align="center"><a href="https://www.kaggle.com/ginterfu">GinterFu</a></td></tr></tbody></table><blockquote><p>我是一名梦想成为互联网数据分析师的菜鸟,现在还在自学提升中…开启这个博客的原因是因为我想沉下心来沉淀一段时间,将我这段时间所学所思所想汇聚成属于我自己的一套体系</p></blockquote><hr><h3 id="技术清单"><a href="#技术清单" class="headerlink" title="技术清单:"></a>技术清单:</h3><ol><li>SQL<ul><li>以MySQL为主<ul><li>未来会继续学会SQLsever,hiveSQL (^o^)</li></ul></li></ul></li><li>Python<ul><li>暂时还是只菜狗(^o^),暂时以Pyecharts,matplotlib以及Seaborn可视化为主<ul><li>大概在一年后计划开始学习机器学习以及数据挖掘,当然,得等我花一年时间填补好我的数学与统计学空白(^o^)</li><li>希望一年或者两年后不会再菜了(ㄒoㄒ)</li></ul></li></ul></li><li>BI<ul><li>以PowerBI及其衍生组件和Tableau为主</li></ul></li><li>Excel</li><li>ETL<ul><li>计划学习中…目标2年内…</li></ul></li></ol><hr></div><div class="story post-story"><h2 id="关于我的博客"><a href="#关于我的博客" class="headerlink" title="关于我的博客:"></a>关于我的博客:</h2><h3 id="我的博客将会以以下部分组成"><a href="#我的博客将会以以下部分组成" class="headerlink" title="我的博客将会以以下部分组成:"></a>我的博客将会以以下部分组成:</h3><ol><li>生活<ul><li>我的快乐生活</li></ul></li><li>学习<ul><li>学习笔记</li><li>来自工作,生活,学习过程以及LeetCode,牛客中的难题</li></ul></li><li>总结<ul><li>自我学习的知识总结</li><li>摘录来自知乎,简书,36kr,人人都是产品经理等的文章或是流媒体视频的内容</li></ul></li><li>日记<ul><li>记录自己的成长wakuwaku(◇o◇)</li></ul></li></ol><hr><h3 id="我的博客基于volantis搭建"><a href="#我的博客基于volantis搭建" class="headerlink" title="我的博客基于volantis搭建"></a>我的博客基于volantis搭建</h3><ul><li>官方文档是这个<a href="https://volantis.js.org/">https://volantis.js.org/</a></li></ul><hr></div>]]></content>
     
@@ -145,7 +172,7 @@
     
     
     
-    <category term="AboutMe" scheme="http://example.com/categories/AboutMe/"/>
+    <category term="个人" scheme="http://example.com/categories/%E4%B8%AA%E4%BA%BA/"/>
     
     
     <category term="其他" scheme="http://example.com/tags/%E5%85%B6%E4%BB%96/"/>
