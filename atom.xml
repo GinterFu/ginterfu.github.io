@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-07-03T19:22:29.049Z</updated>
+  <updated>2022-07-10T20:20:59.803Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,60 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>RFM模型</title>
+    <link href="http://example.com/2022/07/11/RFM%E6%A8%A1%E5%9E%8B/"/>
+    <id>http://example.com/2022/07/11/RFM%E6%A8%A1%E5%9E%8B/</id>
+    <published>2022-07-10T19:54:20.000Z</published>
+    <updated>2022-07-10T20:20:59.803Z</updated>
+    
+    <content type="html"><![CDATA[<p>RFM模型的基础学习</p><span id="more"></span><hr><h1 id="RFM模型"><a href="#RFM模型" class="headerlink" title="RFM模型"></a>RFM模型</h1><div class="story post-story"><h2 id="什么是RFM模型？"><a href="#什么是RFM模型？" class="headerlink" title="什么是RFM模型？"></a>什么是RFM模型？</h2><p>RFM模型由三个单词组成：Recency、Frequency、Monetary<br>RFM模型被广泛运用于众多客户管理（CRM）的分析模式中，对于客户价值、客户创利能力的衡量有着重要作用<br>RFM模型的三大重要维度：用户交易行为、交易频次、交易金额</p></div><div class="story post-story"><h2 id="RFM模型的价值矩阵"><a href="#RFM模型的价值矩阵" class="headerlink" title="RFM模型的价值矩阵"></a>RFM模型的价值矩阵</h2><div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" href='https://s2.loli.net/2022/07/11/Lj3XVEWxiIvPt57.png' data-fancybox='default' data-caption='RFM模型的价值矩阵'><img fancybox itemprop="contentUrl" src="https://s2.loli.net/2022/07/11/Lj3XVEWxiIvPt57.png" class="lazyload" data-srcset="https://s2.loli.net/2022/07/11/Lj3XVEWxiIvPt57.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="RFM模型的价值矩阵"></a><span class='image-caption'>RFM模型的价值矩阵</span></div></div><blockquote><p>根据RFM模型可以对不同分组内的客户提供精细化的运营服务与营销策略</p></blockquote></div><div class="story post-story"><h2 id="RFM的应用场景"><a href="#RFM的应用场景" class="headerlink" title="RFM的应用场景"></a>RFM的应用场景</h2><details open><summary> RFM模型的应用场景 </summary>              <div class='content'>              <div class='checkbox check'><input type="radio" />            <p>RFM非常适用于生产或销售多种商品且单价不高的企业</p>            </div><details open green><summary> RFM模型的分析场景 </summary>              <div class='content'>              <div class='checkbox check'><input type="radio" />            <p>提高用户交易次数</p>            </div><div class='checkbox check'><input type="radio" />            <p>分析用户是否流失，但绝对金额有时会曲解用户行为</p>            </div>              </div>            </details>              </div>            </details></div>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;RFM模型的基础学习&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="学习" scheme="http://example.com/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="思维" scheme="http://example.com/tags/%E6%80%9D%E7%BB%B4/"/>
+    
+    <category term="总结" scheme="http://example.com/tags/%E6%80%BB%E7%BB%93/"/>
+    
+    <category term="数据分析模型" scheme="http://example.com/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E6%A8%A1%E5%9E%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>理解业务</title>
+    <link href="http://example.com/2022/07/11/%E7%90%86%E8%A7%A3%E4%B8%9A%E5%8A%A1/"/>
+    <id>http://example.com/2022/07/11/%E7%90%86%E8%A7%A3%E4%B8%9A%E5%8A%A1/</id>
+    <published>2022-07-10T19:23:55.000Z</published>
+    <updated>2022-07-10T20:22:25.335Z</updated>
+    
+    <content type="html"><![CDATA[<div class='checkbox'><input type="radio" />            <p>内容来自<a href="https://www.heywhale.com/home/activity/detail/62a30c47ac8fed66250b2828">和鲸社区-数据分析业务基础课程</a>,以及我在一年工作经验中的沉淀</p>            </div><span id="more"></span><hr><h1 id="理解业务"><a href="#理解业务" class="headerlink" title="理解业务"></a>理解业务</h1><blockquote><p>业务的本质是：把<span class='p red'>产品</span>以<span class='p red'>合理的方式</span>通过<span class='p red'>渠道</span>卖给<span class='p red'>客户</span>赚取<span class='p red'>利润</span><br>拆解上面这段话可以得出</p></blockquote><ul><li><div class='checkbox check'><input type="radio" />            <p>业务的核心是：利润</p>            </div></li><li><div class='checkbox check'><input type="radio" />            <p>业务的组成部分包括：产品、商业模式、平台、用户</p>            </div><div class="story post-story"><h2 id="了解业务的途径"><a href="#了解业务的途径" class="headerlink" title="了解业务的途径"></a>了解业务的途径</h2><details open><summary> 我该如何了解业务？ </summary>              <div class='content'>              <ol><li>业务部门日常、周常在做什么？</li><li>业务部门更关注什么数据？</li><li>业务模式中有哪些环节会产生数据？</li><li>哪些行为会大幅度影响核心指标？</li></ol>              </div>            </details></div><div class="story post-story"><h2 id="业务中的三大数据类型"><a href="#业务中的三大数据类型" class="headerlink" title="业务中的三大数据类型"></a>业务中的三大数据类型</h2><table><thead><tr><th align="center">数据的类型</th><th align="left">含义</th></tr></thead><tbody><tr><td align="center">用户数据</td><td align="left">谁？</td></tr><tr><td align="center">行为数据</td><td align="left">干了什么？</td></tr><tr><td align="center">业务数据</td><td align="left">结果如何？</td></tr></tbody></table><h3 id="这三大类型的常见指标"><a href="#这三大类型的常见指标" class="headerlink" title="这三大类型的常见指标"></a>这三大类型的常见指标</h3><div class="tabs" id="tab-tab-id"><ul class="nav-tabs"><li class="tab active"><a class="#tab-id-1">用户数据</a></li><li class="tab"><a class="#tab-id-2">行为数据</a></li><li class="tab"><a class="#tab-id-3">业务数据</a></li></ul><div class="tab-content"><div class="tab-pane active" id="tab-id-1"><ol><li>存量<ul><li>DAU、MAU</li></ul></li><li>增量<ul><li>新增用户</li></ul></li><li>用户健康度<ul><li>留存</li></ul></li><li>用户来源<ul><li>渠道来源</li></ul></li></ol></div><div class="tab-pane" id="tab-id-2"><ol><li>频次<ul><li>PV、UV、访问时长&#x2F;深度等</li></ul></li><li>用户路径走通时间<ul><li>转化时间</li></ul></li><li>用户持续时长<ul><li>各种时长</li></ul></li><li>用户质量<ul><li>弹出率</li></ul></li></ol></div><div class="tab-pane" id="tab-id-3"><ol><li>总量<ul><li>GMV</li></ul></li><li>人均<ul><li>ARPU、ARPPU</li></ul></li><li>人数<ul><li>付费人数、播放人数</li></ul></li><li>健康度<ul><li>付费率、付费频次</li></ul></li></ol></div></div></div></li></ul></div>]]></content>
+    
+    
+    <summary type="html">&lt;div class=&#39;checkbox&#39;&gt;&lt;input type=&quot;radio&quot; /&gt;
+            &lt;p&gt;内容来自&lt;a href=&quot;https://www.heywhale.com/home/activity/detail/62a30c47ac8fed66250b2828&quot;&gt;和鲸社区-数据分析业务基础课程&lt;/a&gt;,以及我在一年工作经验中的沉淀&lt;/p&gt;
+            &lt;/div&gt;</summary>
+    
+    
+    
+    <category term="学习" scheme="http://example.com/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="个人" scheme="http://example.com/categories/%E4%B8%AA%E4%BA%BA/"/>
+    
+    
+    <category term="思维" scheme="http://example.com/tags/%E6%80%9D%E7%BB%B4/"/>
+    
+    <category term="总结" scheme="http://example.com/tags/%E6%80%BB%E7%BB%93/"/>
+    
+    <category term="业务" scheme="http://example.com/tags/%E4%B8%9A%E5%8A%A1/"/>
+    
+  </entry>
   
   <entry>
     <title>学习路径规划</title>
@@ -123,9 +177,9 @@
     <category term="学习" scheme="http://example.com/categories/%E5%AD%A6%E4%B9%A0/"/>
     
     
-    <category term="总结" scheme="http://example.com/tags/%E6%80%BB%E7%BB%93/"/>
-    
     <category term="思维" scheme="http://example.com/tags/%E6%80%9D%E7%BB%B4/"/>
+    
+    <category term="总结" scheme="http://example.com/tags/%E6%80%BB%E7%BB%93/"/>
     
   </entry>
   
