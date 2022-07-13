@@ -1,549 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>关于我</title>
-    <url>/2022/05/11/%E5%85%B3%E4%BA%8E%E6%88%91/</url>
-    <content><![CDATA[<div class='checkbox check'><input type="radio" />
-            <p>Hello!这是我</p>
-            </div>
-
-<span id="more"></span>
-
-<h1 id="AboutMe"><a href="#AboutMe" class="headerlink" title="AboutMe"></a>AboutMe</h1><blockquote>
-<p>Hello大家好,我是小尼,很高兴大家来到我的空间踩一踩,目前我的博客还未正式搭建完全(评论区,暗黑模式),以及内容还未从我的笔记中搬运完全<br>我的博客挂载于GitHub,图片挂载于SMMS,因此每次打开恐怕会加载一段时间,还请谅解!</p>
-</blockquote>
-<div class="story post-story"><h2 id="关于我"><a href="#关于我" class="headerlink" title="关于我:"></a>关于我:</h2><h3 id="自我介绍"><a href="#自我介绍" class="headerlink" title="自我介绍:"></a>自我介绍:</h3><table>
-<thead>
-<tr>
-<th align="center"></th>
-<th align="center"></th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">姓名</td>
-<td align="center">傅锦涛(可以叫我小尼)</td>
-</tr>
-<tr>
-<td align="center">出生年月</td>
-<td align="center">2000-08</td>
-</tr>
-<tr>
-<td align="center">年龄</td>
-<td align="center">21</td>
-</tr>
-<tr>
-<td align="center">现居</td>
-<td align="center">成都</td>
-</tr>
-<tr>
-<td align="center">家乡</td>
-<td align="center">杭州</td>
-</tr>
-<tr>
-<td align="center">GitHub</td>
-<td align="center"><a href="https://github.com/GinterFu">GinterFu</a></td>
-</tr>
-<tr>
-<td align="center">Kaggle</td>
-<td align="center"><a href="https://www.kaggle.com/ginterfu">GinterFu</a></td>
-</tr>
-</tbody></table>
-<blockquote>
-<p>我是一名梦想成为互联网数据分析师的菜鸟,现在还在自学提升中…开启这个博客的原因是因为我想沉下心来沉淀一段时间,将我这段时间所学所思所想汇聚成属于我自己的一套体系</p>
-</blockquote>
-<hr>
-<h3 id="技术清单"><a href="#技术清单" class="headerlink" title="技术清单:"></a>技术清单:</h3><ol>
-<li>SQL<ul>
-<li>以MySQL为主<ul>
-<li>未来会继续学会SQLsever,hiveSQL (^o^)</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>Python<ul>
-<li>暂时还是只菜狗(^o^),暂时以Pyecharts,matplotlib以及Seaborn可视化为主<ul>
-<li>大概在一年后计划开始学习机器学习以及数据挖掘,当然,得等我花一年时间填补好我的数学与统计学空白(^o^)</li>
-<li>希望一年或者两年后不会再菜了(ㄒoㄒ)</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>BI<ul>
-<li>以PowerBI及其衍生组件和Tableau为主</li>
-</ul>
-</li>
-<li>Excel</li>
-<li>ETL<ul>
-<li>计划学习中…目标2年内…</li>
-</ul>
-</li>
-</ol>
-<hr>
-</div><div class="story post-story"><h2 id="关于我的博客"><a href="#关于我的博客" class="headerlink" title="关于我的博客:"></a>关于我的博客:</h2><h3 id="我的博客将会以以下部分组成"><a href="#我的博客将会以以下部分组成" class="headerlink" title="我的博客将会以以下部分组成:"></a>我的博客将会以以下部分组成:</h3><ol>
-<li>生活<ul>
-<li>我的快乐生活</li>
-</ul>
-</li>
-<li>学习<ul>
-<li>学习笔记</li>
-<li>来自工作,生活,学习过程以及LeetCode,牛客中的难题</li>
-</ul>
-</li>
-<li>总结<ul>
-<li>自我学习的知识总结</li>
-<li>摘录来自知乎,简书,36kr,人人都是产品经理等的文章或是流媒体视频的内容</li>
-</ul>
-</li>
-<li>日记<ul>
-<li>记录自己的成长wakuwaku(◇o◇)</li>
-</ul>
-</li>
-</ol>
-<hr>
-<h3 id="我的博客基于volantis搭建"><a href="#我的博客基于volantis搭建" class="headerlink" title="我的博客基于volantis搭建"></a>我的博客基于volantis搭建</h3><ul>
-<li>官方文档是这个<a href="https://volantis.js.org/">https://volantis.js.org/</a></li>
-</ul>
-<hr>
-
-</div>]]></content>
-      <categories>
-        <category>个人</category>
-      </categories>
-      <tags>
-        <tag>其他</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>RFM模型</title>
-    <url>/2022/07/11/RFM%E6%A8%A1%E5%9E%8B/</url>
-    <content><![CDATA[<p>RFM模型的基础学习</p>
-<span id="more"></span>
-
-<hr>
-<h1 id="RFM模型"><a href="#RFM模型" class="headerlink" title="RFM模型"></a>RFM模型</h1><div class="story post-story"><h2 id="什么是RFM模型？"><a href="#什么是RFM模型？" class="headerlink" title="什么是RFM模型？"></a>什么是RFM模型？</h2><p>RFM模型由三个单词组成：Recency、Frequency、Monetary<br>RFM模型被广泛运用于众多客户管理（CRM）的分析模式中，对于客户价值、客户创利能力的衡量有着重要作用<br>RFM模型的三大重要维度：用户交易行为、交易频次、交易金额</p>
-</div><div class="story post-story"><h2 id="RFM模型的价值矩阵"><a href="#RFM模型的价值矩阵" class="headerlink" title="RFM模型的价值矩阵"></a>RFM模型的价值矩阵</h2><div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" href='https://s2.loli.net/2022/07/11/Lj3XVEWxiIvPt57.png' data-fancybox='default' data-caption='RFM模型的价值矩阵'><img fancybox itemprop="contentUrl" src="https://s2.loli.net/2022/07/11/Lj3XVEWxiIvPt57.png" class="lazyload" data-srcset="https://s2.loli.net/2022/07/11/Lj3XVEWxiIvPt57.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="RFM模型的价值矩阵"></a><span class='image-caption'>RFM模型的价值矩阵</span></div></div>
-<blockquote>
-<p>根据RFM模型可以对不同分组内的客户提供精细化的运营服务与营销策略</p>
-</blockquote>
-</div><div class="story post-story"><h2 id="RFM的应用场景"><a href="#RFM的应用场景" class="headerlink" title="RFM的应用场景"></a>RFM的应用场景</h2><details open><summary> RFM模型的应用场景 </summary>
-              <div class='content'>
-              <div class='checkbox check'><input type="radio" />            <p>RFM非常适用于生产或销售多种商品且单价不高的企业</p>            </div><details open green><summary> RFM模型的分析场景 </summary>              <div class='content'>              <div class='checkbox check'><input type="radio" />            <p>提高用户交易次数</p>            </div><div class='checkbox check'><input type="radio" />            <p>分析用户是否流失，但绝对金额有时会曲解用户行为</p>            </div>              </div>            </details>
-              </div>
-            </details>
-</div>]]></content>
-      <categories>
-        <category>学习</category>
-      </categories>
-      <tags>
-        <tag>思维</tag>
-        <tag>总结</tag>
-        <tag>数据分析模型</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>理解业务</title>
-    <url>/2022/07/11/%E7%90%86%E8%A7%A3%E4%B8%9A%E5%8A%A1/</url>
-    <content><![CDATA[<div class='checkbox'><input type="radio" />
-            <p>内容来自<a href="https://www.heywhale.com/home/activity/detail/62a30c47ac8fed66250b2828">和鲸社区-数据分析业务基础课程</a>,以及我在一年工作经验中的沉淀</p>
-            </div>
-
-<span id="more"></span>
-
-<hr>
-<h1 id="理解业务"><a href="#理解业务" class="headerlink" title="理解业务"></a>理解业务</h1><blockquote>
-<p>业务的本质是：把<span class='p red'>产品</span>以<span class='p red'>合理的方式</span>通过<span class='p red'>渠道</span>卖给<span class='p red'>客户</span>赚取<span class='p red'>利润</span><br>拆解上面这段话可以得出</p>
-</blockquote>
-<ul>
-<li><div class='checkbox check'><input type="radio" />
-            <p>业务的核心是：利润</p>
-            </div></li>
-<li><div class='checkbox check'><input type="radio" />
-            <p>业务的组成部分包括：产品、商业模式、平台、用户</p>
-            </div>
-<div class="story post-story"><h2 id="了解业务的途径"><a href="#了解业务的途径" class="headerlink" title="了解业务的途径"></a>了解业务的途径</h2><details open><summary> 我该如何了解业务？ </summary>
-              <div class='content'>
-              <ol><li>业务部门日常、周常在做什么？</li><li>业务部门更关注什么数据？</li><li>业务模式中有哪些环节会产生数据？</li><li>哪些行为会大幅度影响核心指标？</li></ol>
-              </div>
-            </details>
-</div><div class="story post-story"><h2 id="业务中的三大数据类型"><a href="#业务中的三大数据类型" class="headerlink" title="业务中的三大数据类型"></a>业务中的三大数据类型</h2><table>
-<thead>
-<tr>
-<th align="center">数据的类型</th>
-<th align="left">含义</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">用户数据</td>
-<td align="left">谁？</td>
-</tr>
-<tr>
-<td align="center">行为数据</td>
-<td align="left">干了什么？</td>
-</tr>
-<tr>
-<td align="center">业务数据</td>
-<td align="left">结果如何？</td>
-</tr>
-</tbody></table>
-<h3 id="这三大类型的常见指标"><a href="#这三大类型的常见指标" class="headerlink" title="这三大类型的常见指标"></a>这三大类型的常见指标</h3><div class="tabs" id="tab-tab-id"><ul class="nav-tabs"><li class="tab active"><a class="#tab-id-1">用户数据</a></li><li class="tab"><a class="#tab-id-2">行为数据</a></li><li class="tab"><a class="#tab-id-3">业务数据</a></li></ul><div class="tab-content"><div class="tab-pane active" id="tab-id-1"><ol>
-<li>存量<ul>
-<li>DAU、MAU</li>
-</ul>
-</li>
-<li>增量<ul>
-<li>新增用户</li>
-</ul>
-</li>
-<li>用户健康度<ul>
-<li>留存</li>
-</ul>
-</li>
-<li>用户来源<ul>
-<li>渠道来源</li>
-</ul>
-</li>
-</ol></div><div class="tab-pane" id="tab-id-2"><ol>
-<li>频次<ul>
-<li>PV、UV、访问时长&#x2F;深度等</li>
-</ul>
-</li>
-<li>用户路径走通时间<ul>
-<li>转化时间</li>
-</ul>
-</li>
-<li>用户持续时长<ul>
-<li>各种时长</li>
-</ul>
-</li>
-<li>用户质量<ul>
-<li>弹出率</li>
-</ul>
-</li>
-</ol></div><div class="tab-pane" id="tab-id-3"><ol>
-<li>总量<ul>
-<li>GMV</li>
-</ul>
-</li>
-<li>人均<ul>
-<li>ARPU、ARPPU</li>
-</ul>
-</li>
-<li>人数<ul>
-<li>付费人数、播放人数</li>
-</ul>
-</li>
-<li>健康度<ul>
-<li>付费率、付费频次</li>
-</ul>
-</li>
-</ol></div></div></div></li>
-</ul>
-
-</div>]]></content>
-      <categories>
-        <category>学习</category>
-        <category>个人</category>
-      </categories>
-      <tags>
-        <tag>思维</tag>
-        <tag>总结</tag>
-        <tag>业务</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>学习路径规划</title>
-    <url>/2022/07/04/%E5%AD%A6%E4%B9%A0%E8%B7%AF%E5%BE%84%E8%A7%84%E5%88%92/</url>
-    <content><![CDATA[<div class='checkbox red'><input type="radio" />
-            <p>短期内的个人学习计划(多平台、多路径),动态更新</p>
-            </div>
-
-<span id="more"></span>
-<hr>
-<div class="timeline">
-<div class="timenode"><div class="meta"><p><p>2022-07</p>
-</p></div><div class="body"><p>1.读完《关键迭代：可信赖的线上对照实验》第一部分前五章方法论的篇章<br>2.依据此书与戴师兄的课程内容进行内容摘要与吸收<br>3.通过费曼学习法输出AB测试方法论<br>4.刷完Udemy平台- Tableau A-Z和PowerBI A-Z，补充可视化知识<br>5.读一遍《金字塔原理》</p></div></div>
-
-
-<div class="timenode"><div class="meta"><p><p>2022-08</p>
-</p></div><div class="body"><p>1.学习补充统计学知识<br>2.跟着《关键迭代：可信赖的线上对照实验》书，一同推导公式，并理解公式<br>3.完成和鲸社区-机器学习训练营闯关</p></div></div>
-
-<div class="timenode"><div class="meta"><p><p>2022-09</p>
-</p></div><div class="body"><p>1.熟练使用xlwings控制Excel<br>2.持续补充数学、统计学知识，必要时需刷题<br>3.刷完Udemy平台- Data Science A-Z，补充基础数据科学知识<br>4.读完O’Reilly的利用Python进行数据分析的所剩章节</p></div></div>
-
-<div class="timenode"><div class="meta"><p><p>2022-10</p>
-</p></div><div class="body"><p>1.刷完O’Reilly的Python机器学习手册<br>2.刷完Udemy平台- Machine Learning A-Z<br>3.至少要达到机器学习入门程度</p></div></div>
-</div>
-]]></content>
-      <categories>
-        <category>学习</category>
-        <category>个人</category>
-      </categories>
-      <tags>
-        <tag>学习路径</tag>
-        <tag>个人规划</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>关键迭代-沉淀总结</title>
-    <url>/2022/06/24/%E5%85%B3%E9%94%AE%E8%BF%AD%E4%BB%A3-%E6%B2%89%E6%B7%80%E6%80%BB%E7%BB%93/</url>
-    <content><![CDATA[<div class='checkbox checked'><input type="checkbox" checked="checked"/>
-            <p>摘自A&#x2F;B测试中的圣经–《关键迭代:可信赖的线上对照实验》</p>
-            </div>
-<div class='checkbox checked'><input type="checkbox" checked="checked"/>
-            <p>特威曼定律的怀疑论:任何看起来有趣或与众不同的数字通常是错误的</p>
-            </div>
-
-<span id="more"></span>
-
-<h1 id="《关键迭代：可信赖的线上对照实验》摘要总结"><a href="#《关键迭代：可信赖的线上对照实验》摘要总结" class="headerlink" title="《关键迭代：可信赖的线上对照实验》摘要总结"></a>《关键迭代：可信赖的线上对照实验》摘要总结</h1><div class="story post-story"><h2 id="第一部分-线上对照实验概览-即AB测试方法论"><a href="#第一部分-线上对照实验概览-即AB测试方法论" class="headerlink" title="第一部分:线上对照实验概览,即AB测试方法论"></a>第一部分:线上对照实验概览,即AB测试方法论</h2><h3 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h3><h4 id="线上实验的关键术语"><a href="#线上实验的关键术语" class="headerlink" title="线上实验的关键术语"></a>线上实验的关键术语</h4><table>
-<thead>
-<tr>
-<th align="center">术语</th>
-<th align="center">含义</th>
-<th align="center">解读</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">综合评估标准</td>
-<td align="center">Overall Evaluation Criterion,即OEC,实验目标的定量测量</td>
-<td align="center">人均活跃天数(即可测量可观察的指标)</td>
-</tr>
-<tr>
-<td align="center">参数</td>
-<td align="center">对照实验中被认为会影响OEC或其他指标的变量,亦称为变量或因素,参数的赋值也称为因子水平</td>
-<td align="center">比如字体颜色和字体大小(即AB测试中影响实验组的功能)</td>
-</tr>
-<tr>
-<td align="center">变体</td>
-<td align="center">被测试的用户体验,一般通过给参数赋值实现</td>
-<td align="center">在最简单的AB测试中,A与B就是两个变体,通常被称为实验组和对照组,有时变体仅指代实验组</td>
-</tr>
-<tr>
-<td align="center">随机化单元</td>
-<td align="center">以伪随机化(如哈希)过程将单元(如用户或页面)至不同变体</td>
-<td align="center">即随机分配用户进入实验</td>
-</tr>
-</tbody></table>
-<h4 id="线上对照实验的特性"><a href="#线上对照实验的特性" class="headerlink" title="线上对照实验的特性"></a>线上对照实验的特性</h4><details open><summary> 线上对照实验有以下特性 </summary>
-              <div class='content'>
-              <p>    <div class='checkbox checked'><input type="checkbox" checked="checked"/></p><p>它是以高概率确立因果关系的最佳科学方法</p></div>    <div class='checkbox checked'><input type="checkbox" checked="checked"/><p>能够检测其他技术难以检测到的微小变动,比如随着时间变化(灵敏度)</p></div>    <div class='checkbox checked'><input type="checkbox" checked="checked"/><p>能够检测意想不到的变动,虽然常被低估,但很多实验发觉了一些对其他指标出乎意料的影响,比如性能的降低,系统崩溃和出错的增加或是对其他模块的点击的吞噬</p></div>
-              </div>
-            </details>
-<h4 id="战略、战术及他们和实验的关系"><a href="#战略、战术及他们和实验的关系" class="headerlink" title="战略、战术及他们和实验的关系"></a>战略、战术及他们和实验的关系</h4><h5 id="情景1-你已有业务战略并且产品有足够的用户用于实验"><a href="#情景1-你已有业务战略并且产品有足够的用户用于实验" class="headerlink" title="情景1.你已有业务战略并且产品有足够的用户用于实验"></a>情景1.你已有业务战略并且产品有足够的用户用于实验</h5><details open><summary> 对于这种情景,AB测试可以帮助你重现用的战略和产品触发,爬升至局部最优点 </summary>
-              <div class='content'>
-              <p>实验能找到高ROI区域:</p><ul><li>那些相对于成本提升OEC最多的领域,在投入大量资源之前,在不同的领域测试MVP(Mininum Viable Product,最小可行产品)  <details ><summary> MVP(最小可行产品)的概念 </summary>        <div class='content'>        <div class='checkbox checked'><input type="checkbox" checked="checked"/><p>MVP的概念是Eric Ries 《精益创业》里提出的概念。简单地说，就是指开发团队通过提供最小化可行产品获取用户反馈，并在这个最小化可行产品上持续快速迭代，直到产品到达一个相对稳定的阶段。MVP对于创业团队来说是很重要的，可以快速验证团队的目标，快速试错。</p></div>        </div>      </details></li></ul>
-              </div>
-            </details>
-<h5 id="情境2-你有产品和战略-但你需要调整"><a href="#情境2-你有产品和战略-但你需要调整" class="headerlink" title="情境2.你有产品和战略,但你需要调整"></a>情境2.你有产品和战略,但你需要调整</h5><details open><summary> 测试大胆的想法时,运行和评估实验的方式也有变化,具体来说,我们需要考虑以下几点: </summary>
-              <div class='content'>
-              <p>实验的运行时长:<br>    - 例如,在测试重大UI设计时,短期内测量到的实验数据变化可能被初始效应或改版厌恶所影响,实验组和对照组直接比较可能无法测量真实的实验时长,更长时间或更大规模的实验,或者别样的实验设计(比如谷歌广告质量的案例是以国家为单位设计的),在这样的情境中是必需的<br>被测试的创意的数量:<br>    - 你也许需要很多不同的实验,因为每个实验只测试一个具体的战术,该战术是总体战略的一个组成部分,个别实验没能成功改进OEC可能是因为这个特定战术的失败,不代表总体战略有问题<br>        - 说人话就是:仅单一实验可能面临实验维度颗粒度不够细,无法下钻维度确定问题所在点,因此需要多个颗粒更细的实验组合成一个总体的实验</p>
-              </div>
-            </details>
-<h4 id="补充阅读"><a href="#补充阅读" class="headerlink" title="补充阅读"></a>补充阅读</h4><h5 id="多臂老虎机实验"><a href="#多臂老虎机实验" class="headerlink" title="多臂老虎机实验"></a>多臂老虎机实验</h5><p>多臂老虎机是一种随实验进程动态分配流量的实验,比如我们可以每小时查看一次实验进程,观察每个变体的表现,并调整各变体的流量比例,增加表现好的变体的流量,减少表现差的变体的流量</p>
-<details open><summary> 基于多臂老虎机的实验往往比经典的AB测试更有效率,因为它们将流量逐步分配至表现更好的变体,而不用等到实验结束 </summary>
-              <div class='content'>
-              <div class="note warning"><p>但同样也有重要限制条件:评估目标需要是单一的OEC,并且这个OEC在流量重新分配时能够很好的被测量,比如点击率之于会话</p></div><div class="note bug red"><p>此外,原本处于’差’变体中的用户按比例不同分配至其他表现较好的多个变体可能会造成潜在的偏差</p></div>
-              </div>
-            </details>
-<h6 id="好文欣赏"><a href="#好文欣赏" class="headerlink" title="好文欣赏"></a>好文欣赏</h6><p><a href="https://blog.csdn.net/u011984148/article/details/106678502/">多臂老虎机python工程化</a><br><a href="https://zhuanlan.zhihu.com/p/464108814">多臂老虎机</a></p>
-<hr>
-<h3 id="第二章"><a href="#第二章" class="headerlink" title="第二章"></a>第二章</h3><hr>
-
-</div>]]></content>
-      <categories>
-        <category>学习</category>
-      </categories>
-      <tags>
-        <tag>总结</tag>
-        <tag>读书</tag>
-        <tag>A/B测试</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>本地生活门店经营分析简报</title>
-    <url>/2022/06/01/%E6%9C%AC%E5%9C%B0%E7%94%9F%E6%B4%BB%E9%97%A8%E5%BA%97%E7%BB%8F%E8%90%A5%E5%88%86%E6%9E%90%E7%AE%80%E6%8A%A5/</url>
-    <content><![CDATA[<div class='checkbox check'><input type="radio" />
-            <p>基于脱敏数据制作的经分简报,首次打开本页面会有加载时间</p>
-            </div>
-
-<span id="more"></span>
-
-<h1 id=""><a href="#" class="headerlink" title=""></a><span class='p yellow'>本地生活门店经营分析简报</span></h1><p>博客挂载于GitHub,图片挂载于SMMS,首次打开时可能会需要加载图片,还请静候1分钟</p>
-<div class="story post-story"><h2 id="营收分析"><a href="#营收分析" class="headerlink" title="营收分析"></a>营收分析</h2><h3 id="-1"><a href="#-1" class="headerlink" title=""></a><span class='p yellow'>1.各门店累计GMV286万，累计实收103万，实收占比仅36%</span></h3><ul>
-<li><em>19 年10月至20年 9月期间，公司旗下共经营过 2 个品牌、10家门店，实际经营天数为345天，累计订单数为 5 万1千笔，单均实收0元，较为正常</em></li>
-<li><em>但是，各门店日均实收仅为299元，基本无法支持门店的正常经营，急需改善！！</em><br><img src="https://s2.loli.net/2022/06/01/lK5m9YgT3cEH6Ds.png" class="lazyload" data-srcset="https://s2.loli.net/2022/06/01/lK5m9YgT3cEH6Ds.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="1.png"></li>
-</ul>
-<hr>
-<h3 id="-2"><a href="#-2" class="headerlink" title=""></a><span class='p yellow'>2.前四名GMV占比86%，后6名占比仅有14%，门店实力分布严重不足</span></h3><ul>
-<li><em>前四名占比分别为蛙小辣-宝山店（26%）、拌客-武宁路店（25%）、蛙小辣-五角场店（22%）、蛙小辣-虹口足球场店（13%）</em></li>
-<li><em>而最后三名分别为蛙小辣-大宁店、蛙小辣-龙阳路店、蛙小辣交大店，它们的累积占比仅2%</em><br><img src="https://s2.loli.net/2022/06/01/9Qe8KnOoiE4CAcR.png" class="lazyload" data-srcset="https://s2.loli.net/2022/06/01/9Qe8KnOoiE4CAcR.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="2.png"></li>
-</ul>
-<hr>
-<h3 id="-3"><a href="#-3" class="headerlink" title=""></a><span class='p yellow'>3.整体营收受 20 年疫情影响较大，疫情结束后也未恢复</span></h3><ul>
-<li><em>公司实收在19年12月走高后，由20年1月开始持续下滑，直到20年5月拌客开业后才重新开始增长</em></li>
-<li><em>同时，蛙小辣旗下9家门店仅有3家在20年后继续营业，其中仅有宝山店坚持到了最后</em></li>
-<li><em>公司在新门店的扩张和维持上存在巨大问题！</em><br><img src="https://s2.loli.net/2022/06/01/Lu54NT3SFhyA9JH.png" class="lazyload" data-srcset="https://s2.loli.net/2022/06/01/Lu54NT3SFhyA9JH.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="3.png"></li>
-</ul>
-<hr>
-<h3 id="-4"><a href="#-4" class="headerlink" title=""></a><span class='p yellow'>4.拌客-武宁路店后来居上，实收占比在后期持续第一</span></h3><ul>
-<li><em>从20年5月拌客门店开业后，营收占比持续4个月第一，并在9月基本与蛙小辣持平，7月营收7万元，为门店历史最高</em><img src="https://s2.loli.net/2022/06/01/kH5TSjgfzC1bwnu.png" class="lazyload" data-srcset="https://s2.loli.net/2022/06/01/kH5TSjgfzC1bwnu.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="4.png"></li>
-</ul>
-<hr>
-<ul>
-<li><em>蛙小辣-宝山店自19年11月起持续营业，一直稳居前三，19年12月营收5万5千员，为门店历史最高</em><img src="https://s2.loli.net/2022/06/01/gvpG5S3ZEO9PknW.png" class="lazyload" data-srcset="https://s2.loli.net/2022/06/01/gvpG5S3ZEO9PknW.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="5.png"></li>
-</ul>
-<hr>
-<ul>
-<li><em>原本占比最高的蛙小辣-五角场店在20年2月歇业，3月重新营业后最终在5月闭店，19年12月营收为8万1千元，为门店历史最高</em><img src="https://s2.loli.net/2022/06/01/tIqUZTE3yPYbvpB.png" class="lazyload" data-srcset="https://s2.loli.net/2022/06/01/tIqUZTE3yPYbvpB.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="6.png"></li>
-</ul>
-<hr>
-<ul>
-<li><em>营收占比总览</em><img src="https://s2.loli.net/2022/06/01/5sXTwroGxC8a9cK.png" class="lazyload" data-srcset="https://s2.loli.net/2022/06/01/5sXTwroGxC8a9cK.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="7.png"></li>
-</ul>
-<hr>
-</div><div class="story post-story"><h2 id="成本分析"><a href="#成本分析" class="headerlink" title="成本分析"></a>成本分析</h2><h3 id="-5"><a href="#-5" class="headerlink" title=""></a><span class='p yellow'>1.商家补贴常年高于实收，补贴占比高达52.4%！cpc投放费用不高，疫情期间以及20年8月后基本没有进行投放</span></h3><h2 id="-6"><a href="#-6" class="headerlink" title=""></a><img src="https://s2.loli.net/2022/06/01/G8RZOPuy9thLdjc.png" class="lazyload" data-srcset="https://s2.loli.net/2022/06/01/G8RZOPuy9thLdjc.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="8.png"></h2><h2 id="流量分析"><a href="#流量分析" class="headerlink" title="流量分析"></a>流量分析</h2><h3 id="-7"><a href="#-7" class="headerlink" title=""></a><span class='p yellow'>1.虽然自然流量占比上升，但整体流量下降，纯自然流量打法的探索仍需谨慎</span></h3><ul>
-<li><em>19年11月至20年1月的业务前期，自然流量占比不高，曝光占比57.3%，进店占比66.3%，但曝光整体呈现上升趋势</em><br><img src="https://s2.loli.net/2022/06/01/rMxqPupAlyFfnRm.png" class="lazyload" data-srcset="https://s2.loli.net/2022/06/01/rMxqPupAlyFfnRm.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="9.png"></li>
-</ul>
-<hr>
-<ul>
-<li><em>20年8月10日后，自然流量占比一直很高，曝光占比为83.8%，进店占比为84.4%，但整体曝光有所上涨后一直呈现下跌趋势</em><br><img src="https://s2.loli.net/2022/06/01/HSEv9kqYX5eKILj.png" class="lazyload" data-srcset="https://s2.loli.net/2022/06/01/HSEv9kqYX5eKILj.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="10.png"></li>
-</ul>
-<hr>
-<ul>
-<li><em>下单&#x2F;进店转化率疫情后持续上升，但近期有所下降，需要注意，进店&#x2F;曝光转化率自开始营业后便呈现缓慢下降趋势，疫情后稳定在7%左右</em><br><img src="https://s2.loli.net/2022/06/01/ec2CfWySkqjZLFx.png" class="lazyload" data-srcset="https://s2.loli.net/2022/06/01/ec2CfWySkqjZLFx.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="11.png"></li>
-</ul>
-<hr>
-</div><div class="story post-story"><h2 id="策略总结"><a href="#策略总结" class="headerlink" title="策略总结"></a>策略总结</h2><blockquote>
-<p> <em>优化补贴策略，降低补贴占比，将更多的补贴预算转化为进账的实收金额</em><br> <em>参考疫情前的业务策略，稳定下单进店转化率，保证流量的正常转化</em><br> <em>重新提高付费流量占比，优化投放策略，带动整体流量增长</em></p>
-</blockquote>
-<hr>
-
-</div>]]></content>
-      <categories>
-        <category>个人</category>
-        <category>项目</category>
-      </categories>
-      <tags>
-        <tag>可视化</tag>
-        <tag>数据分析</tag>
-        <tag>经营分析</tag>
-        <tag>简报</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>数据敏感性</title>
-    <url>/2022/05/21/%E6%95%B0%E6%8D%AE%E6%95%8F%E6%84%9F%E6%80%A7/</url>
-    <content><![CDATA[<div class='checkbox check'><input type="radio" />
-            <p><a href="https://www.bilibili.com/video/BV1764y1u7e5?from=search&amp;seid=14404083033402825435&amp;spm_id_from=333.337.0.0">本段节选自 b 站 up 主大欧姐姐的视频</a>,所提出的观点对于初入数据行业的我来说非常新颖,故摘记了下来</p>
-            </div>
-
-<span id="more"></span>
-
-<h1 id="数据敏感性"><a href="#数据敏感性" class="headerlink" title="数据敏感性"></a>数据敏感性</h1><hr>
-<p><a href="https://www.bilibili.com/video/BV1764y1u7e5?from=search&amp;seid=14404083033402825435&amp;spm_id_from=333.337.0.0">本段节选自 b 站 up 主大欧姐姐的视频</a></p>
-<ul>
-<li>数据思维不是技能，而是大脑底层的用^^数据事实表达个人观点^^的思维能力<ul>
-<li>事实<ul>
-<li>今天气温 32摄氏度（三月）</li>
-</ul>
-</li>
-<li>观点<ul>
-<li>今天天气很热</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>数据分析能力就是迅速在大脑底层^^建立事实对应观点的映射^^<ul>
-<li><strong>事实</strong>{g}是今天气温** 32 摄氏度**{b}</li>
-<li>导致了我的<strong>观点</strong>{g}是<strong>今天天气很热</strong>{b}</li>
-</ul>
-<ul>
-<li><strong>映射关系</strong>{g}的建立<ul>
-<li>是我所在的城市平均气温 22摄氏度，今天 32 摄氏度比平均气温高出 10 摄氏度</li>
-<li>生理零度是对人而言最舒适的温度，一般人的生理零度是 28-29摄氏度，32摄氏度远远高于这个数值</li>
-</ul>
-</li>
-</ul>
-<ul>
-<li>因此我的观点是今天天气很热</li>
-</ul>
-</li>
-</ul>
-<p>数据分析能力就是通过反复训练对事实（^^数据事实^^）和观点（^^业务观点^^）能做出迅速映射的能力</p>
-<ul>
-<li>如何培养数据事实的敏感性<ul>
-<li>为何会感觉今天很热？<ul>
-<li>因为 32摄氏度在三月份显得反常</li>
-<li>我们经历了无数个三月份，大脑早已潜移默化被输入了三月份的气温从月初到月末由十几度增长到二十几度，能看到三月份气温的增长趋势</li>
-<li>于是我们能迅速发现今天的气温绝对是异常值</li>
-</ul>
-</li>
-</ul>
-<ul>
-<li>业务指标也是一样，每天去背数据，业务数据、用户数据、转化率、流失率等等等等数据，久而久之，数据被输入到大脑，也就能迅速发现异常值，迅速发现数据之间的关联，提高了自己的数据敏感性</li>
-</ul>
-</li>
-<li>数据分析的第一个要训练的是<ul>
-<li>只说事实不说观点<ul>
-<li>观点<ul>
-<li>好热<ul>
-<li>也许你觉得热而我并不觉得热呢？</li>
-</ul>
-</li>
-<li>今天气温上升了<ul>
-<li>这句话已经看起来非常像事实了，但实际上还是观点</li>
-<li>气温到底相对哪天上升了？</li>
-<li>气温升高了多少？</li>
-<li>上升到异常值还是 3 月 21 号太阳直射回到北半球之后的正常气温回升呢？</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>事实<ul>
-<li>本市近三天气温连续上升，分别升高了 2 摄氏度、3摄氏度和 1摄氏度</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>事实的沟通每个人都能理解，不会出现歧义，观点的沟通会出现误差而事实则不会，如果我们使用观点进行沟通，自然会出现大量的误解<ul>
-<li>设定标准：可以通用的客观标准<ul>
-<li>历史平均值</li>
-<li>行业平均值</li>
-</ul>
-</li>
-</ul>
-<ul>
-<li>用事实数据跟客观标准做对比了解当前所在的位置才能得出有说服力的观点</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<ul>
-<li>数据分析是手段，解决问题才是目的</li>
-</ul>
-<ul>
-<li>有了数据敏感度之后，能在日常工作中一眼看出问题，但是找到问题还不够，需要知道如何找到问题的源头<ul>
-<li>问题的源头<ul>
-<li>可能是全球变暖导致的气温异常？</li>
-<li>可能是受到副热带高压的影响造成的增暖增湿</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<p>数据分析的最终目的除了找出问题，还要找出解决问题的方案，去尝试这个方案是否有用，或者对比其他人的解决方案来对比分析优缺点，业务方的需求直接影响到解决问题的覆盖范围<br>    + 如果今天气温达到 32摄氏度，这个问题的需求方是联合国<br>        * 那么这个问题的解决方案就是环保议题了<br>    + 如果今天气温达到 32摄氏度，这个问题的需求方是女朋友<br>        * 那么这个问题的解决方案就是打开空调，出门跑腿买吃的</p>
-
-]]></content>
-      <categories>
-        <category>学习</category>
-      </categories>
-      <tags>
-        <tag>思维</tag>
-        <tag>总结</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Matplotlib及Seaborn快速入门学习笔记</title>
     <url>/2022/05/12/Matplotlib%E5%AD%A6%E4%B9%A0/</url>
     <content><![CDATA[<p>从0开始学习Matplotlib与Seaborn</p>
@@ -995,31 +452,30 @@ axs[1][0].plot(...)
       </tags>
   </entry>
   <entry>
-    <title>测试</title>
-    <url>/2022/05/11/%E6%B5%8B%E8%AF%95/</url>
-    <content><![CDATA[<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><p>代码测试：</p>
-<pre><code class="py">print(&quot;Hello&quot;)
-</code></pre>
-<p>图片测试：</p>
-<p><img src="http://mculover666.cn/blog/20191031/R4mWMXsrRKxu.png?imageslim" class="lazyload" data-srcset="http://mculover666.cn/blog/20191031/R4mWMXsrRKxu.png?imageslim" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></p>
-<p>引用测试：</p>
-<blockquote>
-<p>这是一条引用</p>
-</blockquote>
-<div class="story post-story"><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><p>无序列表测试：</p>
-<ul>
-<li>哈哈</li>
-<li>嘿嘿</li>
-<li>吼吼</li>
-</ul>
-<h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><hr>
+    <title>RFM模型</title>
+    <url>/2022/07/11/RFM%E6%A8%A1%E5%9E%8B/</url>
+    <content><![CDATA[<p>RFM模型的基础学习</p>
+<span id="more"></span>
 
+<hr>
+<h1 id="RFM模型"><a href="#RFM模型" class="headerlink" title="RFM模型"></a>RFM模型</h1><div class="story post-story"><h2 id="什么是RFM模型？"><a href="#什么是RFM模型？" class="headerlink" title="什么是RFM模型？"></a>什么是RFM模型？</h2><p>RFM模型由三个单词组成：Recency、Frequency、Monetary<br>RFM模型被广泛运用于众多客户管理（CRM）的分析模式中，对于客户价值、客户创利能力的衡量有着重要作用<br>RFM模型的三大重要维度：用户交易行为、交易频次、交易金额</p>
+</div><div class="story post-story"><h2 id="RFM模型的价值矩阵"><a href="#RFM模型的价值矩阵" class="headerlink" title="RFM模型的价值矩阵"></a>RFM模型的价值矩阵</h2><div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" href='https://s2.loli.net/2022/07/11/Lj3XVEWxiIvPt57.png' data-fancybox='default' data-caption='RFM模型的价值矩阵'><img fancybox itemprop="contentUrl" src="https://s2.loli.net/2022/07/11/Lj3XVEWxiIvPt57.png" class="lazyload" data-srcset="https://s2.loli.net/2022/07/11/Lj3XVEWxiIvPt57.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="RFM模型的价值矩阵"></a><span class='image-caption'>RFM模型的价值矩阵</span></div></div>
+<blockquote>
+<p>根据RFM模型可以对不同分组内的客户提供精细化的运营服务与营销策略</p>
+</blockquote>
+</div><div class="story post-story"><h2 id="RFM的应用场景"><a href="#RFM的应用场景" class="headerlink" title="RFM的应用场景"></a>RFM的应用场景</h2><details open><summary> RFM模型的应用场景 </summary>
+              <div class='content'>
+              <div class='checkbox check'><input type="radio" />            <p>RFM非常适用于生产或销售多种商品且单价不高的企业</p>            </div><details open green><summary> RFM模型的分析场景 </summary>              <div class='content'>              <div class='checkbox check'><input type="radio" />            <p>提高用户交易次数</p>            </div><div class='checkbox check'><input type="radio" />            <p>分析用户是否流失，但绝对金额有时会曲解用户行为</p>            </div>              </div>            </details>
+              </div>
+            </details>
 </div>]]></content>
       <categories>
-        <category>测试</category>
+        <category>学习</category>
       </categories>
       <tags>
-        <tag>测试</tag>
+        <tag>数据分析</tag>
+        <tag>方法论</tag>
+        <tag>分析模型</tag>
       </tags>
   </entry>
   <entry>
@@ -1040,6 +496,293 @@ axs[1][0].plot(...)
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 
 </div>]]></content>
+  </entry>
+  <entry>
+    <title>关于我</title>
+    <url>/2022/05/11/%E5%85%B3%E4%BA%8E%E6%88%91/</url>
+    <content><![CDATA[<div class='checkbox check'><input type="radio" />
+            <p>Hello!这是我</p>
+            </div>
+
+<span id="more"></span>
+
+<h1 id="AboutMe"><a href="#AboutMe" class="headerlink" title="AboutMe"></a>AboutMe</h1><blockquote>
+<p>Hello大家好,我是小尼,很高兴大家来到我的空间踩一踩,目前我的博客还未正式搭建完全(评论区,暗黑模式),以及内容还未从我的笔记中搬运完全<br>我的博客挂载于GitHub,图片挂载于SMMS,因此每次打开恐怕会加载一段时间,还请谅解!</p>
+</blockquote>
+<div class="story post-story"><h2 id="关于我"><a href="#关于我" class="headerlink" title="关于我:"></a>关于我:</h2><h3 id="自我介绍"><a href="#自我介绍" class="headerlink" title="自我介绍:"></a>自我介绍:</h3><table>
+<thead>
+<tr>
+<th align="center"></th>
+<th align="center"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">姓名</td>
+<td align="center">傅锦涛(可以叫我小尼)</td>
+</tr>
+<tr>
+<td align="center">出生年月</td>
+<td align="center">2000-08</td>
+</tr>
+<tr>
+<td align="center">年龄</td>
+<td align="center">21</td>
+</tr>
+<tr>
+<td align="center">现居</td>
+<td align="center">成都</td>
+</tr>
+<tr>
+<td align="center">家乡</td>
+<td align="center">杭州</td>
+</tr>
+<tr>
+<td align="center">GitHub</td>
+<td align="center"><a href="https://github.com/GinterFu">GinterFu</a></td>
+</tr>
+<tr>
+<td align="center">Kaggle</td>
+<td align="center"><a href="https://www.kaggle.com/ginterfu">GinterFu</a></td>
+</tr>
+</tbody></table>
+<blockquote>
+<p>我是一名毕业就转行，梦想成为互联网数据分析师的菜鸟，现在还在自学提升中…开启这个博客的原因是因为我想沉下心来沉淀一段时间，将我这段时间所学所思所想汇聚成属于我自己的一套体系</p>
+</blockquote>
+<hr>
+<h3 id="技术清单"><a href="#技术清单" class="headerlink" title="技术清单:"></a>技术清单:</h3><div class="tabs" id="tab-tab-id"><ul class="nav-tabs"><li class="tab active"><a class="#tab-id-1">SQL</a></li><li class="tab"><a class="#tab-id-2">Python</a></li><li class="tab"><a class="#tab-id-3">BI</a></li><li class="tab"><a class="#tab-id-4">Excel</a></li><li class="tab"><a class="#tab-id-5">ETL</a></li><li class="tab"><a class="#tab-id-6">运营业务知识</a></li></ul><div class="tab-content"><div class="tab-pane active" id="tab-id-1"><p>我的技术栈以Mysql为主</p>
+<div class="note message grey"><p>未来将会继续学习Mysql大量级优化，以及其他标准SQL语言技能</p></div></div><div class="tab-pane" id="tab-id-2"><div class="note up"><p>暂时以Pyecharts、seaborn以及matplotlib可视化为主</p></div>
+<div class="note up"><p>也将会po些pandas、numpy等库操作的个人理解</p></div>
+<div class="note todo"><p>计划搬些用户画像工程化的东西上来</p></div>
+<div class="note todo"><p>计划学习数据挖掘以及机器学习等数据科学相关的技能中…拿到Kaggle银牌就算胜利！！</p></div></div><div class="tab-pane" id="tab-id-3"><div class="note up"><p>以Tableau desktop及Prep，PowerBI及PQ为主</p></div></div><div class="tab-pane" id="tab-id-4"><div class="note todo red"><p>可能会学些VBA与数组公式，也可能不会，我现有的Excel能力完全满足工作，甚至溢出</p></div></div><div class="tab-pane" id="tab-id-5"><div class="note todo"><p>计划学习中…</p></div></div><div class="tab-pane" id="tab-id-6"><div class="note warning yellow"><p>由于我的工作中基本触碰不到业务，所以大部分都是来自于书本中的知识</p></div></div></div></div>
+<hr>
+</div><div class="story post-story"><h2 id="关于我的博客"><a href="#关于我的博客" class="headerlink" title="关于我的博客:"></a>关于我的博客:</h2><h3 id="我的博客将会以以下部分组成"><a href="#我的博客将会以以下部分组成" class="headerlink" title="我的博客将会以以下部分组成:"></a>我的博客将会以以下部分组成:</h3><ol>
+<li>生活<ul>
+<li>我的快乐生活</li>
+</ul>
+</li>
+<li>学习<ul>
+<li>学习笔记</li>
+<li>来自工作,生活,学习过程以及LeetCode,牛客中的难题</li>
+</ul>
+</li>
+<li>总结<ul>
+<li>自我学习的知识总结</li>
+<li>摘录来自知乎,简书,36kr,人人都是产品经理等的文章或是流媒体视频的内容</li>
+</ul>
+</li>
+<li>日记<ul>
+<li>记录自己的成长wakuwaku(◇o◇)</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h3 id="我的博客基于volantis搭建"><a href="#我的博客基于volantis搭建" class="headerlink" title="我的博客基于volantis搭建"></a>我的博客基于volantis搭建</h3><div class="tag link"><a class="link-card" title="volantics官方文档" href="https://volantis.js.org/"><div class="left"><img src="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/Logo-Cover@3x.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/Logo-Cover@3x.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/></div><div class="right"><p class="text">volantics官方文档</p><p class="url">https://volantis.js.org/</p></div></a></div>
+
+<h3 id="本站源码"><a href="#本站源码" class="headerlink" title="本站源码"></a>本站源码</h3><a class="ghcard" rel="external nofollow noopener noreferrer" href="https://github.com/GinterFu/ginterfu.github.io"><img src="https://github-readme-stats.vercel.app/api/pin/?username=GinterFu&repo=ginterfu.github.io&show_owner=true" class="lazyload" data-srcset="https://github-readme-stats.vercel.app/api/pin/?username=GinterFu&repo=ginterfu.github.io&show_owner=true" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/></a>
+<hr>
+
+</div>]]></content>
+      <categories>
+        <category>个人</category>
+      </categories>
+      <tags>
+        <tag>其他</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>学习路径规划</title>
+    <url>/2022/07/04/%E5%AD%A6%E4%B9%A0%E8%B7%AF%E5%BE%84%E8%A7%84%E5%88%92/</url>
+    <content><![CDATA[<div class='checkbox red'><input type="radio" />
+            <p>短期内的个人学习计划(多平台、多路径),动态更新</p>
+            </div>
+
+<span id="more"></span>
+<hr>
+<div class="timeline">
+<div class="timenode"><div class="meta"><p><p>2022-07</p>
+</p></div><div class="body"><p>1.读完《关键迭代：可信赖的线上对照实验》第一部分前五章方法论的篇章<br>2.依据此书与戴师兄的课程内容进行内容摘要与吸收<br>3.通过费曼学习法输出AB测试方法论<br>4.刷完Udemy平台- Tableau A-Z和PowerBI A-Z，补充可视化知识<br>5.读一遍《金字塔原理》</p></div></div>
+
+
+<div class="timenode"><div class="meta"><p><p>2022-08</p>
+</p></div><div class="body"><p>1.学习补充统计学知识<br>2.跟着《关键迭代：可信赖的线上对照实验》书，一同推导公式，并理解公式<br>3.完成和鲸社区-机器学习训练营闯关</p></div></div>
+
+<div class="timenode"><div class="meta"><p><p>2022-09</p>
+</p></div><div class="body"><p>1.熟练使用xlwings控制Excel<br>2.持续补充数学、统计学知识，必要时需刷题<br>3.刷完Udemy平台- Data Science A-Z，补充基础数据科学知识<br>4.读完O’Reilly的利用Python进行数据分析的所剩章节</p></div></div>
+
+<div class="timenode"><div class="meta"><p><p>2022-10</p>
+</p></div><div class="body"><p>1.刷完O’Reilly的Python机器学习手册<br>2.刷完Udemy平台- Machine Learning A-Z<br>3.至少要达到机器学习入门程度</p></div></div>
+</div>
+]]></content>
+      <categories>
+        <category>学习</category>
+        <category>个人</category>
+      </categories>
+      <tags>
+        <tag>学习路径</tag>
+        <tag>个人规划</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>多维度拆解分析</title>
+    <url>/2022/07/12/%E5%A4%9A%E7%BB%B4%E5%BA%A6%E6%8B%86%E8%A7%A3%E5%88%86%E6%9E%90/</url>
+    <content><![CDATA[<div class='checkbox blue checked'><input type="checkbox" checked="checked"/>
+            <p>从业务公式、业务过程的多个维度拆解指标</p>
+            </div>
+
+<span id="more"></span>
+
+<hr>
+<h1 id="多维度拆解分析"><a href="#多维度拆解分析" class="headerlink" title="多维度拆解分析"></a>多维度拆解分析</h1><div class="story post-story"><h2 id="如何使用多维度拆解分析？"><a href="#如何使用多维度拆解分析？" class="headerlink" title="如何使用多维度拆解分析？"></a>如何使用多维度拆解分析？</h2><ol>
+<li>从业务指标拆解，也就是业务公式，如销售额可拆解成用户数、转化率、客单价</li>
+<li>从业务过程拆解</li>
+</ol>
+</div><div class="story post-story"><h2 id="什么是业务公式？"><a href="#什么是业务公式？" class="headerlink" title="什么是业务公式？"></a>什么是业务公式？</h2><div class="note "><p><strong>业务公式是业务过程通过数学关系进行的直观展现，是抓住关键业务过程的关键，也是量化业务的重要工具</strong></p><p>业务公式主要有两种</p><div class="tabs" id="tab-tab-id"><ul class="nav-tabs"><li class="tab active"><a class="#tab-id-1">结果公式</a></li><li class="tab"><a class="#tab-id-2">平衡公式</a></li></ul><div class="tab-content"><div class="tab-pane active" id="tab-id-1"><details open><summary> 结果公式是描述结果与实现过程（以下是代表案例） </summary>              <div class='content'>              <div class="note radiation yellow"><p>利润&#x3D;营业额-成本</p></div><div class="note radiation yellow"><p>订单数&#x3D;进店人数x下单转化率&#x3D;曝光数x进店转化率x下单转化率</p></div>              </div>            </details></div><div class="tab-pane" id="tab-id-2"><details open><summary> 平衡公式描述供需关系，直接秒速了牵一发而动全身的业务关系，如果是相除就是完成率或资源空置率（以下为案例） </summary>              <div class='content'>              <div class="note radiation yellow"><p>商家数量x商家平均单数&#x3D;用户数量x用户平均单数&#x3D;骑手数量x骑手平均单数</p></div>              </div>            </details></div></div></div></div>
+
+</div><div class="story post-story"><h2 id="如何选择和构建业务公式？"><a href="#如何选择和构建业务公式？" class="headerlink" title="如何选择和构建业务公式？"></a>如何选择和构建业务公式？</h2><div class="timeline">
+<div class="timenode"><div class="meta"><p><p>1.明确公式结果</p>
+</p></div><div class="body"><p>这个业务公式应该是结果公式还是平衡公式？</p></div></div>
+
+<div class="timenode"><div class="meta"><p><p>2.理解业务过程</p>
+</p></div><div class="body"><p>业务过程的关键对象、对象动作、实现方式</p></div></div>
+
+<div class="timenode"><div class="meta"><p><p>3.构建计算关系</p>
+</p></div><div class="body"><p>同一过程：乘除，不同属性：加减</p></div></div>
+</div>
+
+</div><div class="story post-story"><h2 id="业务流程是以什么组成的？"><a href="#业务流程是以什么组成的？" class="headerlink" title="业务流程是以什么组成的？"></a>业务流程是以什么组成的？</h2><p>业务流程的组成部分如下</p>
+<div class="tabs" id="tab-tab-id"><ul class="nav-tabs"><li class="tab active"><a class="#tab-id-1">对象和子对象</a></li><li class="tab"><a class="#tab-id-2">动作和子动作</a></li><li class="tab"><a class="#tab-id-3">实现方式</a></li></ul><div class="tab-content"><div class="tab-pane active" id="tab-id-1"><p>商业的过程至少包含商家和消费者两个对象，而业务经历的全部过程正是由所有的对象组成</p></div><div class="tab-pane" id="tab-id-2"><p>对象之间发生了什么？也就是业务对象中的动作</p></div><div class="tab-pane" id="tab-id-3"><p>容易被观测到的’业务的外在形式’</p>
+<div class="note radiation yellow"><p>相同的动作有不同的实现方式，如，看房APP即可以线下带看亦可以线上AR&#x2F;VR看房</p></div></div></div></div>
+</div>]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>数据分析</tag>
+        <tag>方法论</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关键迭代-沉淀总结</title>
+    <url>/2022/06/24/%E5%85%B3%E9%94%AE%E8%BF%AD%E4%BB%A3-%E6%B2%89%E6%B7%80%E6%80%BB%E7%BB%93/</url>
+    <content><![CDATA[<div class='checkbox checked'><input type="checkbox" checked="checked"/>
+            <p>摘自A&#x2F;B测试中的圣经–《关键迭代:可信赖的线上对照实验》</p>
+            </div>
+<div class='checkbox checked'><input type="checkbox" checked="checked"/>
+            <p>特威曼定律的怀疑论:任何看起来有趣或与众不同的数字通常是错误的</p>
+            </div>
+
+<span id="more"></span>
+
+<h1 id="《关键迭代：可信赖的线上对照实验》摘要总结"><a href="#《关键迭代：可信赖的线上对照实验》摘要总结" class="headerlink" title="《关键迭代：可信赖的线上对照实验》摘要总结"></a>《关键迭代：可信赖的线上对照实验》摘要总结</h1><div class="story post-story"><h2 id="第一部分-线上对照实验概览-即AB测试方法论"><a href="#第一部分-线上对照实验概览-即AB测试方法论" class="headerlink" title="第一部分:线上对照实验概览,即AB测试方法论"></a>第一部分:线上对照实验概览,即AB测试方法论</h2><h3 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h3><h4 id="线上实验的关键术语"><a href="#线上实验的关键术语" class="headerlink" title="线上实验的关键术语"></a>线上实验的关键术语</h4><table>
+<thead>
+<tr>
+<th align="center">术语</th>
+<th align="center">含义</th>
+<th align="center">解读</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">综合评估标准</td>
+<td align="center">Overall Evaluation Criterion,即OEC,实验目标的定量测量</td>
+<td align="center">人均活跃天数(即可测量可观察的指标)</td>
+</tr>
+<tr>
+<td align="center">参数</td>
+<td align="center">对照实验中被认为会影响OEC或其他指标的变量,亦称为变量或因素,参数的赋值也称为因子水平</td>
+<td align="center">比如字体颜色和字体大小(即AB测试中影响实验组的功能)</td>
+</tr>
+<tr>
+<td align="center">变体</td>
+<td align="center">被测试的用户体验,一般通过给参数赋值实现</td>
+<td align="center">在最简单的AB测试中,A与B就是两个变体,通常被称为实验组和对照组,有时变体仅指代实验组</td>
+</tr>
+<tr>
+<td align="center">随机化单元</td>
+<td align="center">以伪随机化(如哈希)过程将单元(如用户或页面)至不同变体</td>
+<td align="center">即随机分配用户进入实验</td>
+</tr>
+</tbody></table>
+<h4 id="线上对照实验的特性"><a href="#线上对照实验的特性" class="headerlink" title="线上对照实验的特性"></a>线上对照实验的特性</h4><details open><summary> 线上对照实验有以下特性 </summary>
+              <div class='content'>
+              <p>    <div class='checkbox checked'><input type="checkbox" checked="checked"/></p><p>它是以高概率确立因果关系的最佳科学方法</p></div>    <div class='checkbox checked'><input type="checkbox" checked="checked"/><p>能够检测其他技术难以检测到的微小变动,比如随着时间变化(灵敏度)</p></div>    <div class='checkbox checked'><input type="checkbox" checked="checked"/><p>能够检测意想不到的变动,虽然常被低估,但很多实验发觉了一些对其他指标出乎意料的影响,比如性能的降低,系统崩溃和出错的增加或是对其他模块的点击的吞噬</p></div>
+              </div>
+            </details>
+<h4 id="战略、战术及他们和实验的关系"><a href="#战略、战术及他们和实验的关系" class="headerlink" title="战略、战术及他们和实验的关系"></a>战略、战术及他们和实验的关系</h4><h5 id="情景1-你已有业务战略并且产品有足够的用户用于实验"><a href="#情景1-你已有业务战略并且产品有足够的用户用于实验" class="headerlink" title="情景1.你已有业务战略并且产品有足够的用户用于实验"></a>情景1.你已有业务战略并且产品有足够的用户用于实验</h5><details open><summary> 对于这种情景,AB测试可以帮助你重现用的战略和产品触发,爬升至局部最优点 </summary>
+              <div class='content'>
+              <p>实验能找到高ROI区域:</p><ul><li>那些相对于成本提升OEC最多的领域,在投入大量资源之前,在不同的领域测试MVP(Mininum Viable Product,最小可行产品)  <details ><summary> MVP(最小可行产品)的概念 </summary>        <div class='content'>        <div class='checkbox checked'><input type="checkbox" checked="checked"/><p>MVP的概念是Eric Ries 《精益创业》里提出的概念。简单地说，就是指开发团队通过提供最小化可行产品获取用户反馈，并在这个最小化可行产品上持续快速迭代，直到产品到达一个相对稳定的阶段。MVP对于创业团队来说是很重要的，可以快速验证团队的目标，快速试错。</p></div>        </div>      </details></li></ul>
+              </div>
+            </details>
+<h5 id="情境2-你有产品和战略-但你需要调整"><a href="#情境2-你有产品和战略-但你需要调整" class="headerlink" title="情境2.你有产品和战略,但你需要调整"></a>情境2.你有产品和战略,但你需要调整</h5><details open><summary> 测试大胆的想法时,运行和评估实验的方式也有变化,具体来说,我们需要考虑以下几点: </summary>
+              <div class='content'>
+              <p>实验的运行时长:<br>    - 例如,在测试重大UI设计时,短期内测量到的实验数据变化可能被初始效应或改版厌恶所影响,实验组和对照组直接比较可能无法测量真实的实验时长,更长时间或更大规模的实验,或者别样的实验设计(比如谷歌广告质量的案例是以国家为单位设计的),在这样的情境中是必需的<br>被测试的创意的数量:<br>    - 你也许需要很多不同的实验,因为每个实验只测试一个具体的战术,该战术是总体战略的一个组成部分,个别实验没能成功改进OEC可能是因为这个特定战术的失败,不代表总体战略有问题<br>        - 说人话就是:仅单一实验可能面临实验维度颗粒度不够细,无法下钻维度确定问题所在点,因此需要多个颗粒更细的实验组合成一个总体的实验</p>
+              </div>
+            </details>
+<h4 id="补充阅读"><a href="#补充阅读" class="headerlink" title="补充阅读"></a>补充阅读</h4><h5 id="多臂老虎机实验"><a href="#多臂老虎机实验" class="headerlink" title="多臂老虎机实验"></a>多臂老虎机实验</h5><p>多臂老虎机是一种随实验进程动态分配流量的实验,比如我们可以每小时查看一次实验进程,观察每个变体的表现,并调整各变体的流量比例,增加表现好的变体的流量,减少表现差的变体的流量</p>
+<details open><summary> 基于多臂老虎机的实验往往比经典的AB测试更有效率,因为它们将流量逐步分配至表现更好的变体,而不用等到实验结束 </summary>
+              <div class='content'>
+              <div class="note warning"><p>但同样也有重要限制条件:评估目标需要是单一的OEC,并且这个OEC在流量重新分配时能够很好的被测量,比如点击率之于会话</p></div><div class="note bug red"><p>此外,原本处于’差’变体中的用户按比例不同分配至其他表现较好的多个变体可能会造成潜在的偏差</p></div>
+              </div>
+            </details>
+<h6 id="好文欣赏"><a href="#好文欣赏" class="headerlink" title="好文欣赏"></a>好文欣赏</h6><p><a href="https://blog.csdn.net/u011984148/article/details/106678502/">多臂老虎机python工程化</a><br><a href="https://zhuanlan.zhihu.com/p/464108814">多臂老虎机</a></p>
+<hr>
+<h3 id="第二章"><a href="#第二章" class="headerlink" title="第二章"></a>第二章</h3><hr>
+
+</div>]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>总结</tag>
+        <tag>读书</tag>
+        <tag>A/B测试</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>对比分析法</title>
+    <url>/2022/07/12/%E5%AF%B9%E6%AF%94%E5%88%86%E6%9E%90%E6%B3%95/</url>
+    <content><![CDATA[<p>对比分析法中的同比与环比</p>
+<span id="more"></span>
+
+<h1 id="对比分析法"><a href="#对比分析法" class="headerlink" title="对比分析法"></a>对比分析法</h1><div class="story post-story"><h2 id="对比分析在比什么？"><a href="#对比分析在比什么？" class="headerlink" title="对比分析在比什么？"></a>对比分析在比什么？</h2><ol>
+<li>绝对值 <div class='checkbox times red checked'><input type="checkbox" checked="checked"/>
+            <p>不易得知问题严重度</p>
+            </div></li>
+<li>比例值 <div class='checkbox times red checked'><input type="checkbox" checked="checked"/>
+            <p>容易受到量级不同的影响</p>
+            </div></li>
+</ol>
+</div><div class="story post-story"><h2 id="对比分析怎么比？"><a href="#对比分析怎么比？" class="headerlink" title="对比分析怎么比？"></a>对比分析怎么比？</h2><ol>
+<li>同比<ul>
+<li>同比是与同时期进行对比，如2022年4月同比2021年4月</li>
+</ul>
+</li>
+<li>环比<ul>
+<li>环比是两个连续日期的对比，是与上个统计周期进行对比</li>
+</ul>
+</li>
+</ol>
+</div><div class="story post-story"><h2 id="对比分析在和谁比？"><a href="#对比分析在和谁比？" class="headerlink" title="对比分析在和谁比？"></a>对比分析在和谁比？</h2><div class="tabs" id="tab-tab-id"><ul class="nav-tabs"><li class="tab active"><a class="#tab-id-1">和自己比</a></li><li class="tab"><a class="#tab-id-2">和行业比</a></li></ul><div class="tab-content"><div class="tab-pane active" id="tab-id-1"><ol>
+<li>从时间维度</li>
+<li>从不同业务线</li>
+<li>从过往经验</li>
+</ol></div><div class="tab-pane" id="tab-id-2"><ol>
+<li>行业都在跌，能否比同行跌的少</li>
+<li>行业都在涨，能否比同行涨的慢</li>
+</ol></div></div></div>
+
+</div><div class="story post-story"><h2 id="对比分析法的注意点"><a href="#对比分析法的注意点" class="headerlink" title="对比分析法的注意点"></a>对比分析法的注意点</h2><div class="note warning"><p>指标的统计口径、计算方法、计量单位必须一致，否则缺乏可比性</p></div>
+<div class="note warning"><p>对比对象需要可对比，对比要立足于对比对象的相似性</p></div>
+<div class="note warning"><p>对比分析，需要对样本与目的有充分的了解，找对对比对象</p></div>
+</div>]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>数据分析</tag>
+        <tag>方法论</tag>
+        <tag>总结</tag>
+        <tag>业务</tag>
+      </tags>
   </entry>
   <entry>
     <title>数据分析思维总结(摘选)</title>
@@ -1337,6 +1080,329 @@ axs[1][0].plot(...)
       </categories>
       <tags>
         <tag>思维</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数据敏感性</title>
+    <url>/2022/05/21/%E6%95%B0%E6%8D%AE%E6%95%8F%E6%84%9F%E6%80%A7/</url>
+    <content><![CDATA[<div class='checkbox check'><input type="radio" />
+            <p><a href="https://www.bilibili.com/video/BV1764y1u7e5?from=search&amp;seid=14404083033402825435&amp;spm_id_from=333.337.0.0">本段节选自 b 站 up 主大欧姐姐的视频</a>,所提出的观点对于初入数据行业的我来说非常新颖,故摘记了下来</p>
+            </div>
+
+<span id="more"></span>
+
+<h1 id="数据敏感性"><a href="#数据敏感性" class="headerlink" title="数据敏感性"></a>数据敏感性</h1><hr>
+<p><a href="https://www.bilibili.com/video/BV1764y1u7e5?from=search&amp;seid=14404083033402825435&amp;spm_id_from=333.337.0.0">本段节选自 b 站 up 主大欧姐姐的视频</a></p>
+<ul>
+<li>数据思维不是技能，而是大脑底层的用^^数据事实表达个人观点^^的思维能力<ul>
+<li>事实<ul>
+<li>今天气温 32摄氏度（三月）</li>
+</ul>
+</li>
+<li>观点<ul>
+<li>今天天气很热</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>数据分析能力就是迅速在大脑底层^^建立事实对应观点的映射^^<ul>
+<li><strong>事实</strong>{g}是今天气温** 32 摄氏度**{b}</li>
+<li>导致了我的<strong>观点</strong>{g}是<strong>今天天气很热</strong>{b}</li>
+</ul>
+<ul>
+<li><strong>映射关系</strong>{g}的建立<ul>
+<li>是我所在的城市平均气温 22摄氏度，今天 32 摄氏度比平均气温高出 10 摄氏度</li>
+<li>生理零度是对人而言最舒适的温度，一般人的生理零度是 28-29摄氏度，32摄氏度远远高于这个数值</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>因此我的观点是今天天气很热</li>
+</ul>
+</li>
+</ul>
+<p>数据分析能力就是通过反复训练对事实（^^数据事实^^）和观点（^^业务观点^^）能做出迅速映射的能力</p>
+<ul>
+<li>如何培养数据事实的敏感性<ul>
+<li>为何会感觉今天很热？<ul>
+<li>因为 32摄氏度在三月份显得反常</li>
+<li>我们经历了无数个三月份，大脑早已潜移默化被输入了三月份的气温从月初到月末由十几度增长到二十几度，能看到三月份气温的增长趋势</li>
+<li>于是我们能迅速发现今天的气温绝对是异常值</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>业务指标也是一样，每天去背数据，业务数据、用户数据、转化率、流失率等等等等数据，久而久之，数据被输入到大脑，也就能迅速发现异常值，迅速发现数据之间的关联，提高了自己的数据敏感性</li>
+</ul>
+</li>
+<li>数据分析的第一个要训练的是<ul>
+<li>只说事实不说观点<ul>
+<li>观点<ul>
+<li>好热<ul>
+<li>也许你觉得热而我并不觉得热呢？</li>
+</ul>
+</li>
+<li>今天气温上升了<ul>
+<li>这句话已经看起来非常像事实了，但实际上还是观点</li>
+<li>气温到底相对哪天上升了？</li>
+<li>气温升高了多少？</li>
+<li>上升到异常值还是 3 月 21 号太阳直射回到北半球之后的正常气温回升呢？</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>事实<ul>
+<li>本市近三天气温连续上升，分别升高了 2 摄氏度、3摄氏度和 1摄氏度</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>事实的沟通每个人都能理解，不会出现歧义，观点的沟通会出现误差而事实则不会，如果我们使用观点进行沟通，自然会出现大量的误解<ul>
+<li>设定标准：可以通用的客观标准<ul>
+<li>历史平均值</li>
+<li>行业平均值</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>用事实数据跟客观标准做对比了解当前所在的位置才能得出有说服力的观点</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>数据分析是手段，解决问题才是目的</li>
+</ul>
+<ul>
+<li>有了数据敏感度之后，能在日常工作中一眼看出问题，但是找到问题还不够，需要知道如何找到问题的源头<ul>
+<li>问题的源头<ul>
+<li>可能是全球变暖导致的气温异常？</li>
+<li>可能是受到副热带高压的影响造成的增暖增湿</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>数据分析的最终目的除了找出问题，还要找出解决问题的方案，去尝试这个方案是否有用，或者对比其他人的解决方案来对比分析优缺点，业务方的需求直接影响到解决问题的覆盖范围<br>    + 如果今天气温达到 32摄氏度，这个问题的需求方是联合国<br>        * 那么这个问题的解决方案就是环保议题了<br>    + 如果今天气温达到 32摄氏度，这个问题的需求方是女朋友<br>        * 那么这个问题的解决方案就是打开空调，出门跑腿买吃的</p>
+
+]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>总结</tag>
+        <tag>思维</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>本地生活门店经营分析简报</title>
+    <url>/2022/06/01/%E6%9C%AC%E5%9C%B0%E7%94%9F%E6%B4%BB%E9%97%A8%E5%BA%97%E7%BB%8F%E8%90%A5%E5%88%86%E6%9E%90%E7%AE%80%E6%8A%A5/</url>
+    <content><![CDATA[<div class='checkbox check'><input type="radio" />
+            <p>基于脱敏数据制作的经分简报,首次打开本页面会有加载时间</p>
+            </div>
+
+<span id="more"></span>
+
+<h1 id=""><a href="#" class="headerlink" title=""></a><span class='p yellow'>本地生活门店经营分析简报</span></h1><p>博客挂载于GitHub,图片挂载于SMMS,首次打开时可能会需要加载图片,还请静候1分钟</p>
+<div class="story post-story"><h2 id="营收分析"><a href="#营收分析" class="headerlink" title="营收分析"></a>营收分析</h2><h3 id="-1"><a href="#-1" class="headerlink" title=""></a><span class='p yellow'>1.各门店累计GMV286万，累计实收103万，实收占比仅36%</span></h3><ul>
+<li><em>19 年10月至20年 9月期间，公司旗下共经营过 2 个品牌、10家门店，实际经营天数为345天，累计订单数为 5 万1千笔，单均实收0元，较为正常</em></li>
+<li><em>但是，各门店日均实收仅为299元，基本无法支持门店的正常经营，急需改善！！</em><br><img src="https://s2.loli.net/2022/06/01/lK5m9YgT3cEH6Ds.png" class="lazyload" data-srcset="https://s2.loli.net/2022/06/01/lK5m9YgT3cEH6Ds.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="1.png"></li>
+</ul>
+<hr>
+<h3 id="-2"><a href="#-2" class="headerlink" title=""></a><span class='p yellow'>2.前四名GMV占比86%，后6名占比仅有14%，门店实力分布严重不足</span></h3><ul>
+<li><em>前四名占比分别为蛙小辣-宝山店（26%）、拌客-武宁路店（25%）、蛙小辣-五角场店（22%）、蛙小辣-虹口足球场店（13%）</em></li>
+<li><em>而最后三名分别为蛙小辣-大宁店、蛙小辣-龙阳路店、蛙小辣交大店，它们的累积占比仅2%</em><br><img src="https://s2.loli.net/2022/06/01/9Qe8KnOoiE4CAcR.png" class="lazyload" data-srcset="https://s2.loli.net/2022/06/01/9Qe8KnOoiE4CAcR.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="2.png"></li>
+</ul>
+<hr>
+<h3 id="-3"><a href="#-3" class="headerlink" title=""></a><span class='p yellow'>3.整体营收受 20 年疫情影响较大，疫情结束后也未恢复</span></h3><ul>
+<li><em>公司实收在19年12月走高后，由20年1月开始持续下滑，直到20年5月拌客开业后才重新开始增长</em></li>
+<li><em>同时，蛙小辣旗下9家门店仅有3家在20年后继续营业，其中仅有宝山店坚持到了最后</em></li>
+<li><em>公司在新门店的扩张和维持上存在巨大问题！</em><br><img src="https://s2.loli.net/2022/06/01/Lu54NT3SFhyA9JH.png" class="lazyload" data-srcset="https://s2.loli.net/2022/06/01/Lu54NT3SFhyA9JH.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="3.png"></li>
+</ul>
+<hr>
+<h3 id="-4"><a href="#-4" class="headerlink" title=""></a><span class='p yellow'>4.拌客-武宁路店后来居上，实收占比在后期持续第一</span></h3><ul>
+<li><em>从20年5月拌客门店开业后，营收占比持续4个月第一，并在9月基本与蛙小辣持平，7月营收7万元，为门店历史最高</em><img src="https://s2.loli.net/2022/06/01/kH5TSjgfzC1bwnu.png" class="lazyload" data-srcset="https://s2.loli.net/2022/06/01/kH5TSjgfzC1bwnu.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="4.png"></li>
+</ul>
+<hr>
+<ul>
+<li><em>蛙小辣-宝山店自19年11月起持续营业，一直稳居前三，19年12月营收5万5千员，为门店历史最高</em><img src="https://s2.loli.net/2022/06/01/gvpG5S3ZEO9PknW.png" class="lazyload" data-srcset="https://s2.loli.net/2022/06/01/gvpG5S3ZEO9PknW.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="5.png"></li>
+</ul>
+<hr>
+<ul>
+<li><em>原本占比最高的蛙小辣-五角场店在20年2月歇业，3月重新营业后最终在5月闭店，19年12月营收为8万1千元，为门店历史最高</em><img src="https://s2.loli.net/2022/06/01/tIqUZTE3yPYbvpB.png" class="lazyload" data-srcset="https://s2.loli.net/2022/06/01/tIqUZTE3yPYbvpB.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="6.png"></li>
+</ul>
+<hr>
+<ul>
+<li><em>营收占比总览</em><img src="https://s2.loli.net/2022/06/01/5sXTwroGxC8a9cK.png" class="lazyload" data-srcset="https://s2.loli.net/2022/06/01/5sXTwroGxC8a9cK.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="7.png"></li>
+</ul>
+<hr>
+</div><div class="story post-story"><h2 id="成本分析"><a href="#成本分析" class="headerlink" title="成本分析"></a>成本分析</h2><h3 id="-5"><a href="#-5" class="headerlink" title=""></a><span class='p yellow'>1.商家补贴常年高于实收，补贴占比高达52.4%！cpc投放费用不高，疫情期间以及20年8月后基本没有进行投放</span></h3><h2 id="-6"><a href="#-6" class="headerlink" title=""></a><img src="https://s2.loli.net/2022/06/01/G8RZOPuy9thLdjc.png" class="lazyload" data-srcset="https://s2.loli.net/2022/06/01/G8RZOPuy9thLdjc.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="8.png"></h2><h2 id="流量分析"><a href="#流量分析" class="headerlink" title="流量分析"></a>流量分析</h2><h3 id="-7"><a href="#-7" class="headerlink" title=""></a><span class='p yellow'>1.虽然自然流量占比上升，但整体流量下降，纯自然流量打法的探索仍需谨慎</span></h3><ul>
+<li><em>19年11月至20年1月的业务前期，自然流量占比不高，曝光占比57.3%，进店占比66.3%，但曝光整体呈现上升趋势</em><br><img src="https://s2.loli.net/2022/06/01/rMxqPupAlyFfnRm.png" class="lazyload" data-srcset="https://s2.loli.net/2022/06/01/rMxqPupAlyFfnRm.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="9.png"></li>
+</ul>
+<hr>
+<ul>
+<li><em>20年8月10日后，自然流量占比一直很高，曝光占比为83.8%，进店占比为84.4%，但整体曝光有所上涨后一直呈现下跌趋势</em><br><img src="https://s2.loli.net/2022/06/01/HSEv9kqYX5eKILj.png" class="lazyload" data-srcset="https://s2.loli.net/2022/06/01/HSEv9kqYX5eKILj.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="10.png"></li>
+</ul>
+<hr>
+<ul>
+<li><em>下单&#x2F;进店转化率疫情后持续上升，但近期有所下降，需要注意，进店&#x2F;曝光转化率自开始营业后便呈现缓慢下降趋势，疫情后稳定在7%左右</em><br><img src="https://s2.loli.net/2022/06/01/ec2CfWySkqjZLFx.png" class="lazyload" data-srcset="https://s2.loli.net/2022/06/01/ec2CfWySkqjZLFx.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="11.png"></li>
+</ul>
+<hr>
+</div><div class="story post-story"><h2 id="策略总结"><a href="#策略总结" class="headerlink" title="策略总结"></a>策略总结</h2><blockquote>
+<p> <em>优化补贴策略，降低补贴占比，将更多的补贴预算转化为进账的实收金额</em><br> <em>参考疫情前的业务策略，稳定下单进店转化率，保证流量的正常转化</em><br> <em>重新提高付费流量占比，优化投放策略，带动整体流量增长</em></p>
+</blockquote>
+<hr>
+
+</div>]]></content>
+      <categories>
+        <category>个人</category>
+        <category>项目</category>
+      </categories>
+      <tags>
+        <tag>可视化</tag>
+        <tag>数据分析</tag>
+        <tag>经营分析</tag>
+        <tag>简报</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>理解业务</title>
+    <url>/2022/07/11/%E7%90%86%E8%A7%A3%E4%B8%9A%E5%8A%A1/</url>
+    <content><![CDATA[<div class='checkbox'><input type="radio" />
+            <p>内容来自<a href="https://www.heywhale.com/home/activity/detail/62a30c47ac8fed66250b2828">和鲸社区-数据分析业务基础课程</a>,以及我在一年工作经验中的沉淀</p>
+            </div>
+
+<span id="more"></span>
+
+<hr>
+<h1 id="理解业务"><a href="#理解业务" class="headerlink" title="理解业务"></a>理解业务</h1><p>业务的本质是：把<span class='p red'>产品</span>以<span class='p red'>合理的方式</span>通过<span class='p red'>渠道</span>卖给<span class='p red'>客户</span>赚取<span class='p red'>利润</span><br>拆解上面这段话可以得出</p>
+<ul>
+<li><div class='checkbox check'><input type="radio" />
+            <p>业务的核心是：利润，也就是商业目标，业务的过程就是实现商业目标</p>
+            </div></li>
+<li><div class='checkbox check'><input type="radio" />
+            <p>业务的组成部分包括：产品、商业模式、平台、用户</p>
+            </div></li>
+<li><div class='checkbox times red checked'><input type="checkbox" checked="checked"/>
+            <p>但实际上业务并非是一成不变的，业务会随着商业目标的变化而变化，而越优秀的业务也就越接近商业的本质，业务过程也更加精简高效，更具有不可替代性</p>
+            </div>
+<div class="story post-story"><h2 id="了解业务的途径"><a href="#了解业务的途径" class="headerlink" title="了解业务的途径"></a>了解业务的途径</h2><details open><summary> 我该如何了解业务？ </summary>
+              <div class='content'>
+              <ol><li>业务部门日常、周常在做什么？</li><li>业务部门更关注什么数据？</li><li>业务模式中有哪些环节会产生数据？</li><li>哪些行为会大幅度影响核心指标？</li></ol>
+              </div>
+            </details>
+</div><div class="story post-story"><h2 id="业务中的三大数据类型"><a href="#业务中的三大数据类型" class="headerlink" title="业务中的三大数据类型"></a>业务中的三大数据类型</h2><table>
+<thead>
+<tr>
+<th align="center">数据的类型</th>
+<th align="left">含义</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">用户数据</td>
+<td align="left">谁？</td>
+</tr>
+<tr>
+<td align="center">行为数据</td>
+<td align="left">干了什么？</td>
+</tr>
+<tr>
+<td align="center">业务数据</td>
+<td align="left">结果如何？</td>
+</tr>
+</tbody></table>
+<h3 id="这三大类型的常见指标"><a href="#这三大类型的常见指标" class="headerlink" title="这三大类型的常见指标"></a>这三大类型的常见指标</h3><div class="tabs" id="tab-tab-id"><ul class="nav-tabs"><li class="tab active"><a class="#tab-id-1">用户数据</a></li><li class="tab"><a class="#tab-id-2">行为数据</a></li><li class="tab"><a class="#tab-id-3">业务数据</a></li></ul><div class="tab-content"><div class="tab-pane active" id="tab-id-1"><ol>
+<li>存量<ul>
+<li>DAU、MAU</li>
+</ul>
+</li>
+<li>增量<ul>
+<li>新增用户</li>
+</ul>
+</li>
+<li>用户健康度<ul>
+<li>留存</li>
+</ul>
+</li>
+<li>用户来源<ul>
+<li>渠道来源</li>
+</ul>
+</li>
+</ol></div><div class="tab-pane" id="tab-id-2"><ol>
+<li>频次<ul>
+<li>PV、UV、访问时长&#x2F;深度等</li>
+</ul>
+</li>
+<li>用户路径走通时间<ul>
+<li>转化时间</li>
+</ul>
+</li>
+<li>用户持续时长<ul>
+<li>各种时长</li>
+</ul>
+</li>
+<li>用户质量<ul>
+<li>弹出率</li>
+</ul>
+</li>
+</ol></div><div class="tab-pane" id="tab-id-3"><ol>
+<li>总量<ul>
+<li>GMV</li>
+</ul>
+</li>
+<li>人均<ul>
+<li>ARPU、ARPPU</li>
+</ul>
+</li>
+<li>人数<ul>
+<li>付费人数、播放人数</li>
+</ul>
+</li>
+<li>健康度<ul>
+<li>付费率、付费频次</li>
+</ul>
+</li>
+</ol></div></div></div></li>
+</ul>
+
+</div>]]></content>
+      <categories>
+        <category>学习</category>
+        <category>个人</category>
+      </categories>
+      <tags>
+        <tag>总结</tag>
+        <tag>业务</tag>
+        <tag>思维</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>测试</title>
+    <url>/2022/05/11/%E6%B5%8B%E8%AF%95/</url>
+    <content><![CDATA[<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><p>代码测试：</p>
+<pre><code class="py">print(&quot;Hello&quot;)
+</code></pre>
+<p>图片测试：</p>
+<p><img src="http://mculover666.cn/blog/20191031/R4mWMXsrRKxu.png?imageslim" class="lazyload" data-srcset="http://mculover666.cn/blog/20191031/R4mWMXsrRKxu.png?imageslim" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></p>
+<p>引用测试：</p>
+<blockquote>
+<p>这是一条引用</p>
+</blockquote>
+<div class="story post-story"><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><p>无序列表测试：</p>
+<ul>
+<li>哈哈</li>
+<li>嘿嘿</li>
+<li>吼吼</li>
+</ul>
+<h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><hr>
+
+</div>]]></content>
+      <categories>
+        <category>测试</category>
+      </categories>
+      <tags>
+        <tag>测试</tag>
       </tags>
   </entry>
 </search>
