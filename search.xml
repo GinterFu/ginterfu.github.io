@@ -94,6 +94,135 @@
       </tags>
   </entry>
   <entry>
+    <title>使用Mysql对海外电子产品用户购买数据建立RFM模型</title>
+    <url>/2022/10/26/%E4%BD%BF%E7%94%A8mysql%E5%AF%B9%E6%B5%B7%E5%A4%96%E7%94%B5%E5%95%86%E4%B8%8B%E5%8D%95%E6%95%B0%E6%8D%AE%E5%BB%BA%E7%AB%8Brfm%E6%A8%A1%E5%9E%8B/</url>
+    <content><![CDATA[<div class='checkbox check'><input type="radio" />
+            <p>使用Mysql建立RFM模型，由于图片使用国外CDN，首次打开本页面会有加载时间</p>
+            </div>
+<div class='checkbox red'><input type="radio" />
+            <p><a href="https://www.kaggle.com/code/nikolaimelnikov/ecommerce-store-purchase-analysis/data">数据来源-kaggle社区</a></p>
+            </div>
+
+<span id="more"></span>
+
+<h1 id="使用Mysql对海外电子产品用户购买数据建立RFM模型"><a href="#使用Mysql对海外电子产品用户购买数据建立RFM模型" class="headerlink" title="使用Mysql对海外电子产品用户购买数据建立RFM模型"></a>使用Mysql对海外电子产品用户购买数据建立RFM模型</h1><p>博客挂载于Github，图片挂载于SMMS图床，首次打开请静候一分钟时间加载<br>使用的2020年海外电子产品用户购买数据集来源于<a href="https://www.kaggle.com/code/nikolaimelnikov/ecommerce-store-purchase-analysis/data">kaggle社区</a>，</p>
+<div class="story post-story"><h2 id="1-观测数据"><a href="#1-观测数据" class="headerlink" title="1.观测数据"></a>1.观测数据</h2><p>观测数据发现，用户id、下单金额字段出现了大量的null值，且数据集中存在大量下单时间为<span class='p red'>1970-01-01 00:33:40</span>的错误数据<br><img src="https://s2.loli.net/2022/10/26/d7k1mxM6EQAZ9vg.png" class="lazyload" data-srcset="https://s2.loli.net/2022/10/26/d7k1mxM6EQAZ9vg.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="观测数据"><br>为了在下面步骤更加方便，使用create table语句建表并清洗数据</p>
+<div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " col='2' data-group='one'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" href='https://s2.loli.net/2022/10/26/dWq73zpXGwxj8Vf.png' data-fancybox='one' data-caption='清洗数据并建表'><img fancybox itemprop="contentUrl" src="https://s2.loli.net/2022/10/26/dWq73zpXGwxj8Vf.png" class="lazyload" data-srcset="https://s2.loli.net/2022/10/26/dWq73zpXGwxj8Vf.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="清洗数据并建表"></a><span class='image-caption'>清洗数据并建表</span></div><br><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" href='https://s2.loli.net/2022/10/26/EhNbtgDFcuCJUAy.png' data-fancybox='one' data-caption='建表后的数据，通过观察已经是正常的了'><img fancybox itemprop="contentUrl" src="https://s2.loli.net/2022/10/26/EhNbtgDFcuCJUAy.png" class="lazyload" data-srcset="https://s2.loli.net/2022/10/26/EhNbtgDFcuCJUAy.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="建表后的数据，通过观察已经是正常的了"></a><span class='image-caption'>建表后的数据，通过观察已经是正常的了</span></div><br><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" href='https://s2.loli.net/2022/10/26/JwPhFxYfjnpa6WQ.png' data-fancybox='one' data-caption='查看数据集的时间范围'><img fancybox itemprop="contentUrl" src="https://s2.loli.net/2022/10/26/JwPhFxYfjnpa6WQ.png" class="lazyload" data-srcset="https://s2.loli.net/2022/10/26/JwPhFxYfjnpa6WQ.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="查看数据集的时间范围"></a><span class='image-caption'>查看数据集的时间范围</span></div><br><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" href='https://s2.loli.net/2022/10/26/z6h4cNOmMdHj7rK.png' data-fancybox='one' data-caption='查看数据集行数'><img fancybox itemprop="contentUrl" src="https://s2.loli.net/2022/10/26/z6h4cNOmMdHj7rK.png" class="lazyload" data-srcset="https://s2.loli.net/2022/10/26/z6h4cNOmMdHj7rK.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="查看数据集行数"></a><span class='image-caption'>查看数据集行数</span></div></div>
+
+<p>代码如下</p>
+<pre><code class="sql">-- 查看数据集的下单时间范围
+SELECT
+MAX(`下单时间`)
+,MIN(`下单时间`)
+FROM rfm_data
+-- 返回2020-01-05到2020-11-21，则R的时间间隔计算基准为11-22
+
+-- 查看数据集各行行数
+SELECT COUNT(*)
+,COUNT(`下单金额`)
+,COUNT(`下单时间`)
+,COUNT(`用户id`)
+FROM rfm_data
+-- 返回结果一致
+
+-- 通过sum嵌套ISNULL函数对三个字断的null值进行计数
+SELECT
+SUM(ISNULL(`下单时间`))
+,SUM(ISNULL(`下单金额`))
+,SUM(ISNULL(`用户id`))
+FROM rfm_data
+-- 返回结果都是0
+
+-- 统计用户人数并根据二八定律区分高分用户
+SELECT
+COUNT(DISTINCT `用户id`
+,round(COUNT(DISTINCT `用户id`)*0.2,0) 用户数
+FROM rfm_data
+-- 返回用户数为233576,高分用户为用户中前46715位
+</code></pre>
+<div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" href='https://s2.loli.net/2022/10/26/gbBTJvpGqfjXAtL.png' data-fancybox='default' data-caption='处理后的数据集无空值，可以进行下一步操作了'><img fancybox itemprop="contentUrl" src="https://s2.loli.net/2022/10/26/gbBTJvpGqfjXAtL.png" class="lazyload" data-srcset="https://s2.loli.net/2022/10/26/gbBTJvpGqfjXAtL.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="处理后的数据集无空值，可以进行下一步操作了"></a><span class='image-caption'>处理后的数据集无空值，可以进行下一步操作了</span></div></div>
+<hr>
+</div><div class="story post-story"><h2 id="2-建立RFM模型"><a href="#2-建立RFM模型" class="headerlink" title="2.建立RFM模型"></a>2.建立RFM模型</h2><hr>
+<h3 id="2-1建立分类阈值，以便后续对用户行为评分"><a href="#2-1建立分类阈值，以便后续对用户行为评分" class="headerlink" title="2.1建立分类阈值，以便后续对用户行为评分"></a>2.1建立分类阈值，以便后续对用户行为评分</h3><div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='one'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" href='https://s2.loli.net/2022/10/27/N9yKtcue1EvAB5o.png' data-fancybox='one' data-caption='计算F的高分阈值'><img fancybox itemprop="contentUrl" src="https://s2.loli.net/2022/10/27/N9yKtcue1EvAB5o.png" class="lazyload" data-srcset="https://s2.loli.net/2022/10/27/N9yKtcue1EvAB5o.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="计算F的高分阈值"></a><span class='image-caption'>计算F的高分阈值</span></div><br><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" href='https://s2.loli.net/2022/10/27/efiughM1SWlkJCa.png' data-fancybox='one' data-caption='计算R的高分阈值'><img fancybox itemprop="contentUrl" src="https://s2.loli.net/2022/10/27/efiughM1SWlkJCa.png" class="lazyload" data-srcset="https://s2.loli.net/2022/10/27/efiughM1SWlkJCa.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="计算R的高分阈值"></a><span class='image-caption'>计算R的高分阈值</span></div><br><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" href='https://s2.loli.net/2022/10/27/xhXslT8MefbwkSG.png' data-fancybox='one' data-caption='计算M的高分阈值'><img fancybox itemprop="contentUrl" src="https://s2.loli.net/2022/10/27/xhXslT8MefbwkSG.png" class="lazyload" data-srcset="https://s2.loli.net/2022/10/27/xhXslT8MefbwkSG.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="计算M的高分阈值"></a><span class='image-caption'>计算M的高分阈值</span></div></div>
+
+<p>代码如下</p>
+<pre><code class="sql">-- 使用with as 临时表方法
+WITH a AS
+(
+    select 
+    `用户id`
+    ,TIMESTAMPDIFF(day,max(`下单时间`),&#39;2020-11-22&#39;) R
+    ,COUNT(*)F
+    ,ROUND(SUM(`下单金额`),2)M
+    from rfm_sql.rfm_data
+    group by 1
+)
+SELECT
+R  
+FROM a
+ORDER BY 1 ASC # 其中在计算F与M的分类阈值时使用DESC降序
+LIMIT 46715,1
+
+-- 最终计算得出，R的分类阈值为27，F为3，M为732.42
+</code></pre>
+<hr>
+<h3 id="2-2根据返回的分类阈值，对用户评分并建立RFM模型"><a href="#2-2根据返回的分类阈值，对用户评分并建立RFM模型" class="headerlink" title="2.2根据返回的分类阈值，对用户评分并建立RFM模型"></a>2.2根据返回的分类阈值，对用户评分并建立RFM模型</h3><div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='one'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" href='https://s2.loli.net/2022/10/27/Mbqa3XOUSYERscg.png' data-fancybox='one' data-caption='初步建立RFM模型'><img fancybox itemprop="contentUrl" src="https://s2.loli.net/2022/10/27/Mbqa3XOUSYERscg.png" class="lazyload" data-srcset="https://s2.loli.net/2022/10/27/Mbqa3XOUSYERscg.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="初步建立RFM模型"></a><span class='image-caption'>初步建立RFM模型</span></div><br><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" href='https://s2.loli.net/2022/10/27/9KjlHrBxdFLOQZS.png' data-fancybox='one' data-caption='用户RFM三个维度的评分，即下方代码临时表b'><img fancybox itemprop="contentUrl" src="https://s2.loli.net/2022/10/27/9KjlHrBxdFLOQZS.png" class="lazyload" data-srcset="https://s2.loli.net/2022/10/27/9KjlHrBxdFLOQZS.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="用户RFM三个维度的评分，即下方代码临时表b"></a><span class='image-caption'>用户RFM三个维度的评分，即下方代码临时表b</span></div></div>
+
+<p>建表代码如下</p>
+<pre><code class="sql">-- 使用create table as 嵌套with as方法建表，建立RFM模型
+CREATE TABLE rfm as
+-- 建立临时表a为计算各用户R、F、M三个维度的值
+WITH a AS
+(
+    select 
+    `用户id`
+    ,TIMESTAMPDIFF(day,max(`下单时间`),&#39;2020-11-22&#39;) R
+    ,COUNT(*)F
+    ,ROUND(SUM(`下单金额`),2)M
+    from rfm_sql.rfm_data
+    group by 1
+)
+-- 建立临时表b为用户的R、F、M三个维度进行评分
+,b as 
+(
+    select `用户id`
+    ,case when R &lt;=27 then &#39;高&#39; else &#39;低&#39; end R
+    ,case when F &gt;= 3 then &#39;高&#39; else &#39;低&#39; end  F
+    ,case when M &gt;= 732.42 then  &#39;高&#39; else &#39;低&#39; end M
+    from a
+)
+-- 建立临时表c，为最终的RFM模型，至此即可为业务方提供数据支持
+,c AS
+(
+    select *, 
+    (case when M = &#39;高&#39; then &#39;重要&#39; else &#39;一般&#39; end ) as 重要度,
+    (case when F = &#39;高&#39; and R = &#39;高&#39; then &#39;价值客户&#39;
+    when F = &#39;高&#39; and R = &#39;低&#39; then &#39;唤回客户&#39;
+    when F = &#39;低&#39; and R = &#39;高&#39; then &#39;发展客户&#39;
+    when F = &#39;低&#39; and R = &#39;低&#39; then &#39;挽留客户&#39; end) as 类型
+    from b
+)
+SELECT * FROM c
+</code></pre>
+<div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" href='https://s2.loli.net/2022/10/27/IAJ27CGBmqhFiKr.png' data-fancybox='default' data-caption='最终的RFM模型'><img fancybox itemprop="contentUrl" src="https://s2.loli.net/2022/10/27/IAJ27CGBmqhFiKr.png" class="lazyload" data-srcset="https://s2.loli.net/2022/10/27/IAJ27CGBmqhFiKr.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="最终的RFM模型"></a><span class='image-caption'>最终的RFM模型</span></div></div>
+<div class="img-wrap"><div class="frame-wrap" id="iphone11"part="top"><img class="img lazyload" src="https://s2.loli.net/2022/10/27/IAJ27CGBmqhFiKr.png" class="lazyload" data-srcset="https://s2.loli.net/2022/10/27/IAJ27CGBmqhFiKr.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/><div class="frame"></div></div></div>
+<hr>
+</div><div class="story post-story"><h2 id="3-输出运营策略"><a href="#3-输出运营策略" class="headerlink" title="3.输出运营策略"></a>3.输出运营策略</h2><p>根据返回的RFM模型结果，以数据支持业务方输出精细化的运营策略</p>
+<div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" href='https://s2.loli.net/2022/10/27/TDHFJrLYURi8mgx.png' data-fancybox='default' data-caption='RFM运营策略'><img fancybox itemprop="contentUrl" src="https://s2.loli.net/2022/10/27/TDHFJrLYURi8mgx.png" class="lazyload" data-srcset="https://s2.loli.net/2022/10/27/TDHFJrLYURi8mgx.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="RFM运营策略"></a><span class='image-caption'>RFM运营策略</span></div></div>
+
+<div class="tag link"><a class="link-card" title="运营策略来源自博客摘录的笔记" href="https://gotothe.icu/2022/07/11/RFM%E6%A8%A1%E5%9E%8B/"><div class="left"><img src="https://unpkg.com/volantis-static@0.0.1649552113628/media/org.volantis/logo/256/safari.png" class="lazyload" data-srcset="https://unpkg.com/volantis-static@0.0.1649552113628/media/org.volantis/logo/256/safari.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/></div><div class="right"><p class="text">运营策略来源自博客摘录的笔记</p><p class="url">https://gotothe.icu/2022/07/11/RFM%E6%A8%A1%E5%9E%8B/</p></div></a></div>
+
+</div>]]></content>
+      <categories>
+        <category>个人</category>
+        <category>项目</category>
+      </categories>
+      <tags>
+        <tag>数据分析</tag>
+        <tag>RFM模型</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>思考，快与慢</title>
     <url>/2022/07/14/%E6%80%9D%E8%80%83,%E5%BF%AB%E4%B8%8E%E6%85%A2/</url>
     <content><![CDATA[<div class="note guide clear"><p>偏见与生俱来，与直觉紧密相关</p></div>
@@ -328,6 +457,8 @@
               <div class='checkbox check'><input type="radio" />            <p>RFM非常适用于生产或销售多种商品且单价不高的企业</p>            </div><details open green><summary> RFM模型的分析场景 </summary>              <div class='content'>              <div class='checkbox check'><input type="radio" />            <p>提高用户交易次数</p>            </div><div class='checkbox check'><input type="radio" />            <p>分析用户是否流失，但绝对金额有时会曲解用户行为</p>            </div>              </div>            </details>
               </div>
             </details>
+
+</div><div class="story post-story"><h2 id="RFM的精细化运营策略"><a href="#RFM的精细化运营策略" class="headerlink" title="RFM的精细化运营策略"></a>RFM的精细化运营策略</h2><div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" href='https://s2.loli.net/2022/10/27/TDHFJrLYURi8mgx.png' data-fancybox='default' data-caption='RFM运营策略'><img fancybox itemprop="contentUrl" src="https://s2.loli.net/2022/10/27/TDHFJrLYURi8mgx.png" class="lazyload" data-srcset="https://s2.loli.net/2022/10/27/TDHFJrLYURi8mgx.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="RFM运营策略"></a><span class='image-caption'>RFM运营策略</span></div></div>
 </div>]]></content>
       <categories>
         <category>学习</category>
