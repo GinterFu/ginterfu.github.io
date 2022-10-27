@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-10-26T21:33:13.217Z</updated>
+  <updated>2022-10-27T22:12:03.438Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>《利用Python进行数据分析》</title>
+    <link href="http://example.com/2022/10/28/%E3%80%8A%E5%88%A9%E7%94%A8Python%E8%BF%9B%E8%A1%8C%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E3%80%8B/"/>
+    <id>http://example.com/2022/10/28/%E3%80%8A%E5%88%A9%E7%94%A8Python%E8%BF%9B%E8%A1%8C%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E3%80%8B/</id>
+    <published>2022-10-27T20:59:22.000Z</published>
+    <updated>2022-10-27T22:12:03.438Z</updated>
+    
+    <content type="html"><![CDATA[<p>失业赋闲的闲暇时间里，通过摘记的方式复习一遍此书</p><span id="more"></span><h1 id="《利用Python进行数据分析》摘记"><a href="#《利用Python进行数据分析》摘记" class="headerlink" title="《利用Python进行数据分析》摘记"></a>《利用Python进行数据分析》摘记</h1><p>从第三章开始</p><div class="story post-story"><h2 id="第三章"><a href="#第三章" class="headerlink" title="第三章"></a>第三章</h2><h3 id="3-1数据结构和序列"><a href="#3-1数据结构和序列" class="headerlink" title="3.1数据结构和序列"></a>3.1数据结构和序列</h3><h4 id="3-1-1元组"><a href="#3-1-1元组" class="headerlink" title="3.1.1元组"></a>3.1.1元组</h4><details open><summary> 元组是一种固定长度、不可变的python序列，创建元组最简单的方式就是用逗号分隔符 </summary>              <div class='content'>              <pre><code class="Python">In [1]: tup = 4,5,6In [2]: tupOut[2]: (4,5,6)</code></pre>              </div>            </details><hr><p>知识点</p><ul><li>可以使用tuple()函数将任意序列或迭代器转换为元组</li><li>元组中的元素可以通过中括号来获取[]，在大多数序列类型中都可以使用这个方法</li><li><span class='p red'>元组一旦创建，各个位置上的对象是无法修改的</span></li><li>但如果元组内部的对象可变，例如元组中的列表，则可以在列表内部进行修改，如(‘foo’,[1,2,3],True)可修改为(‘foo’,[1,1,2,3],True)</li><li>可使用+连接元组来生成更长的元组</li><li>整数使用*号乘以元组时，会和列表一样生成多份拷贝的元组<ul><li><span class='p red'>对象自身并未复制，只是指向他们的引用进行了复制</span>，可能是翻译问题，这句话我完全看不懂</li></ul></li></ul><h5 id="3-1-1-1元组拆包"><a href="#3-1-1-1元组拆包" class="headerlink" title="3.1.1.1元组拆包"></a>3.1.1.1元组拆包</h5><p>知识点</p><ul><li>将元组的表达式赋值给变量，Python会对等号右边的值进行拆包，如tup&#x3D;(1,2,3)的元组，通过a,b,c &#x3D; tup的拆包后，a,b,c &#x3D; 1,2,3</li><li>元组拆包也可以使用定义函数、类方法中的*rest参数，来调用获取任意长度的位置参数列表</li></ul><h4 id="3-1-2列表"><a href="#3-1-2列表" class="headerlink" title="3.1.2列表"></a>3.1.2列表</h4></div>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;失业赋闲的闲暇时间里，通过摘记的方式复习一遍此书&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="个人" scheme="http://example.com/categories/%E4%B8%AA%E4%BA%BA/"/>
+    
+    
+    <category term="数据分析" scheme="http://example.com/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
+    
+    <category term="读书" scheme="http://example.com/tags/%E8%AF%BB%E4%B9%A6/"/>
+    
+  </entry>
   
   <entry>
     <title>使用Mysql对海外电子产品用户购买数据建立RFM模型</title>
@@ -64,9 +87,9 @@
     <category term="个人" scheme="http://example.com/categories/%E4%B8%AA%E4%BA%BA/"/>
     
     
-    <category term="总结" scheme="http://example.com/tags/%E6%80%BB%E7%BB%93/"/>
-    
     <category term="读书" scheme="http://example.com/tags/%E8%AF%BB%E4%B9%A6/"/>
+    
+    <category term="总结" scheme="http://example.com/tags/%E6%80%BB%E7%BB%93/"/>
     
     <category term="思维" scheme="http://example.com/tags/%E6%80%9D%E7%BB%B4/"/>
     
@@ -233,7 +256,7 @@
     <link href="http://example.com/2022/06/24/%E5%85%B3%E9%94%AE%E8%BF%AD%E4%BB%A3-%E6%B2%89%E6%B7%80%E6%80%BB%E7%BB%93/"/>
     <id>http://example.com/2022/06/24/%E5%85%B3%E9%94%AE%E8%BF%AD%E4%BB%A3-%E6%B2%89%E6%B7%80%E6%80%BB%E7%BB%93/</id>
     <published>2022-06-24T13:15:24.000Z</published>
-    <updated>2022-07-03T19:20:01.992Z</updated>
+    <updated>2022-10-27T21:40:27.078Z</updated>
     
     <content type="html"><![CDATA[<div class='checkbox checked'><input type="checkbox" checked="checked"/>            <p>摘自A&#x2F;B测试中的圣经–《关键迭代:可信赖的线上对照实验》</p>            </div><div class='checkbox checked'><input type="checkbox" checked="checked"/>            <p>特威曼定律的怀疑论:任何看起来有趣或与众不同的数字通常是错误的</p>            </div><span id="more"></span><h1 id="《关键迭代：可信赖的线上对照实验》摘要总结"><a href="#《关键迭代：可信赖的线上对照实验》摘要总结" class="headerlink" title="《关键迭代：可信赖的线上对照实验》摘要总结"></a>《关键迭代：可信赖的线上对照实验》摘要总结</h1><div class="story post-story"><h2 id="第一部分-线上对照实验概览-即AB测试方法论"><a href="#第一部分-线上对照实验概览-即AB测试方法论" class="headerlink" title="第一部分:线上对照实验概览,即AB测试方法论"></a>第一部分:线上对照实验概览,即AB测试方法论</h2><h3 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h3><h4 id="线上实验的关键术语"><a href="#线上实验的关键术语" class="headerlink" title="线上实验的关键术语"></a>线上实验的关键术语</h4><table><thead><tr><th align="center">术语</th><th align="center">含义</th><th align="center">解读</th></tr></thead><tbody><tr><td align="center">综合评估标准</td><td align="center">Overall Evaluation Criterion,即OEC,实验目标的定量测量</td><td align="center">人均活跃天数(即可测量可观察的指标)</td></tr><tr><td align="center">参数</td><td align="center">对照实验中被认为会影响OEC或其他指标的变量,亦称为变量或因素,参数的赋值也称为因子水平</td><td align="center">比如字体颜色和字体大小(即AB测试中影响实验组的功能)</td></tr><tr><td align="center">变体</td><td align="center">被测试的用户体验,一般通过给参数赋值实现</td><td align="center">在最简单的AB测试中,A与B就是两个变体,通常被称为实验组和对照组,有时变体仅指代实验组</td></tr><tr><td align="center">随机化单元</td><td align="center">以伪随机化(如哈希)过程将单元(如用户或页面)至不同变体</td><td align="center">即随机分配用户进入实验</td></tr></tbody></table><h4 id="线上对照实验的特性"><a href="#线上对照实验的特性" class="headerlink" title="线上对照实验的特性"></a>线上对照实验的特性</h4><details open><summary> 线上对照实验有以下特性 </summary>              <div class='content'>              <p>    <div class='checkbox checked'><input type="checkbox" checked="checked"/></p><p>它是以高概率确立因果关系的最佳科学方法</p></div>    <div class='checkbox checked'><input type="checkbox" checked="checked"/><p>能够检测其他技术难以检测到的微小变动,比如随着时间变化(灵敏度)</p></div>    <div class='checkbox checked'><input type="checkbox" checked="checked"/><p>能够检测意想不到的变动,虽然常被低估,但很多实验发觉了一些对其他指标出乎意料的影响,比如性能的降低,系统崩溃和出错的增加或是对其他模块的点击的吞噬</p></div>              </div>            </details><h4 id="战略、战术及他们和实验的关系"><a href="#战略、战术及他们和实验的关系" class="headerlink" title="战略、战术及他们和实验的关系"></a>战略、战术及他们和实验的关系</h4><h5 id="情景1-你已有业务战略并且产品有足够的用户用于实验"><a href="#情景1-你已有业务战略并且产品有足够的用户用于实验" class="headerlink" title="情景1.你已有业务战略并且产品有足够的用户用于实验"></a>情景1.你已有业务战略并且产品有足够的用户用于实验</h5><details open><summary> 对于这种情景,AB测试可以帮助你重现用的战略和产品触发,爬升至局部最优点 </summary>              <div class='content'>              <p>实验能找到高ROI区域:</p><ul><li>那些相对于成本提升OEC最多的领域,在投入大量资源之前,在不同的领域测试MVP(Mininum Viable Product,最小可行产品)  <details ><summary> MVP(最小可行产品)的概念 </summary>        <div class='content'>        <div class='checkbox checked'><input type="checkbox" checked="checked"/><p>MVP的概念是Eric Ries 《精益创业》里提出的概念。简单地说，就是指开发团队通过提供最小化可行产品获取用户反馈，并在这个最小化可行产品上持续快速迭代，直到产品到达一个相对稳定的阶段。MVP对于创业团队来说是很重要的，可以快速验证团队的目标，快速试错。</p></div>        </div>      </details></li></ul>              </div>            </details><h5 id="情境2-你有产品和战略-但你需要调整"><a href="#情境2-你有产品和战略-但你需要调整" class="headerlink" title="情境2.你有产品和战略,但你需要调整"></a>情境2.你有产品和战略,但你需要调整</h5><details open><summary> 测试大胆的想法时,运行和评估实验的方式也有变化,具体来说,我们需要考虑以下几点: </summary>              <div class='content'>              <p>实验的运行时长:<br>    - 例如,在测试重大UI设计时,短期内测量到的实验数据变化可能被初始效应或改版厌恶所影响,实验组和对照组直接比较可能无法测量真实的实验时长,更长时间或更大规模的实验,或者别样的实验设计(比如谷歌广告质量的案例是以国家为单位设计的),在这样的情境中是必需的<br>被测试的创意的数量:<br>    - 你也许需要很多不同的实验,因为每个实验只测试一个具体的战术,该战术是总体战略的一个组成部分,个别实验没能成功改进OEC可能是因为这个特定战术的失败,不代表总体战略有问题<br>        - 说人话就是:仅单一实验可能面临实验维度颗粒度不够细,无法下钻维度确定问题所在点,因此需要多个颗粒更细的实验组合成一个总体的实验</p>              </div>            </details><h4 id="补充阅读"><a href="#补充阅读" class="headerlink" title="补充阅读"></a>补充阅读</h4><h5 id="多臂老虎机实验"><a href="#多臂老虎机实验" class="headerlink" title="多臂老虎机实验"></a>多臂老虎机实验</h5><p>多臂老虎机是一种随实验进程动态分配流量的实验,比如我们可以每小时查看一次实验进程,观察每个变体的表现,并调整各变体的流量比例,增加表现好的变体的流量,减少表现差的变体的流量</p><details open><summary> 基于多臂老虎机的实验往往比经典的AB测试更有效率,因为它们将流量逐步分配至表现更好的变体,而不用等到实验结束 </summary>              <div class='content'>              <div class="note warning"><p>但同样也有重要限制条件:评估目标需要是单一的OEC,并且这个OEC在流量重新分配时能够很好的被测量,比如点击率之于会话</p></div><div class="note bug red"><p>此外,原本处于’差’变体中的用户按比例不同分配至其他表现较好的多个变体可能会造成潜在的偏差</p></div>              </div>            </details><h6 id="好文欣赏"><a href="#好文欣赏" class="headerlink" title="好文欣赏"></a>好文欣赏</h6><p><a href="https://blog.csdn.net/u011984148/article/details/106678502/">多臂老虎机python工程化</a><br><a href="https://zhuanlan.zhihu.com/p/464108814">多臂老虎机</a></p><hr><h3 id="第二章"><a href="#第二章" class="headerlink" title="第二章"></a>第二章</h3><hr></div>]]></content>
     
@@ -250,9 +273,9 @@
     <category term="学习" scheme="http://example.com/categories/%E5%AD%A6%E4%B9%A0/"/>
     
     
-    <category term="总结" scheme="http://example.com/tags/%E6%80%BB%E7%BB%93/"/>
-    
     <category term="读书" scheme="http://example.com/tags/%E8%AF%BB%E4%B9%A6/"/>
+    
+    <category term="总结" scheme="http://example.com/tags/%E6%80%BB%E7%BB%93/"/>
     
     <category term="A/B测试" scheme="http://example.com/tags/A-B%E6%B5%8B%E8%AF%95/"/>
     

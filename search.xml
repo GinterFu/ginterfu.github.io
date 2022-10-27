@@ -94,6 +94,46 @@
       </tags>
   </entry>
   <entry>
+    <title>《利用Python进行数据分析》</title>
+    <url>/2022/10/28/%E3%80%8A%E5%88%A9%E7%94%A8Python%E8%BF%9B%E8%A1%8C%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E3%80%8B/</url>
+    <content><![CDATA[<p>失业赋闲的闲暇时间里，通过摘记的方式复习一遍此书</p>
+<span id="more"></span>
+
+<h1 id="《利用Python进行数据分析》摘记"><a href="#《利用Python进行数据分析》摘记" class="headerlink" title="《利用Python进行数据分析》摘记"></a>《利用Python进行数据分析》摘记</h1><p>从第三章开始</p>
+<div class="story post-story"><h2 id="第三章"><a href="#第三章" class="headerlink" title="第三章"></a>第三章</h2><h3 id="3-1数据结构和序列"><a href="#3-1数据结构和序列" class="headerlink" title="3.1数据结构和序列"></a>3.1数据结构和序列</h3><h4 id="3-1-1元组"><a href="#3-1-1元组" class="headerlink" title="3.1.1元组"></a>3.1.1元组</h4><details open><summary> 元组是一种固定长度、不可变的python序列，创建元组最简单的方式就是用逗号分隔符 </summary>
+              <div class='content'>
+              <pre><code class="Python">In [1]: tup = 4,5,6In [2]: tupOut[2]: (4,5,6)</code></pre>
+              </div>
+            </details>
+<hr>
+<p>知识点</p>
+<ul>
+<li>可以使用tuple()函数将任意序列或迭代器转换为元组</li>
+<li>元组中的元素可以通过中括号来获取[]，在大多数序列类型中都可以使用这个方法</li>
+<li><span class='p red'>元组一旦创建，各个位置上的对象是无法修改的</span></li>
+<li>但如果元组内部的对象可变，例如元组中的列表，则可以在列表内部进行修改，如(‘foo’,[1,2,3],True)可修改为(‘foo’,[1,1,2,3],True)</li>
+<li>可使用+连接元组来生成更长的元组</li>
+<li>整数使用*号乘以元组时，会和列表一样生成多份拷贝的元组<ul>
+<li><span class='p red'>对象自身并未复制，只是指向他们的引用进行了复制</span>，可能是翻译问题，这句话我完全看不懂</li>
+</ul>
+</li>
+</ul>
+<h5 id="3-1-1-1元组拆包"><a href="#3-1-1-1元组拆包" class="headerlink" title="3.1.1.1元组拆包"></a>3.1.1.1元组拆包</h5><p>知识点</p>
+<ul>
+<li>将元组的表达式赋值给变量，Python会对等号右边的值进行拆包，如tup&#x3D;(1,2,3)的元组，通过a,b,c &#x3D; tup的拆包后，a,b,c &#x3D; 1,2,3</li>
+<li>元组拆包也可以使用定义函数、类方法中的*rest参数，来调用获取任意长度的位置参数列表</li>
+</ul>
+<h4 id="3-1-2列表"><a href="#3-1-2列表" class="headerlink" title="3.1.2列表"></a>3.1.2列表</h4>
+</div>]]></content>
+      <categories>
+        <category>个人</category>
+      </categories>
+      <tags>
+        <tag>数据分析</tag>
+        <tag>读书</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>使用Mysql对海外电子产品用户购买数据建立RFM模型</title>
     <url>/2022/10/26/%E4%BD%BF%E7%94%A8mysql%E5%AF%B9%E6%B5%B7%E5%A4%96%E7%94%B5%E5%95%86%E4%B8%8B%E5%8D%95%E6%95%B0%E6%8D%AE%E5%BB%BA%E7%AB%8Brfm%E6%A8%A1%E5%9E%8B/</url>
     <content><![CDATA[<div class='checkbox check'><input type="radio" />
@@ -304,8 +344,8 @@ SELECT * FROM c
         <category>个人</category>
       </categories>
       <tags>
-        <tag>总结</tag>
         <tag>读书</tag>
+        <tag>总结</tag>
         <tag>思维</tag>
       </tags>
   </entry>
@@ -684,8 +724,8 @@ SELECT * FROM c
         <category>学习</category>
       </categories>
       <tags>
-        <tag>总结</tag>
         <tag>读书</tag>
+        <tag>总结</tag>
         <tag>A/B测试</tag>
       </tags>
   </entry>
