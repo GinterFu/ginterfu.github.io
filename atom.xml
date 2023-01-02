@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-10-27T22:12:03.438Z</updated>
+  <updated>2023-01-02T15:54:35.004Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,16 +17,48 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>试用期学习心得_v0.0</title>
+    <link href="http://example.com/2023/01/02/%E8%AF%95%E7%94%A8%E6%9C%9F%E5%AD%A6%E4%B9%A0%E5%BF%83%E5%BE%97-v0-0/"/>
+    <id>http://example.com/2023/01/02/%E8%AF%95%E7%94%A8%E6%9C%9F%E5%AD%A6%E4%B9%A0%E5%BF%83%E5%BE%97-v0-0/</id>
+    <published>2023-01-02T15:50:05.000Z</published>
+    <updated>2023-01-02T15:54:35.004Z</updated>
+    
+    <content type="html"><![CDATA[<p>初版试用期学习心得，主要是笔记，且杂乱无章暂未系统性整理</p><p>update: 2023-01-02 23:52:05</p><span id="more"></span>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;初版试用期学习心得，主要是笔记，且杂乱无章暂未系统性整理&lt;/p&gt;
+&lt;p&gt;update: 2023-01-02 23:52:05&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="学习" scheme="http://example.com/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="Python" scheme="http://example.com/tags/Python/"/>
+    
+    <category term="可视化" scheme="http://example.com/tags/%E5%8F%AF%E8%A7%86%E5%8C%96/"/>
+    
+    <category term="数据分析" scheme="http://example.com/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
+    
+    <category term="PowerBI" scheme="http://example.com/tags/PowerBI/"/>
+    
+    <category term="DAX" scheme="http://example.com/tags/DAX/"/>
+    
+    <category term="数据仓库" scheme="http://example.com/tags/%E6%95%B0%E6%8D%AE%E4%BB%93%E5%BA%93/"/>
+    
+  </entry>
+  
+  <entry>
     <title>《利用Python进行数据分析》</title>
     <link href="http://example.com/2022/10/28/%E3%80%8A%E5%88%A9%E7%94%A8Python%E8%BF%9B%E8%A1%8C%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E3%80%8B/"/>
     <id>http://example.com/2022/10/28/%E3%80%8A%E5%88%A9%E7%94%A8Python%E8%BF%9B%E8%A1%8C%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E3%80%8B/</id>
     <published>2022-10-27T20:59:22.000Z</published>
-    <updated>2022-10-27T22:12:03.438Z</updated>
+    <updated>2022-10-27T22:53:32.321Z</updated>
     
-    <content type="html"><![CDATA[<p>失业赋闲的闲暇时间里，通过摘记的方式复习一遍此书</p><span id="more"></span><h1 id="《利用Python进行数据分析》摘记"><a href="#《利用Python进行数据分析》摘记" class="headerlink" title="《利用Python进行数据分析》摘记"></a>《利用Python进行数据分析》摘记</h1><p>从第三章开始</p><div class="story post-story"><h2 id="第三章"><a href="#第三章" class="headerlink" title="第三章"></a>第三章</h2><h3 id="3-1数据结构和序列"><a href="#3-1数据结构和序列" class="headerlink" title="3.1数据结构和序列"></a>3.1数据结构和序列</h3><h4 id="3-1-1元组"><a href="#3-1-1元组" class="headerlink" title="3.1.1元组"></a>3.1.1元组</h4><details open><summary> 元组是一种固定长度、不可变的python序列，创建元组最简单的方式就是用逗号分隔符 </summary>              <div class='content'>              <pre><code class="Python">In [1]: tup = 4,5,6In [2]: tupOut[2]: (4,5,6)</code></pre>              </div>            </details><hr><p>知识点</p><ul><li>可以使用tuple()函数将任意序列或迭代器转换为元组</li><li>元组中的元素可以通过中括号来获取[]，在大多数序列类型中都可以使用这个方法</li><li><span class='p red'>元组一旦创建，各个位置上的对象是无法修改的</span></li><li>但如果元组内部的对象可变，例如元组中的列表，则可以在列表内部进行修改，如(‘foo’,[1,2,3],True)可修改为(‘foo’,[1,1,2,3],True)</li><li>可使用+连接元组来生成更长的元组</li><li>整数使用*号乘以元组时，会和列表一样生成多份拷贝的元组<ul><li><span class='p red'>对象自身并未复制，只是指向他们的引用进行了复制</span>，可能是翻译问题，这句话我完全看不懂</li></ul></li></ul><h5 id="3-1-1-1元组拆包"><a href="#3-1-1-1元组拆包" class="headerlink" title="3.1.1.1元组拆包"></a>3.1.1.1元组拆包</h5><p>知识点</p><ul><li>将元组的表达式赋值给变量，Python会对等号右边的值进行拆包，如tup&#x3D;(1,2,3)的元组，通过a,b,c &#x3D; tup的拆包后，a,b,c &#x3D; 1,2,3</li><li>元组拆包也可以使用定义函数、类方法中的*rest参数，来调用获取任意长度的位置参数列表</li></ul><h4 id="3-1-2列表"><a href="#3-1-2列表" class="headerlink" title="3.1.2列表"></a>3.1.2列表</h4></div>]]></content>
+    <content type="html"><![CDATA[<p>失业赋闲的闲暇时间里，通过摘记的方式复习一遍此书，持续更新</p><span id="more"></span><h1 id="《利用Python进行数据分析》摘记"><a href="#《利用Python进行数据分析》摘记" class="headerlink" title="《利用Python进行数据分析》摘记"></a>《利用Python进行数据分析》摘记</h1><p>从第三章开始</p><div class="story post-story"><h2 id="第三章"><a href="#第三章" class="headerlink" title="第三章"></a>第三章</h2><h3 id="3-1数据结构和序列"><a href="#3-1数据结构和序列" class="headerlink" title="3.1数据结构和序列"></a>3.1数据结构和序列</h3><h4 id="3-1-1元组"><a href="#3-1-1元组" class="headerlink" title="3.1.1元组"></a>3.1.1元组</h4><details open><summary> 元组是一种固定长度、不可变的python序列，创建元组最简单的方式就是用逗号分隔符 </summary>              <div class='content'>              <pre><code class="Python">In [1]: tup = 4,5,6In [2]: tupOut[2]: (4,5,6)</code></pre>              </div>            </details><hr><p>知识点</p><ul><li>可以使用tuple()函数将任意序列或迭代器转换为元组</li><li>元组中的元素可以通过中括号来获取[]，在大多数序列类型中都可以使用这个方法</li><li><span class='p red'>元组一旦创建，各个位置上的对象是无法修改的</span></li><li>但如果元组内部的对象可变，例如元组中的列表，则可以在列表内部进行修改，如(‘foo’,[1,2,3],True)可修改为(‘foo’,[1,1,2,3],True)</li><li>可使用+连接元组来生成更长的元组</li><li>整数使用*号乘以元组时，会和列表一样生成多份拷贝的元组<ul><li><span class='p red'>对象自身并未复制，只是指向他们的引用进行了复制</span>，可能是翻译问题，这句话我完全看不懂</li></ul></li></ul><h5 id="3-1-1-1元组拆包"><a href="#3-1-1-1元组拆包" class="headerlink" title="3.1.1.1元组拆包"></a>3.1.1.1元组拆包</h5><p>知识点</p><ul><li>将元组的表达式赋值给变量，Python会对等号右边的值进行拆包，如tup&#x3D;(1,2,3)的元组，通过a,b,c &#x3D; tup的拆包后，a,b,c &#x3D; 1,2,3</li><li>元组拆包也可以使用定义函数、类方法中的*rest参数，来调用获取任意长度的位置参数列表</li></ul><h4 id="3-1-2列表"><a href="#3-1-2列表" class="headerlink" title="3.1.2列表"></a>3.1.2列表</h4></div>]]></content>
     
     
-    <summary type="html">&lt;p&gt;失业赋闲的闲暇时间里，通过摘记的方式复习一遍此书&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;失业赋闲的闲暇时间里，通过摘记的方式复习一遍此书，持续更新&lt;/p&gt;</summary>
     
     
     
@@ -278,6 +310,36 @@
     <category term="总结" scheme="http://example.com/tags/%E6%80%BB%E7%BB%93/"/>
     
     <category term="A/B测试" scheme="http://example.com/tags/A-B%E6%B5%8B%E8%AF%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>费曼学习法</title>
+    <link href="http://example.com/2022/06/03/%E3%80%8A%E8%B4%B9%E6%9B%BC%E5%AD%A6%E4%B9%A0%E6%B3%95%E3%80%8B/"/>
+    <id>http://example.com/2022/06/03/%E3%80%8A%E8%B4%B9%E6%9B%BC%E5%AD%A6%E4%B9%A0%E6%B3%95%E3%80%8B/</id>
+    <published>2022-06-02T19:54:20.000Z</published>
+    <updated>2022-10-31T13:08:31.295Z</updated>
+    
+    <content type="html"><![CDATA[<p>选自《费曼学习法》中译本，通过模块式笔记加深印象点，以更好学习</p><hr><h1 id="第一节-学习的本质"><a href="#第一节-学习的本质" class="headerlink" title="第一节 学习的本质"></a>第一节 学习的本质</h1><pre><code>* 关键词：思维</code></pre><div class="story post-story"><h2 id="第一节第一章-掌握知识究竟有多难"><a href="#第一节第一章-掌握知识究竟有多难" class="headerlink" title="第一节第一章 掌握知识究竟有多难"></a>第一节第一章 掌握知识究竟有多难</h2><h3 id="摘记"><a href="#摘记" class="headerlink" title="摘记"></a>摘记</h3><h4 id="费曼学习法为我们提供三种与众不同的能力："><a href="#费曼学习法为我们提供三种与众不同的能力：" class="headerlink" title="费曼学习法为我们提供三种与众不同的能力："></a>费曼学习法为我们提供三种与众不同的能力：</h4><h5 id="远见："><a href="#远见：" class="headerlink" title="远见："></a>远见：</h5><ul><li>解读知识传递给我们的信息，判断未来的趋势，而不是仅仅记住这些知识<h5 id="穿透力"><a href="#穿透力" class="headerlink" title="穿透力"></a>穿透力</h5></li><li>通过费曼分析技巧，从碎片化的知识中看清事物的本质，快速解决问题，掌握事物的规律<h5 id="智慧"><a href="#智慧" class="headerlink" title="智慧"></a>智慧</h5></li><li>通过以输出的方式浓缩、重演知识，汲取精华，使知识为我所用，和环境相匹配，形成自己的知识体系<h4 id="学习究其根本是思维方式的比拼，而不是知识储量的较量或学位的竞争"><a href="#学习究其根本是思维方式的比拼，而不是知识储量的较量或学位的竞争" class="headerlink" title="学习究其根本是思维方式的比拼，而不是知识储量的较量或学位的竞争"></a>学习究其根本是思维方式的比拼，而不是知识储量的较量或学位的竞争</h4><h3 id="概念"><a href="#概念" class="headerlink" title="概念"></a>概念</h3></li><li>费曼学习法</li><li>费曼分析法</li><li>知识的留存率<h3 id="改进"><a href="#改进" class="headerlink" title="改进"></a>改进</h3></li><li>我曾也是认为，学习是为了改变未来，让自己的未来更好，但实际这仅仅是毒鸡汤</li><li>学习不仅仅是改变未来，更是应该结合现在的情景结合实际</li><li>通过输出，通过自己的口诉输出知识内容，在不断的审视过程中形成自己的思维与知识体系<h3 id="触动"><a href="#触动" class="headerlink" title="触动"></a>触动</h3></li><li>将你好高骛远的学习方式拉回来，不再以功利性的导向学习，想办法吃透知识，想办法如何让这些知识把今天的自己变得更好，才能真正提高自己的学习能力<h3 id="灵感"><a href="#灵感" class="headerlink" title="灵感"></a>灵感</h3></li><li>在我学习的过程中也总是输入-&gt;输出形成一个短小却不精悍的流程，知识在这个流程中会消散许多，十天后只能留存下 30%甚至更低，就比如 pandas 的 iloc函数，在半年前我曾花费一小时的时间将其彻底搞明白，我曾以为我将其吸收了，但实际因为输出很少（我写代码很少用到 iloc）导致我所“学习”的早已烟消云散了。反观 excel 的 indirect函数，我也花费了很久去摸透原理，但与 iloc不同的是，在工作的各个表中我都用上了这个函数，以至于我如今可以将 indirect 的多个对象使用方法轻而易举的描述出来（前几天对实习生口语化输出这个知识），因此我并不是真的学会了 iloc，但我也是真的学会了 indirect，费曼学习法的魅力也许就在于此！<h3 id="一句话概括总结"><a href="#一句话概括总结" class="headerlink" title="一句话概括总结"></a>一句话概括总结</h3></li><li>学习的本质实际是我们的思维方式，费曼学习法的核心是提高大脑的知识留存率</div><div class="story post-story"><h2 id="灵感-1"><a href="#灵感-1" class="headerlink" title="灵感"></a>灵感</h2></li><li>我对于学习思维模型的搭建一直处于忽视状态，以至于我学习效力低，能效非常的高，这也是导致我准备花一个端午好好打碎并重铸学习思维与学习能力的初衷</div><div class="story post-story"><h2 id="一句话总结"><a href="#一句话总结" class="headerlink" title="一句话总结"></a>一句话总结</h2></li><li>我们需要一个能效更低而输出更高的学习方式，这个方式就是费曼学习法这个闭环，输入-&gt;输出-&gt;回顾-&gt;输出-&gt;吸收的闭环</div><div class="story post-story"><h2 id="第一节第二章-何为费曼学习法"><a href="#第一节第二章-何为费曼学习法" class="headerlink" title="第一节第二章 何为费曼学习法"></a>第一节第二章 何为费曼学习法</h2><h3 id="摘记-1"><a href="#摘记-1" class="headerlink" title="摘记"></a>摘记</h3></li><li>验证我们是否学会这个知识，就看我们是否能用通俗易懂的语言把它讲清楚<h3 id="概念-1"><a href="#概念-1" class="headerlink" title="概念"></a>概念</h3></li><li>知识碎片化</li><li>肢解我们的思维</li><li>concept（概念）</li><li>teach（以教代学）</li><li>review（评价）</li><li>simplify（简化）</li><li>费曼学习五部曲<br>          * 确立目标-&gt;确立学习对象-&gt;产生专注力</li><li>理解目标-&gt;理解要学习的知识-&gt;系统化的存优去劣</li><li>输出-&gt;向别人输出学到的知识-&gt;以教代学</li><li>回顾-&gt;回顾和反思所学知识-&gt;深度分析</li><li>简化-&gt;通过简化吸收形成自己的知识体系-&gt;内化知识<h3 id="改进-1"><a href="#改进-1" class="headerlink" title="改进"></a>改进</h3></li><li>我对于学习目标的确立事实上是非常的含糊的，经常会出现三天打鱼两天晒网的情况，正如我 udemy买了一堆的课，却又买了七本工具书，我现阶段对于学习对于知识的渴求完全归根于对未来不确定性产生的不安与焦虑</li><li>我几乎没有回顾知识的思维体系，每天下班就是愣头学习，还是因为焦虑而学习<h3 id="触动-1"><a href="#触动-1" class="headerlink" title="触动"></a>触动</h3></li><li>好的思维需要正反馈</li><li>输出加快思考的成熟</li><li>费曼学习法让思考可以量化</li></ul><ul><li>方向-&gt;锁定思考的主要方向</li><li>归纳-&gt;确定思考的主要逻辑</li><li>简化-&gt;复杂思考过程简单化</li><li>吸收-&gt;消化思考的成果</li></ul><hr><h1 id="第二节-建立一个学习对象"><a href="#第二节-建立一个学习对象" class="headerlink" title="第二节 建立一个学习对象"></a>第二节 建立一个学习对象</h1><pre><code>* 关键词：目标</code></pre></div><div class="story post-story"><h2 id="第二节第三章-我们为什么学习"><a href="#第二节第三章-我们为什么学习" class="headerlink" title="第二节第三章 我们为什么学习"></a>第二节第三章 我们为什么学习</h2><h3 id="摘记-2"><a href="#摘记-2" class="headerlink" title="摘记"></a>摘记</h3><pre><code>        * 目标明确的学习可以极大的改变一个人的思维，对于训练和改变我们的思维方式而言，这是一个必不可少的基础，他主要体现在四个方面：</code></pre><ul><li>开放性思维</li><li>充分的了解一门知识，首先提升的是思维的开放性，能够接受新的观点，拓展新的视野，使自己能够跟上时代发展</li><li>批判性思维</li><li>作为主动和独立的学习技巧，运用费曼学习法可以很快了解自己所学知识的程度，并且以科学的怀疑精神寻找反正，养成批判性思考的好习惯</li><li>逻辑性思维</li><li>目标专注的学习能锻炼你思维的逻辑性，这需要你长久的聚焦和沉注于一个主要的问题并且反复思考</li><li>清晰凝练的表达力</li><li>以教代学的输出方式考验你的语言组织和表达能力，在输出的过程中可以对所学的知识做多次的提炼浓缩，简化成通俗易懂的版本<h3 id="概念-2"><a href="#概念-2" class="headerlink" title="概念"></a>概念</h3></li><li>服从式学习：老师&#x2F;父母让我学什么，我就学什么</li><li>工具式学习：就业&#x2F;培训需要学什么，我就学什么<h3 id="改进-2"><a href="#改进-2" class="headerlink" title="改进"></a>改进</h3></li><li>事实上，我的学习针对的往往是我现如今的工作，比如我想精进数据分析，可视化，想掌握统计学，想学习 ETL，机器学习，数据挖掘的基础，但我并没有注意到，我仅仅只是为了就业而学习，我并没有将所学结合到自身，并没有将所学浓缩成自己的知识，即便我即将这么去干<h3 id="灵感-2"><a href="#灵感-2" class="headerlink" title="灵感"></a>灵感</h3></li><li>我的工作牵扯到财务分析板块，尝试输出一波，例如：潭州教育虹之玉系统日常开支项的数据，是由日常开支实际费用+（截止昨日的日常开支预估费用-日常开支实际费用），也就是这个板块的实际数据等同于截止昨日的日常开支预估费用<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3></li><li>我们需要主动的、目标明确的学习，才能让我们学习吸收的更加高效</div><div class="story post-story"><h2 id="第二节第四章-聚焦目标"><a href="#第二节第四章-聚焦目标" class="headerlink" title="第二节第四章 聚焦目标"></a>第二节第四章 聚焦目标</h2><h3 id="摘记-3"><a href="#摘记-3" class="headerlink" title="摘记"></a>摘记</h3></li><li>学习不能以倡导过度消磨意志力为荣，学习应该是轻松的，正如读一个小故事一般</li><li>制定目标和聚焦目标对学习有两个明显的好处</li><li>让你的思维更加清晰</li><li>让你的行动更加具有针对性</li><li>任何事成功的关键不是你想做好几件事，而是你能否做好几件事</li><li>如何找到正确的方向？</li><li>对自己提出一些关键的问题</li><li>对我而言最重要的那件事是什么？<br>              + 沿着两条轨道找到最重要的事：<br>                  * 未来的方向<br>                  * 当下的焦点<br>          * 把最重要的那件事变成自己的方向</li><li>如何找到自己的兴趣？<br>          * 有许多途径可以评估自己的目标是否具有价值，最好的方法就是分析他是否能匹配自己已有的知识体系<br>          * 假如能做却不去做一定令自己终身遗憾，他就是你的目标，学习、工作、生活都是如此<br>          * 当你清楚自己的目标是什么，就要把它当作自己每天都要去做的最重要的事<h3 id="概念-3"><a href="#概念-3" class="headerlink" title="概念"></a>概念</h3></li><li>目标是一个动态变化的信标<h3 id="改进-3"><a href="#改进-3" class="headerlink" title="改进"></a>改进</h3></li><li>我对我的目标不够清晰，我想学的实在是太多啦！<h3 id="灵感-3"><a href="#灵感-3" class="headerlink" title="灵感"></a>灵感</h3><h3 id="总结-1"><a href="#总结-1" class="headerlink" title="总结"></a>总结</h3></li><li>聚焦你所清晰的目标，然后日复一日尽可能取得不凡的成果</div><div class="story post-story"><h2 id="第二节第五章-规划：和目标建立强联系"><a href="#第二节第五章-规划：和目标建立强联系" class="headerlink" title="第二节第五章 规划：和目标建立强联系"></a>第二节第五章 规划：和目标建立强联系</h2></li></ul></div>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;选自《费曼学习法》中译本，通过模块式笔记加深印象点，以更好学习&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&quot;第一节-学习的本质&quot;&gt;&lt;a href=&quot;#第一节-学习的本质&quot; class=&quot;headerlink&quot; title=&quot;第一节 学习的本质&quot;&gt;&lt;/a&gt;第一节 学习的本质&lt;/h1&gt;&lt;</summary>
+      
+    
+    
+    
+    <category term="学习" scheme="http://example.com/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="读书" scheme="http://example.com/tags/%E8%AF%BB%E4%B9%A6/"/>
+    
+    <category term="学习" scheme="http://example.com/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="费曼学习法" scheme="http://example.com/tags/%E8%B4%B9%E6%9B%BC%E5%AD%A6%E4%B9%A0%E6%B3%95/"/>
     
   </entry>
   
