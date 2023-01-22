@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-01-02T15:54:35.004Z</updated>
+  <updated>2023-01-22T20:58:16.261Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,40 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>金字塔原理</title>
+    <link href="http://example.com/2023/01/14/%E9%87%91%E5%AD%97%E5%A1%94%E5%8E%9F%E7%90%86/"/>
+    <id>http://example.com/2023/01/14/%E9%87%91%E5%AD%97%E5%A1%94%E5%8E%9F%E7%90%86/</id>
+    <published>2023-01-13T16:43:34.000Z</published>
+    <updated>2023-01-22T20:58:16.261Z</updated>
+    
+    <content type="html"><![CDATA[<div class='checkbox'><input type="radio" />            <p>师兄说：这是一本职场人必看的书</p>            </div><div class='checkbox'><input type="radio" />            <p>关于本书：金字塔原理是一种重点突出、逻辑清晰、主次分明的逻辑思路、表达方式和规范动作</p>            </div><span id="more"></span><h3 id="摘自书封："><a href="#摘自书封：" class="headerlink" title="摘自书封："></a><strong>摘自书封：</strong></h3><div class="timeline"><p class='p h2'>摘自书封</p><div class="timenode"><div class="meta"><p><p>金字塔的基本结构是：</p></p></div><div class="body"><p>中心思想明确，结论先行，以上统下，归类分组，逻辑递进。先重要后次要，先全局后细节，先结论后原因，先结果后过程。</p></div></div><div class="timenode"><div class="meta"><p><p>金字塔训练表达者</p></p></div><div class="body"><p>关注、挖掘受众的意图、需求、利益点、关注点、兴趣点和兴奋点，想请内容说什么、怎么说，掌握表达的标准结构、规范动作。</p></div></div><div class="timenode"><div class="meta"><p><p>金字塔帮助达到沟通效果</p></p></div><div class="body"><p>重点突出，思路清晰，主次分明，让受众有兴趣、能理解、记得住</p></div></div><div class="timenode"><div class="meta"><p><p>搭建金字塔的具体做法是</p></p></div><div class="body"><p>自上而下的表达，自下而上的思考，纵向疑问回答&#x2F;总结概括，横向归类分组&#x2F;演绎归纳，序言讲故事，标题提炼思想精华</p></div></div></div><hr><h1 id="第一篇-表达的逻辑"><a href="#第一篇-表达的逻辑" class="headerlink" title="第一篇 表达的逻辑"></a>第一篇 表达的逻辑</h1><div class="story post-story"><h2 id="表达"><a href="#表达" class="headerlink" title="表达"></a>表达</h2><div class="note "><p><strong>对于表达的受众（包括读者、听众、观众、学员等）而言，最容易理解的顺序是：</strong></p><details open><summary> 先是了解主要的、抽象的思想，然后了解次要的、为主要思想提供支持的思想 </summary>              <div class='content'>              <ul><li>因为主要思想总是从次要思想中概括总结得出，文章中所有思想的理想组织结构必定是一个金字塔结构<ul><li>由一个<strong>总的思想</strong>统领多组思想</li><li>在这种金字塔结构中，思想的联系方式可以是纵向的————即<strong>任何一个层次的思想都是堆砌下一个层次的思想的总结</strong>，也可以是横向的————即<strong>多个思想因共同组成同一个逻辑推理过程而被并列在一起</strong>。</li></ul></li></ul>              </div>            </details></div></div>]]></content>
+    
+    
+    <summary type="html">&lt;div class=&#39;checkbox&#39;&gt;&lt;input type=&quot;radio&quot; /&gt;
+            &lt;p&gt;师兄说：这是一本职场人必看的书&lt;/p&gt;
+            &lt;/div&gt;
+&lt;div class=&#39;checkbox&#39;&gt;&lt;input type=&quot;radio&quot; /&gt;
+            &lt;p&gt;关于本书：金字塔原理是一种重点突出、逻辑清晰、主次分明的逻辑思路、表达方式和规范动作&lt;/p&gt;
+            &lt;/div&gt;</summary>
+    
+    
+    
+    <category term="个人" scheme="http://example.com/categories/%E4%B8%AA%E4%BA%BA/"/>
+    
+    <category term="学习" scheme="http://example.com/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="读书" scheme="http://example.com/tags/%E8%AF%BB%E4%B9%A6/"/>
+    
+    <category term="方法论" scheme="http://example.com/tags/%E6%96%B9%E6%B3%95%E8%AE%BA/"/>
+    
+    <category term="思维" scheme="http://example.com/tags/%E6%80%9D%E7%BB%B4/"/>
+    
+    <category term="工作论" scheme="http://example.com/tags/%E5%B7%A5%E4%BD%9C%E8%AE%BA/"/>
+    
+  </entry>
   
   <entry>
     <title>试用期学习心得_v0.0</title>
@@ -34,11 +68,11 @@
     <category term="学习" scheme="http://example.com/categories/%E5%AD%A6%E4%B9%A0/"/>
     
     
+    <category term="数据分析" scheme="http://example.com/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
+    
     <category term="Python" scheme="http://example.com/tags/Python/"/>
     
     <category term="可视化" scheme="http://example.com/tags/%E5%8F%AF%E8%A7%86%E5%8C%96/"/>
-    
-    <category term="数据分析" scheme="http://example.com/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
     
     <category term="PowerBI" scheme="http://example.com/tags/PowerBI/"/>
     
@@ -65,9 +99,9 @@
     <category term="个人" scheme="http://example.com/categories/%E4%B8%AA%E4%BA%BA/"/>
     
     
-    <category term="数据分析" scheme="http://example.com/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
-    
     <category term="读书" scheme="http://example.com/tags/%E8%AF%BB%E4%B9%A6/"/>
+    
+    <category term="数据分析" scheme="http://example.com/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
     
   </entry>
   
@@ -243,9 +277,9 @@
     
     
     
-    <category term="学习" scheme="http://example.com/categories/%E5%AD%A6%E4%B9%A0/"/>
-    
     <category term="个人" scheme="http://example.com/categories/%E4%B8%AA%E4%BA%BA/"/>
+    
+    <category term="学习" scheme="http://example.com/categories/%E5%AD%A6%E4%B9%A0/"/>
     
     
     <category term="总结" scheme="http://example.com/tags/%E6%80%BB%E7%BB%93/"/>
@@ -272,9 +306,9 @@
     
     
     
-    <category term="学习" scheme="http://example.com/categories/%E5%AD%A6%E4%B9%A0/"/>
-    
     <category term="个人" scheme="http://example.com/categories/%E4%B8%AA%E4%BA%BA/"/>
+    
+    <category term="学习" scheme="http://example.com/categories/%E5%AD%A6%E4%B9%A0/"/>
     
     
     <category term="学习路径" scheme="http://example.com/tags/%E5%AD%A6%E4%B9%A0%E8%B7%AF%E5%BE%84/"/>
@@ -364,9 +398,9 @@
     <category term="项目" scheme="http://example.com/categories/%E9%A1%B9%E7%9B%AE/"/>
     
     
-    <category term="可视化" scheme="http://example.com/tags/%E5%8F%AF%E8%A7%86%E5%8C%96/"/>
-    
     <category term="数据分析" scheme="http://example.com/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
+    
+    <category term="可视化" scheme="http://example.com/tags/%E5%8F%AF%E8%A7%86%E5%8C%96/"/>
     
     <category term="经营分析" scheme="http://example.com/tags/%E7%BB%8F%E8%90%A5%E5%88%86%E6%9E%90/"/>
     
